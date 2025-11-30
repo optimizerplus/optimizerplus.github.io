@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   description: 'Unlock the full potential of your Boosteroid cloud gaming experience. Force 4K resolution, smart upscaling, video enhancement filters, and ultra-low latency on any monitor. Free Tampermonkey extension for PC.',
   keywords: seoKeywords,
-  authors: [{ name: 'Derfog', url: 'https://github.com/derfog' }],
+  authors: [{ name: 'Derfog', url: 'https://github.com/Derfogd' }],
   creator: 'Derfog',
   publisher: 'Boosteroid Optimizer Plus',
   
@@ -114,7 +114,7 @@ const jsonLd = {
   author: {
     '@type': 'Person',
     name: 'Derfog',
-    url: 'https://github.com/derfog',
+    url: 'https://github.com/Derfogd',
   },
   softwareVersion: '3.7.2',
   aggregateRating: {

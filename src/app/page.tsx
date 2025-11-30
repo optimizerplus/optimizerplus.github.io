@@ -793,7 +793,7 @@ function Header() {
               {/* Desktop: Right side actions */}
               <div className="hidden md:flex items-center gap-2">
                 <a 
-                  href="https://github.com/derfog/boosteroid-optimizer-plus" 
+                  href="https://github.com/optimizerplus/optimizer-plus-v3.7.2" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-lg text-white/70 transition-all duration-300 hover:text-white hover:bg-white/5 active:scale-95"
@@ -839,7 +839,7 @@ function Header() {
                 
                 <div className="flex items-center gap-3 mt-2 pt-3 border-t border-white/10">
                   <a 
-                    href="https://github.com/derfog/boosteroid-optimizer-plus" 
+                    href="https://github.com/optimizerplus/optimizer-plus-v3.7.2" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 px-4 py-2.5 rounded-lg text-white/70 bg-white/5 transition-all duration-200 hover:text-white hover:bg-white/10"
@@ -1761,7 +1761,7 @@ function Download() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a 
-              href="https://github.com/derfog/boosteroid-optimizer-plus/raw/main/boosteroid-optimizer-plus.user.js" 
+              href="https://github.com/optimizerplus/optimizer-plus-v3.7.2/raw/main/Boosteroid-Optimizer-Plus.user.js" 
               className="group opt-btn-primary flex items-center gap-3 text-lg px-8 py-4 w-full sm:w-auto justify-center relative overflow-hidden perspective-1000"
             >
               <span className="absolute inset-0 bg-gradient-to-r from-boo-green via-cyan-400 to-boo-blue opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
@@ -1772,7 +1772,7 @@ function Download() {
               </span>
             </a>
             <a 
-              href="https://github.com/derfog/boosteroid-optimizer-plus" 
+              href="https://github.com/optimizerplus/optimizer-plus-v3.7.2" 
               target="_blank"
               rel="noopener noreferrer"
               className="opt-btn-secondary flex items-center gap-3 text-lg px-8 py-4 w-full sm:w-auto justify-center hover:border-purple-500/50 hover:shadow-[0_0_20px_rgba(168,85,247,0.3)] transition-all duration-300"
@@ -1956,7 +1956,7 @@ function Footer() {
             </a>
             <span className="hidden sm:block w-px h-4 bg-white/20" />
             <a 
-              href="https://github.com/derfog/boosteroid-optimizer-plus" 
+              href="https://github.com/optimizerplus/optimizer-plus-v3.7.2" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="flex items-center gap-2 text-white/60 hover:text-white transition-colors text-sm font-medium group"
@@ -2009,10 +2009,10 @@ function Footer() {
           <p className="flex items-center gap-2">
             <span>© 2025 Boosteroid Optimizer Plus</span>
             <span className="hidden sm:inline">•</span>
-            <span className="hidden sm:inline"><a href="https://github.com/derfog" target="_blank" rel="noopener noreferrer" className="text-boo-blue hover:text-white transition-colors">Derfog</a></span>
+            <span className="hidden sm:inline"><a href="https://github.com/Derfogd" target="_blank" rel="noopener noreferrer" className="text-boo-blue hover:text-white transition-colors">Derfog</a></span>
           </p>
           <p className="sm:hidden text-center">
-            <a href="https://github.com/derfog" target="_blank" rel="noopener noreferrer" className="text-boo-blue hover:text-white transition-colors">Derfog</a>
+            <a href="https://github.com/Derfogd" target="_blank" rel="noopener noreferrer" className="text-boo-blue hover:text-white transition-colors">Derfog</a>
           </p>
           
           {/* Back to top button */}

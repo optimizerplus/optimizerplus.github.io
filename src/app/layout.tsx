@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { I18nProvider } from '@/i18n/provider'
+import GoogleAnalytics from '@/components/GoogleAnalytics'
 
 // SEO Keywords optimized for Cloud Gaming and Boosteroid
 const seoKeywords = [
@@ -143,19 +144,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LG1PTSZLP5"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-LG1PTSZLP5');
-            `,
-          }}
-        />
-        
         {/* Preconnect to external resources */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -174,6 +162,7 @@ export default function RootLayout({
       </head>
       {/* suppressHydrationWarning is used here because browser extensions may modify the body */}
       <body className="bg-boo-dark text-white antialiased" suppressHydrationWarning>
+        <GoogleAnalytics />
         {/* Skip to content link for accessibility */}
         <a 
           href="#main-content" 

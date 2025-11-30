@@ -1781,6 +1781,22 @@ function Download() {
               <span>{t.githubButton}</span>
             </a>
             <a 
+              href="https://github.com/optimizerplus/optimizer-plus-v3.7.2/raw/beta/Boosteroid%20Optimizer%20Plus%20by%20Derfog-3.7.3-beta.user.js" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative flex items-center gap-3 text-lg px-6 py-4 w-full sm:w-auto justify-center rounded-xl font-bold text-white overflow-hidden transition-all duration-300 hover:scale-105 border-2 border-orange-500/50 hover:border-orange-400 hover:shadow-[0_0_25px_rgba(249,115,22,0.4)]"
+              style={{ background: 'linear-gradient(135deg, rgba(249,115,22,0.2) 0%, rgba(234,88,12,0.3) 100%)' }}
+            >
+              <span className="absolute inset-0 bg-gradient-to-r from-orange-600/20 via-amber-500/20 to-yellow-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+              <span className="relative flex items-center gap-2">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5 text-orange-400">
+                  <path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                </svg>
+                <span className="text-orange-300">BETA v3.7.3</span>
+                <span className="text-xs bg-orange-500/30 text-orange-200 px-2 py-0.5 rounded-full">120 FPS Mobile</span>
+              </span>
+            </a>
+            <a 
               href="https://boosteroid.com/go/b/fA5oF" 
               target="_blank"
               rel="noopener noreferrer"

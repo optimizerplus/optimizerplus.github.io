@@ -13,7 +13,7 @@ const seoKeywords = [
 ].join(', ')
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://boosteroid-optimizer.com'),
+  metadataBase: new URL('https://optimizerplus.github.io'),
   title: {
     default: 'Boosteroid Optimizer Plus | Force 4K & Upscaling for Cloud Gaming',
     template: '%s | Boosteroid Optimizer Plus'
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     alternateLocale: 'fr_FR',
-    url: 'https://boosteroid-optimizer.com',
+    url: 'https://optimizerplus.github.io',
     siteName: 'Boosteroid Optimizer Plus',
     title: 'Boosteroid Optimizer Plus | Force 4K & Upscaling for Cloud Gaming',
     description: 'Free Tampermonkey extension to unlock 4K resolution, upscaling, and video enhancement on Boosteroid cloud gaming. Works on any monitor!',
@@ -86,10 +86,10 @@ export const metadata: Metadata = {
   
   // Alternate languages
   alternates: {
-    canonical: 'https://boosteroid-optimizer.com',
+    canonical: 'https://optimizerplus.github.io',
     languages: {
-      'en': 'https://boosteroid-optimizer.com',
-      'fr': 'https://boosteroid-optimizer.com/fr',
+      'en': 'https://optimizerplus.github.io',
+      'fr': 'https://optimizerplus.github.io/fr',
     },
   },
   
@@ -143,6 +143,19 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LG1PTSZLP5"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-LG1PTSZLP5');
+            `,
+          }}
+        />
+        
         {/* Preconnect to external resources */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

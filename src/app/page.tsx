@@ -5,6 +5,9 @@ import Image from 'next/image'
 import { useTranslations } from '@/i18n/provider'
 import LanguageSelector from '@/components/LanguageSelector'
 
+// Base path for GitHub Pages
+const basePath = process.env.NODE_ENV === 'production' ? '/optimizerpluswebsite' : ''
+
 // Typing Effect Component - Memoized for performance
 const TypingEffect = React.memo(function TypingEffect({ texts, className = '' }: { texts: string[], className?: string }) {
   const [displayText, setDisplayText] = useState('')
@@ -946,7 +949,7 @@ function Hero() {
         {/* Main Logo - Professional display */}
         <div className="flex justify-center mb-4">
           <img 
-            src="/logo.png" 
+            src={`${basePath}/logo.png`} 
             alt="Boosteroid Optimizer Plus" 
             className="h-24 sm:h-28 md:h-32 lg:h-36 xl:h-40 w-auto drop-shadow-[0_0_40px_rgba(0,163,255,0.6)] hover:drop-shadow-[0_0_60px_rgba(0,163,255,0.8)] transition-all duration-500 hover:scale-105"
           />
@@ -1928,7 +1931,7 @@ function Footer() {
           {/* Brand section with logo */}
           <div className="flex flex-col items-center lg:items-start gap-3">
             <img 
-              src="/logo.png" 
+              src={`${basePath}/logo.png`} 
               alt="Boosteroid Optimizer Plus" 
               className="h-24 sm:h-28 md:h-32 lg:h-36 w-auto drop-shadow-[0_0_40px_rgba(0,163,255,0.6)] hover:drop-shadow-[0_0_60px_rgba(0,163,255,0.8)] transition-all duration-500"
             />

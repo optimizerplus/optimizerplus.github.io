@@ -158,6 +158,7 @@
     "githubButton": "Zobraziť na GitHub",
     "joinButton": "Pripojiť sa na Discord",
     "requiresTampermonkey": "Vyžaduje rozšírenie Tampermonkey",
+    "pcOnly": "🖥️ Len pre PC — Nekompatibilné s mobilnými zariadeniami",
     "getItHere": "stiahnite tu"
   },
   "footer": {

@@ -158,6 +158,7 @@
     "githubButton": "GitHub'da Gör",
     "joinButton": "Discord'a Katıl",
     "requiresTampermonkey": "Tampermonkey eklentisi gerektirir",
+    "pcOnly": "🖥️ Sadece PC — Mobil cihazlarla uyumlu değil",
     "getItHere": "buradan indirin"
   },
   "footer": {

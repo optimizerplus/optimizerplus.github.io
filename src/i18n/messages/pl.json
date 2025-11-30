@@ -156,6 +156,7 @@
     "githubButton": "Zobacz na GitHub",
     "joinButton": "Dołącz na Discord",
     "requiresTampermonkey": "Wymaga rozszerzenia Tampermonkey",
+    "pcOnly": "🖥️ Tylko PC — Niekompatybilny z urządzeniami mobilnymi",
     "getItHere": "pobierz tutaj"
   },
   "footer": {

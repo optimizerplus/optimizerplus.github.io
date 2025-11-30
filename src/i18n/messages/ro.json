@@ -158,6 +158,7 @@
     "githubButton": "Vizualizează pe GitHub",
     "joinButton": "Alătură-te pe Discord",
     "requiresTampermonkey": "Necesită extensia Tampermonkey",
+    "pcOnly": "🖥️ Doar PC — Nu este compatibil cu dispozitivele mobile",
     "getItHere": "descarcă de aici"
   },
   "footer": {

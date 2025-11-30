@@ -158,6 +158,7 @@
     "githubButton": "Megtekintés GitHub-on",
     "joinButton": "Csatlakozás Discord-hoz",
     "requiresTampermonkey": "Tampermonkey bővítmény szükséges",
+    "pcOnly": "🖥️ Csak PC-re — Nem kompatibilis mobil eszközökkel",
     "getItHere": "töltse le itt"
   },
   "footer": {

@@ -157,8 +157,7 @@
     "installButton": "Installa Script Tampermonkey",
     "githubButton": "Vedi su GitHub",
     "joinButton": "Unisciti a Discord",
-    "requiresTampermonkey": "Richiede l'estensione Tampermonkey",
-    "getItHere": "scaricala qui"
+    "requiresTampermonkey": "Richiede l'estensione Tampermonkey",    "pcOnly": "🖥️ Solo PC — Non compatibile con dispositivi mobili",    "getItHere": "scaricala qui"
   },
   "footer": {
     "madeBy": "Fatto con",

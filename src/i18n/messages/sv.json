@@ -158,6 +158,7 @@
     "githubButton": "Visa på GitHub",
     "joinButton": "Gå med i Discord",
     "requiresTampermonkey": "Kräver Tampermonkey-tillägg",
+    "pcOnly": "🖥️ Endast PC — Inte kompatibel med mobila enheter",
     "getItHere": "ladda ner här"
   },
   "footer": {

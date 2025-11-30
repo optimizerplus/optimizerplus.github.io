@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "Boosteroid Optimizer Plus | Wymuś 4K i Upscaling dla Cloud Gaming",
+    "description": "Odblokuj pełny potencjał swojego doświadczenia Boosteroid. Wymuś rozdzielczość 4K, inteligentny upscaling, filtry wideo i ultra niskie opóźnienia na każdym monitorze."
+  },
+  "nav": {
+    "features": "Funkcje",
+    "install": "Instalacja",
+    "faq": "FAQ",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "v3.7.2 — Smart Quality Edition",
+    "title": "Boosteroid Optimizer Plus",
+    "subtitle": "Wymuś 4K • Upscaling • Filtry Wideo • Ultra Niskie Opóźnienia",
+    "description": "Przekształć swoje doświadczenie cloud gaming Boosteroid z inteligentnym skalowaniem rozdzielczości, zaawansowanymi ulepszeniami wideo i optymalizacją opóźnień. Działa na każdym monitorze.",
+    "cta": {
+      "install": "Zainstaluj Rozszerzenie",
+      "features": "Zobacz Funkcje"
+    }
+  },
+  "stats": {
+    "upscaling": "Inteligentny Upscaling",
+    "latency": "Ultra Niskie Opóźnienia",
+    "codec": "Kodek AV1/HEVC",
+    "languages": "15+ Języków"
+  },
+  "features": {
+    "title": "Funkcje",
+    "subtitle": "Funkcje Premium",
+    "description": "Wszystko czego potrzebujesz, aby odblokować pełny potencjał cloud gaming Boosteroid.",
+    "items": {
+      "deviceProfiling": {
+        "title": "Inteligentne Profilowanie Urządzenia",
+        "description": "Automatycznie wykrywa rdzenie CPU, RAM, typ sieci, proporcje ekranu, aby sklasyfikować twój system jako Low-End, Mid-Range lub High-End.",
+        "tag": "AI"
+      },
+      "resolutionDetector": {
+        "title": "Inteligentny Detektor Rozdzielczości",
+        "description": "Generuje niestandardowe rozdzielczości (1080p/2K/4K) idealnie dopasowane do dokładnych proporcji twojego ekranu: 16:9, 21:9, 32:9 i niestandardowe wyświetlacze.",
+        "tag": "Ultrawide"
+      },
+      "presets": {
+        "title": "5 Presetów Pro",
+        "description": "Domyślny, Kinowy, Konkurencyjny, Komfort, Idealna Jakość. Każdy preset dostosowuje filtry do różnych scenariuszy gry.",
+        "tag": "v3.7.2"
+      },
+      "videoFilters": {
+        "title": "Zaawansowane Filtry Wideo",
+        "description": "Ostrość USM, CAS, klarowność, redukcja szumów, anti-banding, nasycenie, gamma. Zorganizowane w poziomach Bezpieczny, Lekki, Zbalansowany, Ultra.",
+        "tag": "Filtry Pro"
+      },
+      "adaptiveQuality": {
+        "title": "Adaptacyjna Jakość",
+        "description": "Automatycznie dostosowuje rozdzielczość i filtry na podstawie twojego sprzętu i wydajności w czasie rzeczywistym. Płynna adaptacja.",
+        "tag": "Auto-Tune"
+      },
+      "codecSelector": {
+        "title": "Inteligentny Wybór Kodeka",
+        "description": "Testuje MediaCapabilities, aby wybrać najlepszy kodek: AV1 > HEVC > H.264. Dekodowanie akcelerowane sprzętowo.",
+        "tag": "AV1 Ready"
+      },
+      "lowLatency": {        "title": "Tryb Niskiej Latencji",
+        "description": "Optymalizuje odbiornik WebRTC z playoutDelayHint dla minimalnego input lag. Celuje w 12ms latencji z automatycznym dostrajaniem bufora jitter.",
+        "tag": "Ultra Szybki"
+      },
+      "streamInterceptor": {        "title": "Interceptor Strumienia",
+        "description": "Opcjonalny moduł przechwytujący żądania konfiguracji, aby wymusić dekodowanie sprzętowe i wypchnąć wyższe ustawienia jakości.",
+        "tag": "Opcjonalny"
+      },
+      "svgFilterPipeline": {
+        "title": "Pipeline Filtrów SVG",
+        "description": "Filtry SVG akcelerowane przez GPU dla ostrości USM, macierzy kontrastu, korekcji kolorów. Minimalny wpływ na CPU.",
+        "tag": "Akcel. GPU"
+      },
+      "zeroFlicker": {
+        "title": "Start Bez Migotania",
+        "description": "Stosuje filtry wideo przy starcie bez widocznego błysku. Używa requestIdleCallback dla zerowych mikro-zamrożeń.",
+        "tag": "Szybki"
+      },
+      "dashboard": {
+        "title": "Widget Dashboard",
+        "description": "Pływający panel sterowania do wyboru pożądanej rozdzielczości i odświeżenia strony w celu zastosowania zmian. Prosty i skuteczny.",
+        "tag": "v3.7.2"
+      }
+    }
+  },
+  "install": {
+    "title": "Szybki przewodnik",
+    "subtitle": "Instalacja",
+    "description": "Zacznij w 3 prostych krokach",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Zainstaluj Tampermonkey",
+        "description": "Dodaj rozszerzenie Tampermonkey do swojej przeglądarki. Jest darmowe i zajmuje 10 sekund."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Zainstaluj Skrypt",
+        "description": "Kliknij przycisk poniżej, aby zainstalować Boosteroid Optimizer Plus z GreasyFork."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Uruchom Boosteroid",
+        "description": "Otwórz Boosteroid.com i uruchom dowolną grę. Skrypt aktywuje się automatycznie!"
+      }
+    },
+    "compatibleWith": "Kompatybilny z",
+    "cta": {
+      "install": "Zainstaluj z GreasyFork",
+      "github": "Zobacz Kod na GitHub"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Często Zadawane Pytania",
+    "items": {
+      "q1": {
+        "question": "Czy potrzebuję monitora 4K, aby to używać?",
+        "answer": "Nie! Inteligentny Detektor Rozdzielczości generuje niestandardowe rozdzielczości (1080p, 2K, 4K) dopasowane do dokładnych proporcji twojego ekranu. Boosteroid renderuje w wyższej rozdzielczości, potem skaluje w dół dla ostrzejszego wyjścia nawet na wyświetlaczu 1080p."
+      },
+      "q2": {
+        "question": "Jakie są 6 dostępnych presetów?",
+        "answer": "① OFF (domyślnie wyłączony) ② Domyślny (zbalansowany) ③ Kinowy (maks filtry) ④ Konkurencyjny (minimalne przetwarzanie) ⑤ Komfort (ochrona oczu) ⑥ Idealna Jakość (4K + maks ulepszenia). Filtry są OFF domyślnie - ty wybierasz który preset aktywować!"
+      },
+      "q3": {
+        "question": "Czy to bezpieczne / czy zostanę zbanowany?",
+        "answer": "Ten skrypt działa tylko po stronie klienta w twojej przeglądarce. Nie modyfikuje plików gry ani serwerów Boosteroid. Zero ryzyka bana. Pomyśl o tym jak o dostosowaniu ustawień monitora lub ostrości sterownika GPU."
+      },
+      "q4": {
+        "question": "Dlaczego moje FPS spada z włączonymi filtrami?",
+        "answer": "Ciężkie filtry (Klarowność, Redukcja szumów, Deband) są intensywne dla GPU. Włącz Tryb Wydajności przez Ctrl+Alt+P lub dashboard. Skrypt automatycznie dostosowuje intensywność filtrów na podstawie poziomu twojego urządzenia."
+      },
+      "q5": {
+        "question": "Jakiego kodeka używa skrypt?",
+        "answer": "Automatycznie wybiera najlepszy kodek obsługiwany przez twój sprzęt: AV1 (najlepszy) > HEVC (świetny) > H.264 (zapasowy). Uruchamia się cicho przy pierwszym ładowaniu. AV1 zapewnia ~30% lepszą jakość przy tym samym bitrate."
+      },
+      "q6": {
+        "question": "Jak kontrolować optymalizator?",
+        "answer": "Panel sterowania pojawia się na dashboardzie Boosteroid z domyślnie wyłączonymi presetami. To do ciebie należy włączenie przełączników: Adaptacyjna Jakość, szybkie presety i Tryb Wydajności. Wybierz rozdzielczość i odśwież stronę, aby zastosować."
+      }
+    }
+  },
+  "download": {
+    "badge": "GOTOWE DO POBRANIA",
+    "title": "Gotowy na Ulepszenie Swojego",
+    "titleHighlight": "Cloud Gaming?",
+    "description": "Dołącz do tysięcy graczy, którzy już",
+    "descriptionFree": "cieszą się lepszym doświadczeniem cloud gaming.",
+    "descriptionEnd": "Darmowe, Open Source i potężne.",
+    "feature4K": "Wsparcie 4K",
+    "featureVisuals": "Ulepszona Grafika",
+    "featureLatency": "Niższa Latencja",
+    "installButton": "Zainstaluj Skrypt Tampermonkey",
+    "githubButton": "Zobacz na GitHub",
+    "joinButton": "Dołącz na Discord",
+    "requiresTampermonkey": "Wymaga rozszerzenia Tampermonkey",
+    "getItHere": "pobierz tutaj"
+  },
+  "footer": {
+    "madeBy": "Zrobione z",
+    "by": "przez",
+    "notAffiliated": "Nie powiązane z Boosteroid.",
+    "legal": {
+      "privacy": "Prywatność",
+      "terms": "Regulamin"
+    },
+    "copyright": "© 2025 Boosteroid Optimizer Plus. Wszelkie prawa zastrzeżone."
+  },
+  "languageSelector": {
+    "selectLanguage": "Wybierz język"
+  },
+  "demo": {
+    "title": "Przetestuj Presety",
+    "titleHighlight": "Na Żywo",
+    "hint": "Przeciągnij suwak, aby porównać Przed/Po. Kliknij presety, aby zobaczyć efekty filtrów.",
+    "presets": {
+      "default": "Domyślny",
+      "defaultDesc": "Zrównoważony dla większości",
+      "cinematic": "Filmowy",
+      "cinematicDesc": "Bogate kolory i głęboki kontrast",
+      "competitive": "Kompetycyjny",
+      "competitiveDesc": "Minimalne przetwarzanie dla szybkości",
+      "comfort": "Komfort",
+      "comfortDesc": "Ciepłe tony dla oczu",
+      "perfectQuality": "Idealna Jakość",
+      "perfectQualityDesc": "Maksymalne ulepszenie"
+    }
+  }
+}

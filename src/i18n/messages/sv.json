@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Boosteroid Optimizer Plus | Tvingad 4K & Uppskalning för Molnspel",
+    "description": "Lås upp den fulla potentialen i din Boosteroid-upplevelse. Tvinga 4K-upplösning, smart uppskalning, videofilter och ultralåg latens på vilken bildskärm som helst."
+  },
+  "nav": {
+    "features": "Funktioner",
+    "install": "Installation",
+    "faq": "FAQ",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "v3.7.2 — Smart Quality Edition",
+    "title": "Boosteroid Optimizer Plus",
+    "subtitle": "Tvingad 4K • Uppskalning • Videofilter • Ultralåg latens",
+    "description": "Förvandla din Boosteroid molnspelupplevelse med smart upplösningsskalning, avancerad videoförbättring och latensoptimering. Fungerar på vilken bildskärm som helst.",
+    "cta": {
+      "install": "Installera tillägget",
+      "features": "Se funktioner"
+    }
+  },
+  "stats": {
+    "upscaling": "Smart uppskalning",
+    "latency": "Ultralåg latens",
+    "codec": "AV1/HEVC Codec",
+    "languages": "15+ språk"
+  },
+  "features": {
+    "title": "Funktioner",
+    "subtitle": "Premiumfunktioner",
+    "description": "Allt du behöver för att låsa upp den fulla potentialen i Boosteroid molnspel.",
+    "items": {
+      "deviceProfiling": {
+        "title": "Smart enhetsprofilering",
+        "description": "Detekterar automatiskt CPU-kärnor, RAM, nätverkstyp, skärmförhållande för att klassificera ditt system som Low-End, Mid-Range eller High-End.",
+        "tag": "AI"
+      },
+      "resolutionDetector": {
+        "title": "Smart upplösningsdetektor",
+        "description": "Genererar anpassade upplösningar (1080p/2K/4K) som passar perfekt till din skärms exakta förhållande: 16:9, 21:9, 32:9 och anpassade skärmar.",
+        "tag": "Ultrawide"
+      },
+      "presets": {
+        "title": "5 Pro-förinställningar",
+        "description": "Standard, Cinematisk, Kompetitiv, Komfort, Perfekt kvalitet. Varje förinställning konfigurerar filter för olika spelscenarier.",
+        "tag": "v3.7.2"
+      },
+      "videoFilters": {
+        "title": "Avancerade videofilter",
+        "description": "USM-skärpning, CAS, klarhet, brusreducering, anti-banding, mättnad, gamma. Organiserade i nivåer: Säker, Lätt, Balanserad, Ultra.",
+        "tag": "Pro-filter"
+      },
+      "adaptiveQuality": {
+        "title": "Adaptiv kvalitet",
+        "description": "Justerar automatiskt upplösning och filter baserat på din hårdvara och realtidsprestanda. Smidig anpassning.",
+        "tag": "Auto-Tune"
+      },
+      "codecSelector": {
+        "title": "Smart codecväljare",
+        "description": "Testar MediaCapabilities för att välja bästa codec: AV1 > HEVC > H.264. Hårdvaruaccelererad avkodning.",
+        "tag": "AV1 Ready"
+      },
+      "lowLatency": {
+        "title": "Låg latens-läge",
+        "description": "Optimerar WebRTC-mottagaren med playoutDelayHint för minimal input lag. Siktar på 12ms latens med automatisk justering av jitter-buffern.",
+        "tag": "Ultrasnabb"
+      },
+      "streamInterceptor": {
+        "title": "Stream Interceptor",
+        "description": "Valfri modul som fångar konfigurationsförfrågningar för att tvinga hårdvaruavkodning och öka kvalitetsinställningar.",
+        "tag": "Valfri"
+      },
+      "svgFilterPipeline": {
+        "title": "SVG-filterpipeline",
+        "description": "GPU-accelererade SVG-filter för USM-skärpning, kontrastmatris, färgkorrigering. Minimal CPU-belastning.",
+        "tag": "GPU-accel."
+      },
+      "zeroFlicker": {
+        "title": "Flimmerfri uppstart",
+        "description": "Applicerar videofilter vid uppstart utan synlig blixt. Använder requestIdleCallback för noll mikro-hackningar.",
+        "tag": "Snabb"
+      },
+      "dashboard": {
+        "title": "Kontrollpanelwidget",
+        "description": "Flytande kontrollpanel på dashboard för att välja upplösning och uppdatera sidan.",
+        "tag": "v3.7.2"
+      }
+    }
+  },
+  "install": {
+    "title": "Snabbguide",
+    "subtitle": "Installation",
+    "description": "Kom igång på 3 enkla steg",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Installera Tampermonkey",
+        "description": "Lägg till Tampermonkey-tillägget i din webbläsare. Det är gratis och tar 10 sekunder."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Installera skriptet",
+        "description": "Klicka på knappen nedan för att installera Boosteroid Optimizer Plus från GreasyFork."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Starta Boosteroid",
+        "description": "Öppna Boosteroid.com och starta vilket spel som helst. Skriptet aktiveras automatiskt!"
+      }
+    },
+    "compatibleWith": "Kompatibel med",
+    "cta": {
+      "install": "Installera från GreasyFork",
+      "github": "Källkod på GitHub"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Vanliga frågor",
+    "items": {
+      "q1": {
+        "question": "Behöver jag en 4K-bildskärm?",
+        "answer": "Nej! Smart upplösningsdetektor genererar anpassade upplösningar (1080p, 2K, 4K) som matchar din skärms exakta förhållande. Boosteroid renderar i högre upplösning, sedan nedskalas för skarpare utdata även på 1080p-skärm."
+      },
+      "q2": {
+        "question": "Vilka 6 förinställningar finns?",
+        "answer": "① OFF (avaktiverat som standard) ② Standard (balanserad) ③ Cinematisk (max filter) ④ Kompetitiv (min bearbetning) ⑤ Komfort (ögonskydd) ⑥ Perfekt kvalitet (4K + max förbättring). Filter är OFF som standard - du väljer vilken förinställning att aktivera!"
+      },
+      "q3": {
+        "question": "Är det säkert / blir jag bannad?",
+        "answer": "Detta skript körs endast på klientsidan i din webbläsare. Det modifierar inte spelfiler eller Boosteroid-servrar. Noll risk för bann. Tänk på det som att justera bildskärmsinställningar eller GPU-drivrutinens skärpa."
+      },
+      "q4": {
+        "question": "Varför sjunker min FPS med filter aktiverade?",
+        "answer": "Tunga filter (Klarhet, Brusreducering, Deband) är GPU-intensiva. Aktivera prestandaläge via Ctrl+Alt+P eller kontrollpanelen. Skriptet justerar automatiskt filterintensitet baserat på din enhetsnivå."
+      },
+      "q5": {
+        "question": "Vilken codec använder skriptet?",
+        "answer": "Väljer automatiskt bästa codec som stöds av din hårdvara: AV1 (bäst) > HEVC (utmärkt) > H.264 (reserv). Fungerar tyst vid första laddning. AV1 ger ~30% bättre kvalitet vid samma bitrate."
+      },
+      "q6": {
+        "question": "Hur styr jag optimeraren?",
+        "answer": "En kontrollpanel visas på Boosteroid-dashboarden med förinställningar avstängda som standard. Det är upp till dig att aktivera växlarna: Adaptiv kvalitet, snabba förinställningar och Prestandaläge. Välj din upplösning och uppdatera sidan för att tillämpa."
+      }
+    }
+  },
+  "download": {
+    "badge": "REDO ATT LADDA NER",
+    "title": "Redo att Förbättra Ditt",
+    "titleHighlight": "Molnspelande?",
+    "description": "Gå med tusentals spelare som redan",
+    "descriptionFree": "njuter av en bättre molnspelupplevelse.",
+    "descriptionEnd": "Gratis, öppen källkod och kraftfull.",
+    "feature4K": "4K-Stöd",
+    "featureVisuals": "Förbättrad Grafik",
+    "featureLatency": "Lägre Latens",
+    "installButton": "Installera Tampermonkey-script",
+    "githubButton": "Visa på GitHub",
+    "joinButton": "Gå med i Discord",
+    "requiresTampermonkey": "Kräver Tampermonkey-tillägg",
+    "getItHere": "ladda ner här"
+  },
+  "footer": {
+    "madeBy": "Skapad med",
+    "by": "av",
+    "notAffiliated": "Ej ansluten till Boosteroid.",
+    "legal": {
+      "privacy": "Integritet",
+      "terms": "Villkor"
+    },
+    "copyright": "© 2025 Boosteroid Optimizer Plus. Alla rättigheter förbehållna."
+  },
+  "languageSelector": {
+    "selectLanguage": "Välj språk"
+  },
+  "demo": {
+    "title": "Testa Förinställningarna",
+    "titleHighlight": "Live",
+    "hint": "Dra reglaget för att jämföra Före/Efter. Klicka på förinställningar för att förhandsgranska filtereffekter.",
+    "presets": {
+      "default": "Standard",
+      "defaultDesc": "Balanserad för de flesta",
+      "cinematic": "Filmisk",
+      "cinematicDesc": "Rika färger och djup kontrast",
+      "competitive": "Tävlings",
+      "competitiveDesc": "Minimal bearbetning för hastighet",
+      "comfort": "Komfort",
+      "comfortDesc": "Varma toner för ögonen",
+      "perfectQuality": "Perfekt Kvalitet",
+      "perfectQualityDesc": "Maximal förbättring"
+    }
+  }
+}

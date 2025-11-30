@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "Boosteroid Optimizer Plus | Zorunlu 4K ve Bulut Oyunlar için Upscaling",
+    "description": "Boosteroid deneyiminizin tam potansiyelini açın. Herhangi bir monitörde 4K çözünürlük, akıllı upscaling, video filtreleri ve ultra düşük gecikme zorlayın."
+  },
+  "nav": {
+    "features": "Özellikler",
+    "install": "Kurulum",
+    "faq": "SSS",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "v3.7.2 — Smart Quality Edition",
+    "title": "Boosteroid Optimizer Plus",
+    "subtitle": "Zorunlu 4K • Upscaling • Video Filtreleri • Ultra Düşük Gecikme",
+    "description": "Akıllı çözünürlük ölçekleme, gelişmiş video iyileştirme ve gecikme optimizasyonu ile Boosteroid bulut oyun deneyiminizi dönüştürün. Her monitörde çalışır.",
+    "cta": {
+      "install": "Uzantıyı Yükle",
+      "features": "Özellikleri Gör"
+    }
+  },
+  "stats": {
+    "upscaling": "Akıllı Upscaling",
+    "latency": "Ultra Düşük Gecikme",
+    "codec": "AV1/HEVC Codec",
+    "languages": "15+ Dil"
+  },
+  "features": {
+    "title": "Özellikler",
+    "subtitle": "Premium Özellikler",
+    "description": "Boosteroid bulut oyunlarının tam potansiyelini açmak için ihtiyacınız olan her şey.",
+    "items": {
+      "deviceProfiling": {
+        "title": "Akıllı Cihaz Profilleme",
+        "description": "Sisteminizi Low-End, Mid-Range veya High-End olarak sınıflandırmak için CPU çekirdeklerini, RAM'i, ağ türünü, ekran oranını otomatik algılar.",
+        "tag": "AI"
+      },
+      "resolutionDetector": {
+        "title": "Akıllı Çözünürlük Algılayıcı",
+        "description": "Ekranınızın tam oranına mükemmel uyan özel çözünürlükler (1080p/2K/4K) oluşturur: 16:9, 21:9, 32:9 ve özel ekranlar.",
+        "tag": "Ultrawide"
+      },
+      "presets": {
+        "title": "5 Pro Preset",
+        "description": "Varsayılan, Sinematik, Rekabetçi, Konfor, Mükemmel Kalite. Her preset farklı oyun senaryoları için filtreleri yapılandırır.",
+        "tag": "v3.7.2"
+      },
+      "videoFilters": {
+        "title": "Gelişmiş Video Filtreleri",
+        "description": "USM keskinleştirme, CAS, netlik, gürültü azaltma, anti-banding, doygunluk, gamma. Seviyelere ayrılmış: Güvenli, Hafif, Dengeli, Ultra.",
+        "tag": "Pro Filtreler"
+      },
+      "adaptiveQuality": {
+        "title": "Adaptif Kalite",
+        "description": "Donanımınıza ve gerçek zamanlı performansa göre çözünürlüğü ve filtreleri otomatik ayarlar. Pürüzsüz adaptasyon.",
+        "tag": "Otomatik Ayar"
+      },
+      "codecSelector": {
+        "title": "Akıllı Codec Seçici",
+        "description": "En iyi codec'i seçmek için MediaCapabilities'i test eder: AV1 > HEVC > H.264. Donanım hızlandırmalı kod çözme.",
+        "tag": "AV1 Hazır"
+      },
+      "lowLatency": {
+        "title": "Düşük Gecikme Modu",
+        "description": "Minimum input lag için playoutDelayHint ile WebRTC alıcısını optimize eder. Otomatik jitter buffer ayarı ile 12ms gecikme hedefler.",
+        "tag": "Ultra Hızlı"
+      },
+      "streamInterceptor": {
+        "title": "Stream Interceptor",
+        "description": "Donanım kod çözmeyi zorlamak ve kalite ayarlarını artırmak için yapılandırma isteklerini yakalayan isteğe bağlı modül.",
+        "tag": "İsteğe Bağlı"
+      },
+      "svgFilterPipeline": {
+        "title": "SVG Filtre Pipeline",
+        "description": "USM keskinleştirme, kontrast matrisi, renk düzeltme için GPU hızlandırmalı SVG filtreleri. Minimum CPU yükü.",
+        "tag": "GPU Hızl."
+      },
+      "zeroFlicker": {
+        "title": "Titreşimsiz Başlatma",
+        "description": "Görünür flaş olmadan başlatmada video filtreleri uygular. Sıfır mikro-takılma için requestIdleCallback kullanır.",
+        "tag": "Hızlı"
+      },
+      "dashboard": {
+        "title": "Kontrol Paneli Widget'ı",
+        "description": "İstenen çözünürlüğü seçmek ve değişiklikleri uygulamak için sayfayı yenilemek için yüzen kontrol paneli. Basit ve etkili.",
+        "tag": "v3.7.2"
+      }
+    }
+  },
+  "install": {
+    "title": "Hızlı Kılavuz",
+    "subtitle": "Kurulum",
+    "description": "3 basit adımda başlayın",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Tampermonkey'i Yükleyin",
+        "description": "Tarayıcınıza Tampermonkey uzantısını ekleyin. Ücretsiz ve 10 saniye sürer."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Script'i Yükleyin",
+        "description": "GreasyFork'tan Boosteroid Optimizer Plus'ı yüklemek için aşağıdaki düğmeye tıklayın."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Boosteroid'i Başlatın",
+        "description": "Boosteroid.com'u açın ve herhangi bir oyunu başlatın. Script otomatik olarak aktif olur!"
+      }
+    },
+    "compatibleWith": "Uyumlu",
+    "cta": {
+      "install": "GreasyFork'tan Yükle",
+      "github": "GitHub'da Kaynak Kodu"
+    }
+  },
+  "faq": {
+    "title": "SSS",
+    "subtitle": "Sık Sorulan Sorular",
+    "items": {
+      "q1": {
+        "question": "4K monitöre ihtiyacım var mı?",
+        "answer": "Hayır! Akıllı çözünürlük algılayıcı ekranınızın tam oranına uyan özel çözünürlükler (1080p, 2K, 4K) oluşturur. Boosteroid daha yüksek çözünürlükte render eder, sonra 1080p ekranda bile daha keskin çıktı için küçültür."
+      },
+      "q2": {
+        "question": "Hangi 6 preset mevcut?",
+        "answer": "① OFF (varsayılan olarak devre dışı) ② Varsayılan (dengeli) ③ Sinematik (max filtreler) ④ Rekabetçi (min işleme) ⑤ Konfor (göz koruması) ⑥ Mükemmel Kalite (4K + max iyileştirme). Filtreler varsayılan olarak OFF - hangi preset'i etkinleştireceğinizi siz seçersiniz!"
+      },
+      "q3": {
+        "question": "Güvenli mi / yasaklanır mıyım?",
+        "answer": "Bu script sadece tarayıcınızda istemci tarafında çalışır. Oyun dosyalarını veya Boosteroid sunucularını değiştirmez. Sıfır yasaklanma riski. Bunu monitör ayarlarınızı veya GPU sürücü keskinliğini ayarlamak gibi düşünün."
+      },
+      "q4": {
+        "question": "Filtreler açıkken FPS'm neden düşüyor?",
+        "answer": "Ağır filtreler (Netlik, Gürültü Azaltma, Deband) GPU yoğun. Ctrl+Alt+P veya kontrol paneli ile performans modunu etkinleştirin. Script, cihaz seviyenize göre filtre yoğunluğunu otomatik ayarlar."
+      },
+      "q5": {
+        "question": "Script hangi codec'i kullanıyor?",
+        "answer": "Donanımınız tarafından desteklenen en iyi codec'i otomatik seçer: AV1 (en iyi) > HEVC (mükemmel) > H.264 (yedek). İlk yüklemede sessizce çalışır. AV1 aynı bitrate'de ~%30 daha iyi kalite sağlar."
+      },
+      "q6": {
+        "question": "Optimize edici nasıl kontrol edilir?",
+        "answer": "Boosteroid dashboard'unda varsayılan olarak kapalı presetlerle bir kontrol paneli görünür. Geçişleri etkinleştirmek size bağlı: Adaptif Kalite, hızlı presetler ve Performans Modu. Çözünürlüğünüzü seçin ve uygulamak için sayfayı yenileyin."
+      }
+    }
+  },
+  "download": {
+    "badge": "İNDİRME HAZIR",
+    "title": "Bulut Oyununu Geliştirmeye",
+    "titleHighlight": "Hazır mısın?",
+    "description": "Zaten daha iyi bir bulut oyun deneyiminden",
+    "descriptionFree": "keyif alan binlerce oyuncuya katılın.",
+    "descriptionEnd": "Ücretsiz, Açık Kaynak ve Güçlü.",
+    "feature4K": "4K Desteği",
+    "featureVisuals": "Gelişmiş Görseller",
+    "featureLatency": "Düşük Gecikme",
+    "installButton": "Tampermonkey Script'ı Yükle",
+    "githubButton": "GitHub'da Gör",
+    "joinButton": "Discord'a Katıl",
+    "requiresTampermonkey": "Tampermonkey eklentisi gerektirir",
+    "getItHere": "buradan indirin"
+  },
+  "footer": {
+    "madeBy": "Yapımcı",
+    "by": "tarafından",
+    "notAffiliated": "Boosteroid ile bağlantılı değildir.",
+    "legal": {
+      "privacy": "Gizlilik",
+      "terms": "Şartlar"
+    },
+    "copyright": "© 2025 Boosteroid Optimizer Plus. Tüm hakları saklıdır."
+  },
+  "languageSelector": {
+    "selectLanguage": "Dil Seçin"  },
+  "demo": {
+    "title": "Presetleri Test Edin",
+    "titleHighlight": "Canlı",
+    "hint": "Önce/Sonra karşılaştırmak için kaydırıcıyı sürükleyin. Filtre efektlerini önizlemek için presetlere tıklayın.",
+    "presets": {
+      "default": "Varsayılan",
+      "defaultDesc": "Çoğu kullanıcı için dengeli",
+      "cinematic": "Sinematik",
+      "cinematicDesc": "Zengin renkler ve derin kontrast",
+      "competitive": "Rekabetçi",
+      "competitiveDesc": "Hız için minimum işleme",
+      "comfort": "Konfor",
+      "comfortDesc": "Göz rahatlığı için sıcak tonlar",
+      "perfectQuality": "Mükemmel Kalite",
+      "perfectQualityDesc": "Maksimum iyileştirme"
+    }  }
+}

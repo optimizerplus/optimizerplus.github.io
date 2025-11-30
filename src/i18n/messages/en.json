@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Boosteroid Optimizer Plus | Force 4K & Upscaling for Cloud Gaming",
+    "description": "Unlock the full potential of your Boosteroid cloud gaming experience. Force 4K resolution, smart upscaling, video enhancement filters, and ultra-low latency on any monitor."
+  },
+  "nav": {
+    "features": "Features",
+    "install": "Install",
+    "faq": "FAQ",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "v3.7.2 — Smart Quality Edition",
+    "title": "Boosteroid Optimizer Plus",
+    "subtitle": "Force 4K • Smart Upscaling • Video Filters • Zero VRAM Leak",
+    "description": "Transform your Boosteroid cloud gaming experience with smart resolution scaling, advanced video enhancement, and ultra-low latency optimization. Works on any monitor.",
+    "cta": {
+      "install": "Install Extension",
+      "features": "View Features"
+    }
+  },
+  "stats": {
+    "upscaling": "Smart Upscaling",
+    "latency": "Ultra Low Latency",
+    "codec": "AV1/HEVC Codec",
+    "languages": "15+ Languages"
+  },
+  "features": {
+    "title": "Features",
+    "subtitle": "Premium Features",
+    "description": "Everything you need to unleash the full potential of Boosteroid cloud gaming.",
+    "items": {
+      "deviceProfiling": {
+        "title": "Smart Device Profiling",
+        "description": "Auto-detects CPU cores, RAM, network speed and screen ratio. Classifies your device as Low-End, Mid-Range or High-End for optimal settings.",
+        "tag": "AI-Powered"
+      },
+      "resolutionDetector": {
+        "title": "Smart Resolution Detector",
+        "description": "Generates custom resolutions (1080p/2K/4K) aligned to your exact screen ratio: 16:9, 21:9, 32:9 and non-standard displays. Uses native resolution by default.",
+        "tag": "Ultrawide"
+      },
+      "presets": {
+        "title": "5 Pro Presets",
+        "description": "Default, Cinematic, Competitive, Comfort, Perfect Quality. Each preset tunes filters for different gaming scenarios. All presets are OFF by default.",
+        "tag": "v3.7.2"
+      },
+      "videoFilters": {
+        "title": "Advanced Video Filters",
+        "description": "USM & CAS sharpening, clarity, denoising, anti-banding, vibrance, gamma, exposure. Organized in Safe, Light, Balanced, Ultra tiers.",
+        "tag": "8 Filters"
+      },
+      "adaptiveQuality": {
+        "title": "Adaptive Quality",
+        "description": "5 filter tiers (OFF/Safe/Light/Balanced/Ultra) that auto-adjust based on your hardware. Dynamic maxFiltersActive limit per device tier.",
+        "tag": "Auto-Tune"
+      },
+      "codecSelector": {
+        "title": "Smart Codec Selector",
+        "description": "Probes MediaCapabilities API to auto-select best codec: AV1 > HEVC > VP9 > H.264. Hardware-accelerated decoding preferred.",
+        "tag": "AV1 Ready"
+      },
+      "lowLatency": {
+        "title": "Low Latency Mode",
+        "description": "Optimizes WebRTC receiver with playoutDelayHint for minimal input lag. Targets 12ms latency with automatic jitter buffer tuning.",
+        "tag": "Ultra Fast"
+      },
+      "svgFilterPipeline": {
+        "title": "SVG Filter Pipeline",
+        "description": "GPU-accelerated SVG filters for USM sharpening, contrast matrix, color correction. Runs on GPU with minimal CPU impact.",
+        "tag": "GPU Accel"
+      },
+      "zeroFlicker": {
+        "title": "Zero-Flicker Bootstrap",
+        "description": "Applies video filters at startup without visible flash. Uses requestIdleCallback for zero micro-freezes and smooth initialization.",
+        "tag": "Slim & Fast"
+      },
+      "dashboard": {
+        "title": "Dashboard Widget",
+        "description": "Floating control panel to select your preferred resolution and refresh the page to apply changes. Simple and effective.",
+        "tag": "v3.7.2"
+      },
+      "streamInterceptor": {
+        "title": "Stream Interceptor",
+        "description": "Optional module that intercepts config requests to force hardware decoding and push higher quality settings.",
+        "tag": "Optional"
+      }
+    }
+  },
+  "install": {
+    "title": "Quick Guide",
+    "subtitle": "Installation",
+    "description": "Get started in 3 simple steps",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Install Tampermonkey",
+        "description": "Add the Tampermonkey extension to your browser. It's free and takes 10 seconds."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Install the Script",
+        "description": "Click the button below to install Boosteroid Optimizer Plus from GreasyFork."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Launch Boosteroid",
+        "description": "Open Boosteroid.com and start any game. The script auto-activates!"
+      }
+    },
+    "compatibleWith": "Compatible with",
+    "cta": {
+      "install": "Install from GreasyFork",
+      "github": "View Source on GitHub"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Frequently Asked Questions",
+    "items": {
+      "q1": {
+        "question": "Do I need a 4K monitor to use this?",
+        "answer": "No! The Smart Resolution Detector generates custom resolutions (1080p, 2K, 4K) aligned to your screen's exact aspect ratio. Boosteroid renders at higher resolution, then downscales for sharper output even on a 1080p display."
+      },
+      "q2": {
+        "question": "What are the 6 Presets available?",
+        "answer": "① OFF (disabled by default) ② Default (balanced) ③ Cinematic (max filters) ④ Competitive (minimal processing) ⑤ Comfort (eye-care) ⑥ Perfect Quality (4K + max enhancement). Filters are OFF by default - you choose which preset to activate!"
+      },
+      "q3": {
+        "question": "Is this safe / will I get banned?",
+        "answer": "This script only works client-side in your browser. It doesn't modify game files or Boosteroid servers. Zero risk of bans. Think of it like adjusting monitor settings or GPU driver sharpening."
+      },
+      "q4": {
+        "question": "Why does my FPS drop with filters enabled?",
+        "answer": "Heavy filters (Clarity, Denoise, Deband) are GPU-intensive. Enable Performance Mode via Ctrl+Alt+P or dashboard. The script auto-adjusts filter intensity based on your device tier."
+      },
+      "q5": {
+        "question": "Which codec does the script use?",
+        "answer": "Auto-selects the best codec your hardware supports: AV1 (best) > HEVC (great) > H.264 (fallback). This runs silently on first load. AV1 provides ~30% better quality at same bitrate."
+      },
+      "q6": {
+        "question": "How do I control the optimizer?",
+        "answer": "A control panel appears on the Boosteroid dashboard with presets OFF by default. It's up to you to enable the toggles: Adaptive Quality, quick presets, and Performance Mode. Select your resolution and refresh the page to apply."
+      }
+    }
+  },
+  "footer": {
+    "madeBy": "Made with",
+    "by": "by",
+    "notAffiliated": "Not affiliated with Boosteroid.",
+    "legal": {
+      "privacy": "Privacy",
+      "terms": "Terms"
+    },
+    "copyright": "© 2025 Boosteroid Optimizer Plus. All rights reserved."
+  },
+  "download": {
+    "badge": "READY TO DOWNLOAD",
+    "title": "Ready to Upgrade Your",
+    "titleHighlight": "Cloud Gaming?",
+    "description": "Download Boosteroid Optimizer Plus",
+    "descriptionFree": "for free",
+    "descriptionEnd": "and experience cloud gaming at its finest.",
+    "feature4K": "4K resolution",
+    "featureVisuals": "enhanced visuals",
+    "featureLatency": "ultra-low latency",
+    "installButton": "Install Script",
+    "githubButton": "View on GitHub",
+    "joinButton": "Join Boosteroid",
+    "requiresTampermonkey": "Requires Tampermonkey browser extension.",
+    "getItHere": "Get it here"
+  },
+  "languageSelector": {
+    "selectLanguage": "Select language"
+  },
+  "demo": {
+    "title": "Test the Presets",
+    "titleHighlight": "Live",
+    "hint": "Drag the slider to compare Before/After. Click presets to preview filter effects.",
+    "presets": {
+      "default": "Default",
+      "defaultDesc": "Balanced for most users",
+      "cinematic": "Cinematic",
+      "cinematicDesc": "Rich colors & deep contrast",
+      "competitive": "Competitive",
+      "competitiveDesc": "Minimal processing for speed",
+      "comfort": "Comfort",
+      "comfortDesc": "Eye-care warm tones",
+      "perfectQuality": "Perfect Quality",
+      "perfectQualityDesc": "Maximum enhancement"
+    }
+  }
+}

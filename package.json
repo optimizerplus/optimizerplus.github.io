@@ -1,0 +1,48 @@
+{
+  "name": "boosteroid-optimizer-website",
+  "version": "1.0.0",
+  "description": "Official website for Boosteroid Optimizer Plus - Enhance your cloud gaming experience with 4K resolution, upscaling, and video filters",
+  "private": true,
+  "pnpm": {
+    "overrides": {
+      "baseline-browser-mapping": "^2.8.32"
+    }
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build"
+  },
+  "keywords": [
+    "boosteroid",
+    "cloud gaming",
+    "4k gaming",
+    "game streaming",
+    "upscaling",
+    "tampermonkey",
+    "video enhancement",
+    "cloud gaming optimizer"
+  ],
+  "author": "Derfog",
+  "license": "MIT",
+  "dependencies": {
+    "framer-motion": "12.23.24",
+    "next": "16.0.5",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "autoprefixer": "10.4.22",
+    "baseline-browser-mapping": "^2.8.32",
+    "eslint": "9.39.1",
+    "eslint-config-next": "16.0.5",
+    "postcss": "8.5.6",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.9.3"
+  }
+}

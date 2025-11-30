@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Boosteroid Optimizer Plus | Vynútená 4K a upscaling pre cloud gaming",
+    "description": "Odomknite plný potenciál vášho zážitku z Boosteroidu. Vynúťte 4K rozlíšenie, inteligentný upscaling, video filtre a ultra-nízku latenciu na akomkoľvek monitore."
+  },
+  "nav": {
+    "features": "Funkcie",
+    "install": "Inštalácia",
+    "faq": "FAQ",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "v3.7.2 — Smart Quality Edition",
+    "title": "Boosteroid Optimizer Plus",
+    "subtitle": "Vynútená 4K • Upscaling • Video filtre • Ultra-nízka latencia",
+    "description": "Transformujte váš cloud gaming zážitok s Boosteroidom pomocou inteligentného škálovania rozlíšenia, pokročilého vylepšenia videa a optimalizácie latencie. Funguje na akomkoľvek monitore.",
+    "cta": {
+      "install": "Inštalovať rozšírenie",
+      "features": "Prezrieť funkcie"
+    }
+  },
+  "stats": {
+    "upscaling": "Inteligentný upscaling",
+    "latency": "Ultra-nízka latencia",
+    "codec": "Kodek AV1/HEVC",
+    "languages": "15+ jazykov"
+  },
+  "features": {
+    "title": "Funkcie",
+    "subtitle": "Prémiové funkcie",
+    "description": "Všetko čo potrebujete na odomknutie plného potenciálu cloud gamingu Boosteroid.",
+    "items": {
+      "deviceProfiling": {
+        "title": "Inteligentné profilovanie zariadenia",
+        "description": "Automaticky deteguje CPU jadrá, RAM, typ siete, pomer obrazovky pre klasifikáciu vášho systému ako Low-End, Mid-Range alebo High-End.",
+        "tag": "AI"
+      },
+      "resolutionDetector": {
+        "title": "Inteligentný detektor rozlíšenia",
+        "description": "Generuje vlastné rozlíšenia (1080p/2K/4K) dokonale zodpovedajúce presnému pomeru vášho displeja: 16:9, 21:9, 32:9 a vlastné displeje.",
+        "tag": "Ultrawide"
+      },
+      "presets": {
+        "title": "5 Pro presetov",
+        "description": "Predvolený, Filmový, Kompetitívny, Komfort, Dokonalá kvalita. Každý preset konfiguruje filtre pre rôzne herné scenáre.",
+        "tag": "v3.7.2"
+      },
+      "videoFilters": {
+        "title": "Pokročilé video filtre",
+        "description": "Ostrenie USM, CAS, clarity, redukcia šumu, anti-banding, saturácia, gamma. Organizované do úrovní: Bezpečná, Ľahká, Vyvážená, Ultra.",
+        "tag": "Pro filtre"
+      },
+      "adaptiveQuality": {
+        "title": "Adaptívna kvalita",
+        "description": "Automaticky upravuje rozlíšenie a filtre na základe vášho hardvéru a výkonu v reálnom čase. Plynulá adaptácia.",
+        "tag": "Auto-Tune"
+      },
+      "codecSelector": {
+        "title": "Inteligentný výber kodeku",
+        "description": "Testuje MediaCapabilities pre výber najlepšieho kodeku: AV1 > HEVC > H.264. Hardvérovo akcelerované dekódovanie.",
+        "tag": "AV1 Ready"
+      },
+      "lowLatency": {
+        "title": "Režim nízkej latencie",
+        "description": "Optimalizuje WebRTC prijímač s playoutDelayHint pre minimálny input lag. Cieli na 12ms latenciu s automatickým ladením jitter bufferu.",
+        "tag": "Ultra rýchly"
+      },
+      "streamInterceptor": {
+        "title": "Stream Interceptor",
+        "description": "Voliteľný modul zachytávajúci konfiguračné požiadavky pre vynútenie hardvérového dekódovania a zvýšenie nastavení kvality.",
+        "tag": "Voliteľné"
+      },
+      "svgFilterPipeline": {
+        "title": "SVG filtrový pipeline",
+        "description": "GPU-akcelerované SVG filtre pre ostrenie USM, kontrastnú maticu, korekciu farieb. Minimálne zaťaženie CPU.",
+        "tag": "GPU akcel."
+      },
+      "zeroFlicker": {
+        "title": "Spustenie bez blikania",
+        "description": "Aplikuje video filtre pri štarte bez viditeľného záblesku. Používa requestIdleCallback pre nulové mikro-zaseknutia.",
+        "tag": "Rýchle"
+      },
+      "dashboard": {
+        "title": "Widget ovládacieho panela",
+        "description": "Plávajúci ovládací panel na dashboarde pre výber rozlíšenia a obnovenie stránky.",
+        "tag": "v3.7.2"
+      }
+    }
+  },
+  "install": {
+    "title": "Rýchly sprievodca",
+    "subtitle": "Inštalácia",
+    "description": "Začnite v 3 jednoduchých krokoch",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Nainštalujte Tampermonkey",
+        "description": "Pridajte rozšírenie Tampermonkey do vášho prehliadača. Je zadarmo a trvá 10 sekúnd."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Nainštalujte skript",
+        "description": "Kliknite na tlačidlo nižšie pre inštaláciu Boosteroid Optimizer Plus z GreasyFork."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Spustite Boosteroid",
+        "description": "Otvorte Boosteroid.com a spustite akúkoľvek hru. Skript sa aktivuje automaticky!"
+      }
+    },
+    "compatibleWith": "Kompatibilný s",
+    "cta": {
+      "install": "Inštalovať z GreasyFork",
+      "github": "Zdrojový kód na GitHub"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Často kladené otázky",
+    "items": {
+      "q1": {
+        "question": "Potrebujem 4K monitor?",
+        "answer": "Nie! Inteligentný detektor rozlíšenia generuje vlastné rozlíšenia (1080p, 2K, 4K) zodpovedajúce presnému pomeru vášho displeja. Boosteroid renderuje vo vyššom rozlíšení, potom zmenšuje pre ostrejší výstup aj na 1080p displeji."
+      },
+      "q2": {
+        "question": "Akých 6 presetov je k dispozícii?",
+        "answer": "① OFF (v predvolenom stave vypnuté) ② Predvolený (vyvážený) ③ Filmový (max filtre) ④ Kompetitívny (min spracovanie) ⑤ Komfort (ochrana očí) ⑥ Dokonalá kvalita (4K + max vylepšenie). Filtre sú v predvolenom stave OFF - vy si vyberiete ktorý preset aktivovať!"
+      },
+      "q3": {
+        "question": "Je to bezpečné / dostanem ban?",
+        "answer": "Tento skript beží iba na strane klienta vo vašom prehliadači. Nemení herné súbory ani servery Boosteroidu. Nulové riziko banu. Predstavte si to ako úpravu nastavení monitora alebo ostrosti v ovládači GPU."
+      },
+      "q4": {
+        "question": "Prečo mi klesá FPS so zapnutými filtrami?",
+        "answer": "Ťažké filtre (Clarity, Redukcia šumu, Deband) sú náročné na GPU. Povoľte režim výkonu cez Ctrl+Alt+P alebo ovládací panel. Skript automaticky upravuje intenzitu filtrov podľa úrovne vášho zariadenia."
+      },
+      "q5": {
+        "question": "Aký kodek skript používa?",
+        "answer": "Automaticky vyberá najlepší kodek podporovaný vaším hardvérom: AV1 (najlepší) > HEVC (výborný) > H.264 (záložný). Funguje ticho pri prvom načítaní. AV1 poskytuje ~30% lepšiu kvalitu pri rovnakom bitrate."
+      },
+      "q6": {
+        "question": "Ako ovládať optimalizátor?",
+        "answer": "Na dashboarde Boosteroid sa zobrazí ovládací panel s predvolene vypnutými presetmi. Je na vás, aby ste aktivovali prepínače: Adaptívna kvalita, rýchle presety a Režim výkonu. Vyberte rozlíšenie a obnovte stránku pre aplikovanie."
+      }
+    }
+  },
+  "download": {
+    "badge": "PRIPRAVENÉ NA STIAHNUTIE",
+    "title": "Pripravený Vylepšiť Svoj",
+    "titleHighlight": "Cloud Gaming?",
+    "description": "Pripojte sa k tisícom hráčov, ktorí si už",
+    "descriptionFree": "užívajú lepší zážitok z cloud gamingu.",
+    "descriptionEnd": "Zadarmo, Open Source a výkonný.",
+    "feature4K": "Podpora 4K",
+    "featureVisuals": "Vylepšená Grafika",
+    "featureLatency": "Nižšia Latencia",
+    "installButton": "Inštalovať Tampermonkey Script",
+    "githubButton": "Zobraziť na GitHub",
+    "joinButton": "Pripojiť sa na Discord",
+    "requiresTampermonkey": "Vyžaduje rozšírenie Tampermonkey",
+    "getItHere": "stiahnite tu"
+  },
+  "footer": {
+    "madeBy": "Vytvorené s",
+    "by": "od",
+    "notAffiliated": "Nie je spojené s Boosteroid.",
+    "legal": {
+      "privacy": "Súkromie",
+      "terms": "Podmienky"
+    },
+    "copyright": "© 2025 Boosteroid Optimizer Plus. Všetky práva vyhradené."
+  },
+  "languageSelector": {
+    "selectLanguage": "Vybrať jazyk"
+  },
+  "demo": {
+    "title": "Vyskúšajte Presety",
+    "titleHighlight": "Naživo",
+    "hint": "Potiahnite posuvník na porovnanie Pred/Po. Kliknite na presety pre zobrazenie efektov filtrov.",
+    "presets": {
+      "default": "Predvolený",
+      "defaultDesc": "Vyvážené pre väčšinu",
+      "cinematic": "Filmový",
+      "cinematicDesc": "Bohaté farby a hlboký kontrast",
+      "competitive": "Súťažný",
+      "competitiveDesc": "Minimálne spracovanie pre rýchlosť",
+      "comfort": "Komfort",
+      "comfortDesc": "Teplé tóny pre oči",
+      "perfectQuality": "Dokonalá Kvalita",
+      "perfectQualityDesc": "Maximálne vylepšenie"
+    }
+  }
+}

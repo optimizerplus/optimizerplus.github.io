@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Boosteroid Optimizer Plus | Kényszerített 4K és upscaling felhő gaminghez",
+    "description": "Oldja fel Boosteroid élményének teljes potenciálját. Kényszerítse ki a 4K felbontást, intelligens upscalinget, videószűrőket és ultraalacsony késleltetést bármilyen monitoron."
+  },
+  "nav": {
+    "features": "Funkciók",
+    "install": "Telepítés",
+    "faq": "GYIK",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "v3.7.2 — Smart Quality Edition",
+    "title": "Boosteroid Optimizer Plus",
+    "subtitle": "Kényszerített 4K • Upscaling • Videószűrők • Ultraalacsony késleltetés",
+    "description": "Alakítsa át Boosteroid felhő gaming élményét intelligens felbontás-skálázással, fejlett videójavítással és késleltetés-optimalizálással. Bármilyen monitoron működik.",
+    "cta": {
+      "install": "Bővítmény telepítése",
+      "features": "Funkciók megtekintése"
+    }
+  },
+  "stats": {
+    "upscaling": "Intelligens upscaling",
+    "latency": "Ultraalacsony késleltetés",
+    "codec": "AV1/HEVC kodek",
+    "languages": "15+ nyelv"
+  },
+  "features": {
+    "title": "Funkciók",
+    "subtitle": "Prémium funkciók",
+    "description": "Minden ami szükséges a Boosteroid felhő gaming teljes potenciáljának feloldásához.",
+    "items": {
+      "deviceProfiling": {
+        "title": "Intelligens eszközprofilozás",
+        "description": "Automatikusan észleli a CPU magokat, RAM-ot, hálózat típusát, képernyő arányt, hogy Low-End, Mid-Range vagy High-End kategóriába sorolja rendszerét.",
+        "tag": "AI"
+      },
+      "resolutionDetector": {
+        "title": "Intelligens felbontás-érzékelő",
+        "description": "Egyedi felbontásokat generál (1080p/2K/4K) amelyek tökéletesen illeszkednek a képernyő pontos arányához: 16:9, 21:9, 32:9 és egyedi kijelzők.",
+        "tag": "Ultrawide"
+      },
+      "presets": {
+        "title": "5 Pro preset",
+        "description": "Alapértelmezett, Filmes, Verseny, Kényelem, Tökéletes minőség. Minden preset különböző játékhelyzetekhez konfigurálja a szűrőket.",
+        "tag": "v3.7.2"
+      },
+      "videoFilters": {
+        "title": "Fejlett videószűrők",
+        "description": "USM élesítés, CAS, tisztaság, zajcsökkentés, anti-banding, telítettség, gamma. Szintekre szervezve: Biztonságos, Könnyű, Kiegyensúlyozott, Ultra.",
+        "tag": "Pro szűrők"
+      },
+      "adaptiveQuality": {
+        "title": "Adaptív minőség",
+        "description": "Automatikusan állítja a felbontást és szűrőket a hardver és valós idejű teljesítmény alapján. Zökkenőmentes adaptáció.",
+        "tag": "Auto-Tune"
+      },
+      "codecSelector": {
+        "title": "Intelligens kodek választó",
+        "description": "Teszteli a MediaCapabilities-t a legjobb kodek kiválasztásához: AV1 > HEVC > H.264. Hardveresen gyorsított dekódolás.",
+        "tag": "AV1 Ready"
+      },
+      "lowLatency": {
+        "title": "Alacsony késleltetés mód",
+        "description": "Optimalizálja a WebRTC vevőt playoutDelayHint-tel a minimális input lag érdekében. 12ms késleltetésre céloz automatikus jitter buffer hangolással.",
+        "tag": "Ultra gyors"
+      },
+      "streamInterceptor": {
+        "title": "Stream Interceptor",
+        "description": "Opcionális modul amely elfogja a konfigurációs kéréseket a hardveres dekódolás kényszerítéséhez és minőségi beállítások növeléséhez.",
+        "tag": "Opcionális"
+      },
+      "svgFilterPipeline": {
+        "title": "SVG szűrő pipeline",
+        "description": "GPU-gyorsított SVG szűrők USM élesítéshez, kontraszt mátrixhoz, színkorrekcióhoz. Minimális CPU terhelés.",
+        "tag": "GPU gyors."
+      },
+      "zeroFlicker": {
+        "title": "Villogásmentes indítás",
+        "description": "Videószűrőket alkalmaz indításkor látható villanás nélkül. RequestIdleCallback-et használ nulla mikro-akadáshoz.",
+        "tag": "Gyors"
+      },
+      "dashboard": {
+        "title": "Vezérlőpult widget",
+        "description": "Lebegő vezérlőpult a dashboardon a felbontás kiválasztásához és az oldal frissítéséhez.",
+        "tag": "v3.7.2"
+      }
+    }
+  },
+  "install": {
+    "title": "Gyors útmutató",
+    "subtitle": "Telepítés",
+    "description": "Kezdje 3 egyszerű lépésben",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Telepítse a Tampermonkey-t",
+        "description": "Adja hozzá a Tampermonkey bővítményt böngészőjéhez. Ingyenes és 10 másodperc."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Telepítse a szkriptet",
+        "description": "Kattintson az alábbi gombra a Boosteroid Optimizer Plus telepítéséhez a GreasyFork-ról."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Indítsa el a Boosteroidot",
+        "description": "Nyissa meg a Boosteroid.com-ot és indítson el bármilyen játékot. A szkript automatikusan aktiválódik!"
+      }
+    },
+    "compatibleWith": "Kompatibilis",
+    "cta": {
+      "install": "Telepítés GreasyFork-ról",
+      "github": "Forráskód GitHubon"
+    }
+  },
+  "faq": {
+    "title": "GYIK",
+    "subtitle": "Gyakran ismételt kérdések",
+    "items": {
+      "q1": {
+        "question": "Szükségem van 4K monitorra?",
+        "answer": "Nem! Az intelligens felbontás-érzékelő egyedi felbontásokat generál (1080p, 2K, 4K) amelyek illeszkednek a képernyő pontos arányához. A Boosteroid magasabb felbontásban renderel, majd leskálázza az élesebb kimenethez még 1080p kijelzőn is."
+      },
+      "q2": {
+        "question": "Milyen 6 preset érhető el?",
+        "answer": "① OFF (alapértelmezetten kikapcsolva) ② Alapértelmezett (kiegyensúlyozott) ③ Filmes (max szűrők) ④ Verseny (min feldolgozás) ⑤ Kényelem (szemvédelem) ⑥ Tökéletes minőség (4K + max javítás). A szűrők alapértelmezetten OFF - ön választja ki melyik preset-et aktiválja!"
+      },
+      "q3": {
+        "question": "Biztonságos / kitiltanak?",
+        "answer": "Ez a szkript csak kliensoldalon fut a böngészőjében. Nem módosítja a játékfájlokat vagy a Boosteroid szervereket. Nulla kitiltási kockázat. Gondoljon rá úgy, mint a monitor beállításainak vagy a GPU driver élességének módosítása."
+      },
+      "q4": {
+        "question": "Miért csökken az FPS-em bekapcsolt szűrőkkel?",
+        "answer": "A nehéz szűrők (Tisztaság, Zajcsökkentés, Deband) GPU-intenzívek. Kapcsolja be a teljesítmény módot Ctrl+Alt+P-vel vagy a vezérlőpulttal. A szkript automatikusan állítja a szűrő intenzitást az eszköz szintje alapján."
+      },
+      "q5": {
+        "question": "Milyen kodeket használ a szkript?",
+        "answer": "Automatikusan kiválasztja a hardver által támogatott legjobb kodeket: AV1 (legjobb) > HEVC (kiváló) > H.264 (tartalék). Csendesen működik az első betöltéskor. Az AV1 ~30%-kal jobb minőséget biztosít azonos bitráta mellett."
+      },
+      "q6": {
+        "question": "Hogyan irányítsam az optimalizálót?",
+        "answer": "A Boosteroid dashboardon megjelenik egy vezérlőpult alapértelmezetten kikapcsolt presetekkel. Önnek kell bekapcsolnia a kapcsolókat: Adaptív minőség, gyors presetek és Teljesítmény mód. Válassza ki a felbontást és frissítse az oldalt az alkalmazáshoz."
+      }
+    }
+  },
+  "download": {
+    "badge": "LETÖLTÉSRE KÉSZ",
+    "title": "Kész Javítani a",
+    "titleHighlight": "Felhő Játékodon?",
+    "description": "Csatlakozz ezrekhez, akik már",
+    "descriptionFree": "élvezik a jobb felhő játék élményt.",
+    "descriptionEnd": "Ingyenes, Nyílt Forrású és Hatékony.",
+    "feature4K": "4K Támogatás",
+    "featureVisuals": "Javított Grafika",
+    "featureLatency": "Alacsonyabb Késleltetés",
+    "installButton": "Tampermonkey Script Telepítése",
+    "githubButton": "Megtekintés GitHub-on",
+    "joinButton": "Csatlakozás Discord-hoz",
+    "requiresTampermonkey": "Tampermonkey bővítmény szükséges",
+    "getItHere": "töltse le itt"
+  },
+  "footer": {
+    "madeBy": "Készítve",
+    "by": "által",
+    "notAffiliated": "Nem kapcsolódik a Boosteroidhoz.",
+    "legal": {
+      "privacy": "Adatvédelem",
+      "terms": "Feltételek"
+    },
+    "copyright": "© 2025 Boosteroid Optimizer Plus. Minden jog fenntartva."
+  },
+  "languageSelector": {
+    "selectLanguage": "Nyelv kiválasztása"
+  },
+  "demo": {
+    "title": "Tesztelje a Preseteket",
+    "titleHighlight": "Élőben",
+    "hint": "Húzza a csúsztát az Előtte/Utána összehasonlításához. Kattintson a presetekre a szűrőhatások előnézetéhez.",
+    "presets": {
+      "default": "Alapértelmezett",
+      "defaultDesc": "Kiegyensúlyozott a legtöbb felhasználónak",
+      "cinematic": "Filmes",
+      "cinematicDesc": "Gazdag színek és mély kontraszt",
+      "competitive": "Versenyző",
+      "competitiveDesc": "Minimális feldolgozás a sebességért",
+      "comfort": "Kényelem",
+      "comfortDesc": "Meleg tónusok a szemnek",
+      "perfectQuality": "Tökéletes Minőség",
+      "perfectQualityDesc": "Maximális javítás"
+    }
+  }
+}

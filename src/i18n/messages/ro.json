@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": "Boosteroid Optimizer Plus | 4K forțat și upscaling pentru cloud gaming",
+    "description": "Deblocați întregul potențial al experienței Boosteroid. Forțați rezoluția 4K, upscaling inteligent, filtre video și latență ultra-scăzută pe orice monitor."
+  },
+  "nav": {
+    "features": "Funcții",
+    "install": "Instalare",
+    "faq": "FAQ",
+    "github": "GitHub"
+  },
+  "hero": {
+    "badge": "v3.7.2 — Smart Quality Edition",
+    "title": "Boosteroid Optimizer Plus",
+    "subtitle": "4K forțat • Upscaling • Filtre video • Latență ultra-scăzută",
+    "description": "Transformați experiența de cloud gaming Boosteroid cu scalare inteligentă a rezoluției, îmbunătățire video avansată și optimizare a latenței. Funcționează pe orice monitor.",
+    "cta": {
+      "install": "Instalează extensia",
+      "features": "Vezi funcțiile"
+    }
+  },
+  "stats": {
+    "upscaling": "Upscaling inteligent",
+    "latency": "Latență ultra-scăzută",
+    "codec": "Codec AV1/HEVC",
+    "languages": "15+ limbi"
+  },
+  "features": {
+    "title": "Funcții",
+    "subtitle": "Funcții premium",
+    "description": "Tot ce aveți nevoie pentru a debloca întregul potențial al cloud gaming-ului Boosteroid.",
+    "items": {
+      "deviceProfiling": {
+        "title": "Profilare inteligentă a dispozitivului",
+        "description": "Detectează automat nucleele CPU, RAM, tipul rețelei, raportul ecranului pentru a clasifica sistemul dvs. ca Low-End, Mid-Range sau High-End.",
+        "tag": "AI"
+      },
+      "resolutionDetector": {
+        "title": "Detector inteligent de rezoluție",
+        "description": "Generează rezoluții personalizate (1080p/2K/4K) care se potrivesc perfect cu raportul exact al ecranului: 16:9, 21:9, 32:9 și display-uri personalizate.",
+        "tag": "Ultrawide"
+      },
+      "presets": {
+        "title": "5 presetări Pro",
+        "description": "Default, Cinematic, Competitiv, Comfort, Calitate perfectă. Fiecare presetare configurează filtrele pentru diferite scenarii de joc.",
+        "tag": "v3.7.2"
+      },
+      "videoFilters": {
+        "title": "Filtre video avansate",
+        "description": "Sharpening USM, CAS, claritate, reducere zgomot, anti-banding, saturație, gamma. Organizate în niveluri: Safe, Light, Balanced, Ultra.",
+        "tag": "Filtre Pro"
+      },
+      "adaptiveQuality": {
+        "title": "Calitate adaptivă",
+        "description": "Ajustează automat rezoluția și filtrele pe baza hardware-ului și performanței în timp real. Adaptare fluidă.",
+        "tag": "Auto-Tune"
+      },
+      "codecSelector": {
+        "title": "Selector inteligent de codec",
+        "description": "Testează MediaCapabilities pentru a alege cel mai bun codec: AV1 > HEVC > H.264. Decodare accelerată hardware.",
+        "tag": "AV1 Ready"
+      },
+      "lowLatency": {
+        "title": "Mod Latență Scăzută",
+        "description": "Optimizează receptorul WebRTC cu playoutDelayHint pentru input lag minim. Țintește 12ms latență cu ajustare automată a buffer-ului de jitter.",
+        "tag": "Ultra Rapid"
+      },
+      "streamInterceptor": {
+        "title": "Stream Interceptor",
+        "description": "Modul opțional care interceptează cererile de configurare pentru a forța decodarea hardware și a crește setările de calitate.",
+        "tag": "Opțional"
+      },
+      "svgFilterPipeline": {
+        "title": "Pipeline filtre SVG",
+        "description": "Filtre SVG accelerate GPU pentru sharpening USM, matrice contrast, corecție culoare. Încărcare minimă CPU.",
+        "tag": "GPU accel."
+      },
+      "zeroFlicker": {
+        "title": "Pornire fără flickering",
+        "description": "Aplică filtrele video la pornire fără flash vizibil. Folosește requestIdleCallback pentru zero micro-stutters.",
+        "tag": "Rapid"
+      },
+      "dashboard": {
+        "title": "Widget panou de control",
+        "description": "Panou de control plutitor pe dashboard pentru selectarea rezoluției și reîmprospătarea paginii.",
+        "tag": "v3.7.2"
+      }
+    }
+  },
+  "install": {
+    "title": "Ghid Rapid",
+    "subtitle": "Instalare",
+    "description": "Începeți în 3 pași simpli",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Instalați Tampermonkey",
+        "description": "Adăugați extensia Tampermonkey în browser. Este gratuită și durează 10 secunde."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Instalați scriptul",
+        "description": "Faceți clic pe butonul de mai jos pentru a instala Boosteroid Optimizer Plus de pe GreasyFork."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Lansați Boosteroid",
+        "description": "Deschideți Boosteroid.com și lansați orice joc. Scriptul se activează automat!"
+      }
+    },
+    "compatibleWith": "Compatibil cu",
+    "cta": {
+      "install": "Instalează de pe GreasyFork",
+      "github": "Cod sursă pe GitHub"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Întrebări frecvente",
+    "items": {
+      "q1": {
+        "question": "Am nevoie de un monitor 4K?",
+        "answer": "Nu! Detectorul inteligent de rezoluție generează rezoluții personalizate (1080p, 2K, 4K) care se potrivesc cu raportul exact al ecranului. Boosteroid randează la rezoluție mai mare, apoi micșorează pentru ieșire mai clară chiar și pe display 1080p."
+      },
+      "q2": {
+        "question": "Care sunt cele 6 presetări disponibile?",
+        "answer": "① OFF (dezactivat implicit) ② Default (echilibrat) ③ Cinematic (filtre max) ④ Competitiv (procesare min) ⑤ Comfort (protecție ochi) ⑥ Calitate perfectă (4K + îmbunătățire max). Filtrele sunt OFF implicit - tu alegi ce presetări să activezi!"
+      },
+      "q3": {
+        "question": "Este sigur / voi fi banat?",
+        "answer": "Acest script rulează doar pe partea clientului în browser. Nu modifică fișierele jocului sau serverele Boosteroid. Zero risc de ban. Gândiți-vă la el ca la ajustarea setărilor monitorului sau clarității driverului GPU."
+      },
+      "q4": {
+        "question": "De ce îmi scade FPS-ul cu filtrele activate?",
+        "answer": "Filtrele grele (Claritate, Reducere zgomot, Deband) sunt intensive GPU. Activați modul performanță prin Ctrl+Alt+P sau panoul de control. Scriptul ajustează automat intensitatea filtrelor pe baza nivelului dispozitivului."
+      },
+      "q5": {
+        "question": "Ce codec folosește scriptul?",
+        "answer": "Selectează automat cel mai bun codec suportat de hardware: AV1 (cel mai bun) > HEVC (excelent) > H.264 (backup). Funcționează silențios la prima încărcare. AV1 oferă calitate ~30% mai bună la același bitrate."
+      },
+      "q6": {
+        "question": "Cum controlez optimizatorul?",
+        "answer": "Un panou de control apare pe dashboard-ul Boosteroid cu presetările dezactivate implicit. Depinde de tine să activezi comutatoarele: Calitate Adaptivă, presetări rapide și Mod Performanță. Selectează rezoluția și reîmprospătează pagina pentru a aplica."
+      }
+    }
+  },
+  "download": {
+    "badge": "GATA DE DESCĂRCARE",
+    "title": "Pregătit să-ți Îmbunătățești",
+    "titleHighlight": "Experiența Cloud Gaming?",
+    "description": "Alătură-te miilor de jucători care deja",
+    "descriptionFree": "se bucură de o experiență mai bună de cloud gaming.",
+    "descriptionEnd": "Gratuit, Open Source și puternic.",
+    "feature4K": "Suport 4K",
+    "featureVisuals": "Grafică Îmbunătățită",
+    "featureLatency": "Latență Mai Mică",
+    "installButton": "Instalează Script Tampermonkey",
+    "githubButton": "Vizualizează pe GitHub",
+    "joinButton": "Alătură-te pe Discord",
+    "requiresTampermonkey": "Necesită extensia Tampermonkey",
+    "getItHere": "descarcă de aici"
+  },
+  "footer": {
+    "madeBy": "Realizat cu",
+    "by": "de",
+    "notAffiliated": "Neafiliat cu Boosteroid.",
+    "legal": {
+      "privacy": "Confidențialitate",
+      "terms": "Termeni"
+    },
+    "copyright": "© 2025 Boosteroid Optimizer Plus. Toate drepturile rezervate."
+  },
+  "languageSelector": {
+    "selectLanguage": "Selectați limba"
+  },
+  "demo": {
+    "title": "Testează Preseturile",
+    "titleHighlight": "Live",
+    "before": "Înainte",
+    "hint": "Trage cursorul pentru a compara Înainte/După. Apasă pe preseturi pentru a previzualiza efectele.",
+    "presets": {
+      "default": "Implicit",
+      "defaultDesc": "Echilibrat pentru majoritatea",
+      "cinematic": "Cinematic",
+      "cinematicDesc": "Culori bogate și contrast profund",
+      "competitive": "Competitiv",
+      "competitiveDesc": "Procesare minimală pentru viteză",
+      "comfort": "Confort",
+      "comfortDesc": "Tonuri calde pentru ochi",
+      "perfectQuality": "Calitate Perfectă",
+      "perfectQualityDesc": "Îmbunătățire maximă"
+    }
+  }
+}

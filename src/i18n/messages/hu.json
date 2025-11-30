@@ -11,8 +11,7 @@
   },
   "hero": {
     "badge": "v3.7.2 — Smart Quality Edition",
-    "title": "Boosteroid Optimizer Plus",
-    "subtitle": "Kényszerített 4K • Upscaling • Videószűrők • Ultraalacsony késleltetés",
+    "title": "Boosteroid Optimizer Plus","pcOnly": "🖥️ Csak PC-re","subtitle": "Kényszerített 4K • Upscaling • Videószűrők • Ultraalacsony késleltetés",
     "description": "Alakítsa át Boosteroid felhő gaming élményét intelligens felbontás-skálázással, fejlett videójavítással és késleltetés-optimalizálással. Bármilyen monitoron működik.",
     "cta": {
       "install": "Bővítmény telepítése",

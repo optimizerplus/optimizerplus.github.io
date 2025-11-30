@@ -1802,9 +1802,13 @@ function Download() {
           </p>
           
           {/* PC Only Notice */}
-          <div className="mt-4 inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/30 rounded-lg px-4 py-2">
-            <span className="text-amber-400 text-lg">🖥️</span>
-            <span className="text-amber-300 text-sm font-medium">{t.pcOnly}</span>
+          <div className="mt-4 inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-lg px-4 py-2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5 text-boo-blue flex-shrink-0">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <line x1="8" y1="21" x2="16" y2="21" />
+              <line x1="12" y1="17" x2="12" y2="21" />
+            </svg>
+            <span className="text-white/60 text-sm">{t.pcOnly}</span>
           </div>
           
           {/* Retro arcade footer */}

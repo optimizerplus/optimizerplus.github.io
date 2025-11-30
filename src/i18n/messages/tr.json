@@ -12,7 +12,7 @@
   "hero": {
     "badge": "v3.7.2 — Smart Quality Edition",
     "title": "Boosteroid Optimizer Plus",
-    "pcOnly": "🖥️ Sadece PC",
+    "pcOnly": "Sadece PC",
     "subtitle": "Zorunlu 4K • Upscaling • Video Filtreleri • Ultra Düşük Gecikme",
     "description": "Akıllı çözünürlük ölçekleme, gelişmiş video iyileştirme ve gecikme optimizasyonu ile Boosteroid bulut oyun deneyiminizi dönüştürün. Her monitörde çalışır.",
     "cta": {
@@ -159,7 +159,7 @@
     "githubButton": "GitHub'da Gör",
     "joinButton": "Discord'a Katıl",
     "requiresTampermonkey": "Tampermonkey eklentisi gerektirir",
-    "pcOnly": "🖥️ Sadece PC — Mobil cihazlarla uyumlu değil",
+    "pcOnly": "Sadece PC — Mobil cihazlarla uyumlu değil",
     "getItHere": "buradan indirin"
   },
   "footer": {

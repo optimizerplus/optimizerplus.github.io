@@ -12,7 +12,7 @@
   "hero": {
     "badge": "v3.7.2 — Edição Smart Quality",
     "title": "Boosteroid Optimizer Plus",
-    "pcOnly": "🖥️ Apenas PC",
+    "pcOnly": "Apenas PC",
     "subtitle": "Forçar 4K • Upscaling Inteligente • Filtros de Vídeo • Zero Vazamento VRAM",
     "description": "Transforme sua experiência de cloud gaming Boosteroid com escalonamento inteligente de resolução, melhorias de vídeo avançadas e otimização de latência. Funciona em qualquer monitor.",
     "cta": {
@@ -159,7 +159,7 @@
     "githubButton": "Ver no GitHub",
     "joinButton": "Entrar no Discord",
     "requiresTampermonkey": "Requer a extensão Tampermonkey",
-    "pcOnly": "🖥️ Apenas PC — Não compatível com dispositivos móveis",
+    "pcOnly": "Apenas PC — Não compatível com dispositivos móveis",
     "getItHere": "baixe aqui"
   },
   "footer": {

@@ -11,7 +11,7 @@
   },
   "hero": {
     "badge": "v3.7.2 — Smart Quality Edition",
-    "title": "Boosteroid Optimizer Plus","pcOnly": "🖥️ Endast PC","subtitle": "Tvingad 4K • Uppskalning • Videofilter • Ultralåg latens",
+    "title": "Boosteroid Optimizer Plus","pcOnly": "Endast PC","subtitle": "Tvingad 4K • Uppskalning • Videofilter • Ultralåg latens",
     "description": "Förvandla din Boosteroid molnspelupplevelse med smart upplösningsskalning, avancerad videoförbättring och latensoptimering. Fungerar på vilken bildskärm som helst.",
     "cta": {
       "install": "Installera tillägget",
@@ -157,7 +157,7 @@
     "githubButton": "Visa på GitHub",
     "joinButton": "Gå med i Discord",
     "requiresTampermonkey": "Kräver Tampermonkey-tillägg",
-    "pcOnly": "🖥️ Endast PC — Inte kompatibel med mobila enheter",
+    "pcOnly": "Endast PC — Inte kompatibel med mobila enheter",
     "getItHere": "ladda ner här"
   },
   "footer": {

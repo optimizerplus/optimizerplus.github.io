@@ -12,7 +12,7 @@
   "hero": {
     "badge": "v3.7.2 — Smart Quality Edition",
     "title": "Boosteroid Optimizer Plus",
-    "pcOnly": "🖥️ Len pre PC",
+    "pcOnly": "Len pre PC",
     "subtitle": "Vynútená 4K • Upscaling • Video filtre • Ultra-nízka latencia",
     "description": "Transformujte váš cloud gaming zážitok s Boosteroidom pomocou inteligentného škálovania rozlíšenia, pokročilého vylepšenia videa a optimalizácie latencie. Funguje na akomkoľvek monitore.",
     "cta": {
@@ -159,7 +159,7 @@
     "githubButton": "Zobraziť na GitHub",
     "joinButton": "Pripojiť sa na Discord",
     "requiresTampermonkey": "Vyžaduje rozšírenie Tampermonkey",
-    "pcOnly": "🖥️ Len pre PC — Nekompatibilné s mobilnými zariadeniami",
+    "pcOnly": "Len pre PC — Nekompatibilné s mobilnými zariadeniami",
     "getItHere": "stiahnite tu"
   },
   "footer": {

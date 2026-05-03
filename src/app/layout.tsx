@@ -66,10 +66,10 @@ export const metadata: Metadata = {
     },
   },
   
-  // Verification - Add your Google Search Console verification code here
-  // verification: {
-  //   google: 'your-google-verification-code',
-  // },
+  // Verification - Google Search Console
+  verification: {
+    google: '5aa59018dfac5693',
+  },
   
   // Icons
   icons: {

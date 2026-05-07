@@ -10,9 +10,9 @@
     "github": "GitHub"
   },
   "hero": {
-    "badge": "v3.7.2 — Smart Quality издание",
+    "badge": "v3.9.0 — Smart Quality издание",
     "title": "Boosteroid Optimizer Plus",
-    "pcOnly": "Только для ПК",
+    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
     "subtitle": "Принудительное 4K • Умный апскейлинг • Видеофильтры • Ноль утечек VRAM",
     "description": "Преобразите ваш опыт облачного гейминга Boosteroid с умным масштабированием разрешения, продвинутым улучшением видео и оптимизацией задержки. Работает на любом мониторе.",
     "cta": {
@@ -44,7 +44,7 @@
       "presets": {
         "title": "5 Pro пресетов",
         "description": "По умолчанию, Кинематографический, Соревновательный, Комфорт, Идеальное качество. Пресеты ВЫКЛЮЧЕНЫ по умолчанию — вы выбираете.",
-        "tag": "v3.7.2"
+        "tag": "v3.9.0"
       },
       "videoFilters": {
         "title": "Продвинутые видеофильтры",
@@ -84,7 +84,7 @@
       "dashboard": {
         "title": "Виджет панели управления",
         "description": "Плавающая панель управления для выбора желаемого разрешения и обновления страницы для применения изменений. Просто и эффективно.",
-        "tag": "v3.7.2"
+        "tag": "v3.9.0"
       }
     }
   },
@@ -159,7 +159,7 @@
     "githubButton": "Смотреть на GitHub",
     "joinButton": "Присоединиться в Discord",
     "requiresTampermonkey": "Требуется расширение Tampermonkey",
-    "pcOnly": "Только для ПК — Не совместимо с мобильными устройствами",
+    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
     "getItHere": "скачать здесь"
   },
   "footer": {

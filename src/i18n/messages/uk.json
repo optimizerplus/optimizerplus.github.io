@@ -10,9 +10,9 @@
     "github": "GitHub"
   },
   "hero": {
-    "badge": "v3.7.2 — Smart Quality Edition",
+    "badge": "v3.9.0 — Mobile & Custom Presets Edition",
     "title": "Boosteroid Optimizer Plus",
-    "pcOnly": "Тільки для ПК",
+    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
     "subtitle": "Примусова 4K • Апскейлінг • Відеофільтри • Надзвичайно низька затримка",
     "description": "Перетворіть ваш досвід хмарного геймінгу Boosteroid з розумним масштабуванням роздільної здатності, просунутим покращенням відео та оптимізацією затримки. Працює на будь-якому моніторі.",
     "cta": {
@@ -44,7 +44,7 @@
       "presets": {
         "title": "5 Pro пресетів",
         "description": "За замовчуванням, Кінематографічний, Змагальний, Комфорт, Ідеальна якість. Кожен пресет налаштовує фільтри для різних ігрових сценаріїв.",
-        "tag": "v3.7.2"
+        "tag": "v3.9.0"
       },
       "videoFilters": {
         "title": "Просунуті відеофільтри",
@@ -84,7 +84,7 @@
       "dashboard": {
         "title": "Віджет панелі керування",
         "description": "Плаваюча панель керування для вибору бажаної роздільної здатності та оновлення сторінки для застосування змін. Просто та ефективно.",
-        "tag": "v3.7.2"
+        "tag": "v3.9.0"
       }
     }
   },
@@ -159,7 +159,7 @@
     "githubButton": "Переглянути на GitHub",
     "joinButton": "Приєднатися до Discord",
     "requiresTampermonkey": "Потрібне розширення Tampermonkey",
-    "pcOnly": "Тільки для ПК — Не сумісний з мобільними пристроями",
+    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
     "getItHere": "завантажити тут"
   },
   "footer": {

@@ -10,8 +10,8 @@
     "github": "GitHub"
   },
   "hero": {
-    "badge": "v3.7.2 — Smart Quality Edition",
-    "title": "Boosteroid Optimizer Plus","pcOnly": "Csak PC-re","subtitle": "Kényszerített 4K • Upscaling • Videószűrők • Ultraalacsony késleltetés",
+    "badge": "v3.9.0 — Mobile & Custom Presets Edition",
+    "title": "Boosteroid Optimizer Plus","mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode","subtitle": "Kényszerített 4K • Upscaling • Videószűrők • Ultraalacsony késleltetés",
     "description": "Alakítsa át Boosteroid felhő gaming élményét intelligens felbontás-skálázással, fejlett videójavítással és késleltetés-optimalizálással. Bármilyen monitoron működik.",
     "cta": {
       "install": "Bővítmény telepítése",
@@ -42,7 +42,7 @@
       "presets": {
         "title": "5 Pro preset",
         "description": "Alapértelmezett, Filmes, Verseny, Kényelem, Tökéletes minőség. Minden preset különböző játékhelyzetekhez konfigurálja a szűrőket.",
-        "tag": "v3.7.2"
+        "tag": "v3.9.0"
       },
       "videoFilters": {
         "title": "Fejlett videószűrők",
@@ -82,7 +82,7 @@
       "dashboard": {
         "title": "Vezérlőpult widget",
         "description": "Lebegő vezérlőpult a dashboardon a felbontás kiválasztásához és az oldal frissítéséhez.",
-        "tag": "v3.7.2"
+        "tag": "v3.9.0"
       }
     }
   },
@@ -157,7 +157,7 @@
     "githubButton": "Megtekintés GitHub-on",
     "joinButton": "Csatlakozás Discord-hoz",
     "requiresTampermonkey": "Tampermonkey bővítmény szükséges",
-    "pcOnly": "Csak PC-re — Nem kompatibilis mobil eszközökkel",
+    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
     "getItHere": "töltse le itt"
   },
   "footer": {

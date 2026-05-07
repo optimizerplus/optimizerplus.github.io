@@ -10,9 +10,9 @@
     "github": "GitHub"
   },
   "hero": {
-    "badge": "v3.7.2 — Smart Quality Edition",
+    "badge": "v3.9.0 — Mobile & Custom Presets Edition",
     "title": "Boosteroid Optimizer Plus",
-    "pcOnly": "Len pre PC",
+    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
     "subtitle": "Vynútená 4K • Upscaling • Video filtre • Ultra-nízka latencia",
     "description": "Transformujte váš cloud gaming zážitok s Boosteroidom pomocou inteligentného škálovania rozlíšenia, pokročilého vylepšenia videa a optimalizácie latencie. Funguje na akomkoľvek monitore.",
     "cta": {
@@ -44,7 +44,7 @@
       "presets": {
         "title": "5 Pro presetov",
         "description": "Predvolený, Filmový, Kompetitívny, Komfort, Dokonalá kvalita. Každý preset konfiguruje filtre pre rôzne herné scenáre.",
-        "tag": "v3.7.2"
+        "tag": "v3.9.0"
       },
       "videoFilters": {
         "title": "Pokročilé video filtre",
@@ -84,7 +84,7 @@
       "dashboard": {
         "title": "Widget ovládacieho panela",
         "description": "Plávajúci ovládací panel na dashboarde pre výber rozlíšenia a obnovenie stránky.",
-        "tag": "v3.7.2"
+        "tag": "v3.9.0"
       }
     }
   },
@@ -159,7 +159,7 @@
     "githubButton": "Zobraziť na GitHub",
     "joinButton": "Pripojiť sa na Discord",
     "requiresTampermonkey": "Vyžaduje rozšírenie Tampermonkey",
-    "pcOnly": "Len pre PC — Nekompatibilné s mobilnými zariadeniami",
+    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
     "getItHere": "stiahnite tu"
   },
   "footer": {

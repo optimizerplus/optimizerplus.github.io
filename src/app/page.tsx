@@ -906,12 +906,9 @@ function Header() {
 
 // Hero section
 function Hero() {
-  const { messages, locale } = useTranslations()
+  const { messages } = useTranslations()
   const t = messages.hero
   const stats = messages.stats
-  const releaseBadge = locale === 'fr'
-    ? 'v3.9.0-beta — Édition Mobile & Presets'
-    : 'v3.9.0-beta — Mobile & Custom Presets Edition'
 
   return (
     <section className="relative min-h-screen flex items-center justify-center hero-animated-bg pt-24 overflow-hidden">
@@ -958,7 +955,7 @@ function Hero() {
         {/* Badge with neon effect */}
         <div className="inline-flex items-center gap-2 bg-boo-dark/80 border border-boo-blue/30 rounded-full px-4 py-2 mb-6 animate-border-glow backdrop-blur-sm neon-box text-boo-blue">
           <span className="w-2 h-2 bg-boo-green rounded-full animate-ping" />
-          <span className="text-sm text-white/80 font-mono">{releaseBadge}</span>
+          <span className="text-sm text-white/80 font-mono">{t.badge}</span>
         </div>
 
         {/* Main title with glitch effect */}
@@ -1700,14 +1697,8 @@ function Installation() {
 
 // Download section
 function Download() {
-  const { messages, locale } = useTranslations()
+  const { messages } = useTranslations()
   const t = messages.download
-  const releaseBadge = locale === 'fr'
-    ? 'v3.9.0-beta — Édition Mobile & Presets'
-    : 'v3.9.0-beta — Mobile & Custom Presets Edition'
-  const compatibilityText = locale === 'fr'
-    ? 'Compatible mobile — Téléphone, tablette et mode PWA'
-    : 'Mobile compatible — Phones, tablets and PWA mode'
 
   return (
     <section id="download" className="py-20 bg-boo-dark relative overflow-hidden">
@@ -1758,7 +1749,7 @@ function Download() {
           
           <div className="inline-flex items-center gap-2 text-boo-green text-sm font-mono mb-6 neon-box px-3 py-1 rounded-full">
             <span className="w-2 h-2 bg-boo-green rounded-full animate-pulse shadow-[0_0_10px_#22c55e]"></span>
-            <span className="glitch-text" data-text={releaseBadge}>{releaseBadge}</span>
+            <span className="glitch-text" data-text={t.badge}>{t.badge}</span>
           </div>
           
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 rgb-split" data-text={`${t.title} ${t.titleHighlight}`}>
@@ -1816,7 +1807,7 @@ function Download() {
               <rect x="7" y="2" width="10" height="20" rx="2" />
               <line x1="11" y1="18" x2="13" y2="18" />
             </svg>
-            <span className="text-white/60 text-sm">{compatibilityText}</span>
+            <span className="text-white/60 text-sm">{t.mobileCompatible}</span>
           </div>
           
           {/* Retro arcade footer */}

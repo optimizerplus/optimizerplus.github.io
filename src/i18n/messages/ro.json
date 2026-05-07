@@ -10,9 +10,9 @@
     "github": "GitHub"
   },
   "hero": {
-    "badge": "v3.7.2 — Smart Quality Edition",
+    "badge": "v3.9.0 — Mobile & Custom Presets Edition",
     "title": "Boosteroid Optimizer Plus",
-    "pcOnly": "Doar PC",
+    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
     "subtitle": "4K forțat • Upscaling • Filtre video • Latență ultra-scăzută",
     "description": "Transformați experiența de cloud gaming Boosteroid cu scalare inteligentă a rezoluției, îmbunătățire video avansată și optimizare a latenței. Funcționează pe orice monitor.",
     "cta": {
@@ -44,7 +44,7 @@
       "presets": {
         "title": "5 presetări Pro",
         "description": "Default, Cinematic, Competitiv, Comfort, Calitate perfectă. Fiecare presetare configurează filtrele pentru diferite scenarii de joc.",
-        "tag": "v3.7.2"
+        "tag": "v3.9.0"
       },
       "videoFilters": {
         "title": "Filtre video avansate",
@@ -84,7 +84,7 @@
       "dashboard": {
         "title": "Widget panou de control",
         "description": "Panou de control plutitor pe dashboard pentru selectarea rezoluției și reîmprospătarea paginii.",
-        "tag": "v3.7.2"
+        "tag": "v3.9.0"
       }
     }
   },
@@ -159,7 +159,7 @@
     "githubButton": "Vizualizează pe GitHub",
     "joinButton": "Alătură-te pe Discord",
     "requiresTampermonkey": "Necesită extensia Tampermonkey",
-    "pcOnly": "Doar PC — Nu este compatibil cu dispozitivele mobile",
+    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
     "getItHere": "descarcă de aici"
   },
   "footer": {

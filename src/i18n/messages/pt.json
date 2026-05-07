@@ -10,9 +10,9 @@
     "github": "GitHub"
   },
   "hero": {
-    "badge": "v3.7.2 — Edição Smart Quality",
+    "badge": "v3.9.0 — Edição Smart Quality",
     "title": "Boosteroid Optimizer Plus",
-    "pcOnly": "Apenas PC",
+    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
     "subtitle": "Forçar 4K • Upscaling Inteligente • Filtros de Vídeo • Zero Vazamento VRAM",
     "description": "Transforme sua experiência de cloud gaming Boosteroid com escalonamento inteligente de resolução, melhorias de vídeo avançadas e otimização de latência. Funciona em qualquer monitor.",
     "cta": {
@@ -44,7 +44,7 @@
       "presets": {
         "title": "5 Presets Pro",
         "description": "Padrão, Cinematográfico, Competitivo, Conforto, Qualidade Perfeita. Presets estão DESATIVADOS por padrão — você escolhe.",
-        "tag": "v3.7.2"
+        "tag": "v3.9.0"
       },
       "videoFilters": {
         "title": "Filtros de Vídeo Avançados",
@@ -84,7 +84,7 @@
       "dashboard": {
         "title": "Widget Dashboard",
         "description": "Painel de controle flutuante para selecionar a resolução desejada e atualizar a página para aplicar as mudanças. Simples e eficaz.",
-        "tag": "v3.7.2"
+        "tag": "v3.9.0"
       }
     }
   },
@@ -159,7 +159,7 @@
     "githubButton": "Ver no GitHub",
     "joinButton": "Entrar no Discord",
     "requiresTampermonkey": "Requer a extensão Tampermonkey",
-    "pcOnly": "Apenas PC — Não compatível com dispositivos móveis",
+    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
     "getItHere": "baixe aqui"
   },
   "footer": {

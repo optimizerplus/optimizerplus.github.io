@@ -12,7 +12,7 @@
   "hero": {
     "badge": "v3.9.0 — Mobile & Custom Presets Edition",
     "title": "Boosteroid Optimizer Plus",
-    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
+    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Force 4K • Smart Upscaling • Video Filters • Zero VRAM Leak",
     "description": "Transform your Boosteroid cloud gaming experience with smart resolution scaling, advanced video enhancement, and ultra-low latency optimization. Works on any monitor.",
     "cta": {
@@ -169,7 +169,7 @@
     "githubButton": "View on GitHub",
     "joinButton": "Join Boosteroid",
     "requiresTampermonkey": "Requires Tampermonkey browser extension.",
-    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
+    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "getItHere": "Get it here"
   },
   "languageSelector": {

@@ -12,7 +12,7 @@
   "hero": {
     "badge": "v3.9.0 — Smart Quality издание",
     "title": "Boosteroid Optimizer Plus",
-    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
+    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Принудительное 4K • Умный апскейлинг • Видеофильтры • Ноль утечек VRAM",
     "description": "Преобразите ваш опыт облачного гейминга Boosteroid с умным масштабированием разрешения, продвинутым улучшением видео и оптимизацией задержки. Работает на любом мониторе.",
     "cta": {
@@ -159,7 +159,7 @@
     "githubButton": "Смотреть на GitHub",
     "joinButton": "Присоединиться в Discord",
     "requiresTampermonkey": "Требуется расширение Tampermonkey",
-    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
+    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "getItHere": "скачать здесь"
   },
   "footer": {

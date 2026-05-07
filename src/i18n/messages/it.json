@@ -12,7 +12,7 @@
   "hero": {
     "badge": "v3.9.0 — Edizione Smart Quality",
     "title": "Boosteroid Optimizer Plus",
-    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
+    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Forza 4K • Upscaling Intelligente • Filtri Video • Zero Leak VRAM",
     "description": "Trasforma la tua esperienza di cloud gaming Boosteroid con scaling intelligente della risoluzione, miglioramenti video avanzati e ottimizzazione della latenza. Funziona su qualsiasi monitor.",
     "cta": {
@@ -158,7 +158,7 @@
     "installButton": "Installa Script Tampermonkey",
     "githubButton": "Vedi su GitHub",
     "joinButton": "Unisciti a Discord",
-    "requiresTampermonkey": "Richiede l'estensione Tampermonkey",    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",    "getItHere": "scaricala qui"
+    "requiresTampermonkey": "Richiede l'estensione Tampermonkey",    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",    "getItHere": "scaricala qui"
   },
   "footer": {
     "madeBy": "Fatto con",

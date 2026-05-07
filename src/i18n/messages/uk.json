@@ -12,7 +12,7 @@
   "hero": {
     "badge": "v3.9.0 — Mobile & Custom Presets Edition",
     "title": "Boosteroid Optimizer Plus",
-    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
+    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Примусова 4K • Апскейлінг • Відеофільтри • Надзвичайно низька затримка",
     "description": "Перетворіть ваш досвід хмарного геймінгу Boosteroid з розумним масштабуванням роздільної здатності, просунутим покращенням відео та оптимізацією затримки. Працює на будь-якому моніторі.",
     "cta": {
@@ -159,7 +159,7 @@
     "githubButton": "Переглянути на GitHub",
     "joinButton": "Приєднатися до Discord",
     "requiresTampermonkey": "Потрібне розширення Tampermonkey",
-    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
+    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "getItHere": "завантажити тут"
   },
   "footer": {

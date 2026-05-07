@@ -12,7 +12,7 @@
   "hero": {
     "badge": "v3.9.0 — Mobile & Custom Presets Edition",
     "title": "Boosteroid Optimizer Plus",
-    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
+    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Zorunlu 4K • Upscaling • Video Filtreleri • Ultra Düşük Gecikme",
     "description": "Akıllı çözünürlük ölçekleme, gelişmiş video iyileştirme ve gecikme optimizasyonu ile Boosteroid bulut oyun deneyiminizi dönüştürün. Her monitörde çalışır.",
     "cta": {
@@ -159,7 +159,7 @@
     "githubButton": "GitHub'da Gör",
     "joinButton": "Discord'a Katıl",
     "requiresTampermonkey": "Tampermonkey eklentisi gerektirir",
-    "mobileCompatible": "Mobile compatible � Phones, tablets and PWA mode",
+    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "getItHere": "buradan indirin"
   },
   "footer": {

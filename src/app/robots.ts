@@ -7,8 +7,6 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: '/private/',
     },
-    sitemap: 'https://boosteroid-optimizer.com/sitemap.xml',
+    sitemap: 'https://optimizerplus.github.io/sitemap.xml',
   }
-}

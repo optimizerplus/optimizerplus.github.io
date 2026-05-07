@@ -466,7 +466,7 @@ const Icons = {
   ),
 }
 
-// Features data - Based on actual script v3.7.2 capabilities
+// Features data - Based on actual script v3.9.0-beta capabilities
 const features = [
   {
     title: 'Smart Device Profiling',
@@ -481,7 +481,7 @@ const features = [
   {
     title: '5 Pro Presets',
     description: <><strong>Default</strong>, <strong>Cinematic</strong>, <strong>Competitive</strong>, <strong>Comfort</strong>, <strong>Perfect Quality</strong>. Presets are <em>OFF by default</em> — you choose.</>,
-    tag: 'v3.7.2',
+    tag: 'v3.9.0-beta',
   },
   {
     title: 'Advanced Video Filters',
@@ -526,7 +526,7 @@ const features = [
   {
     title: 'Dashboard Widget',
     description: <>Floating control panel on dashboard to <strong>configure resolution before launching</strong> a game. Quick access to all settings with <em>smooth animations</em>.</>,
-    tag: 'v3.7.2',
+    tag: 'v3.9.0-beta',
   },
   {
     title: 'Multi-Monitor Support',
@@ -535,7 +535,7 @@ const features = [
   },
 ]
 
-// FAQ data - Based on actual v3.7.2 documentation
+// FAQ data - Based on actual v3.9.0-beta documentation
 const faqs = [
   {
     question: 'Do I need a 4K monitor to use this?',
@@ -906,9 +906,12 @@ function Header() {
 
 // Hero section
 function Hero() {
-  const { messages } = useTranslations()
+  const { messages, locale } = useTranslations()
   const t = messages.hero
   const stats = messages.stats
+  const releaseBadge = locale === 'fr'
+    ? 'v3.9.0-beta — Édition Mobile & Presets'
+    : 'v3.9.0-beta — Mobile & Custom Presets Edition'
 
   return (
     <section className="relative min-h-screen flex items-center justify-center hero-animated-bg pt-24 overflow-hidden">
@@ -955,7 +958,7 @@ function Hero() {
         {/* Badge with neon effect */}
         <div className="inline-flex items-center gap-2 bg-boo-dark/80 border border-boo-blue/30 rounded-full px-4 py-2 mb-6 animate-border-glow backdrop-blur-sm neon-box text-boo-blue">
           <span className="w-2 h-2 bg-boo-green rounded-full animate-ping" />
-          <span className="text-sm text-white/80 font-mono">{t.badge}</span>
+          <span className="text-sm text-white/80 font-mono">{releaseBadge}</span>
         </div>
 
         {/* Main title with glitch effect */}
@@ -1027,7 +1030,7 @@ function Hero() {
               <div className="relative z-10 flex items-center gap-2 text-boo-green mb-4 neon-text">
                 <span className="stat-indicator inline-block w-2 h-2 bg-boo-green rounded-full animate-ping shadow-[0_0_10px_#22c55e]"></span>
                 <span className="animate-pulse">▸</span>
-                <span>Optimizer Plus v3.7.2 active</span>
+                <span>Optimizer Plus v3.9.0 active</span>
                 <span className="terminal-cursor"></span>
                 <span className="ml-auto text-white/20 text-xs">pid: 4832</span>
               </div>
@@ -1219,7 +1222,7 @@ const DEMO_IMAGES = [
   '/img/wherewind.webp',
 ] as const
 
-// Live Preset Demo Component - Based on actual v3.7.2 presets with Comparison Slider & Carousel
+// Live Preset Demo Component - Based on actual v3.9.0-beta presets with Comparison Slider & Carousel
 function LivePresetDemo() {
   const { messages } = useTranslations()
   const t = messages.demo
@@ -1697,8 +1700,14 @@ function Installation() {
 
 // Download section
 function Download() {
-  const { messages } = useTranslations()
+  const { messages, locale } = useTranslations()
   const t = messages.download
+  const releaseBadge = locale === 'fr'
+    ? 'v3.9.0-beta — Édition Mobile & Presets'
+    : 'v3.9.0-beta — Mobile & Custom Presets Edition'
+  const compatibilityText = locale === 'fr'
+    ? 'Compatible mobile — Téléphone, tablette et mode PWA'
+    : 'Mobile compatible — Phones, tablets and PWA mode'
 
   return (
     <section id="download" className="py-20 bg-boo-dark relative overflow-hidden">
@@ -1749,7 +1758,7 @@ function Download() {
           
           <div className="inline-flex items-center gap-2 text-boo-green text-sm font-mono mb-6 neon-box px-3 py-1 rounded-full">
             <span className="w-2 h-2 bg-boo-green rounded-full animate-pulse shadow-[0_0_10px_#22c55e]"></span>
-            <span className="glitch-text" data-text={t.badge}>{t.badge}</span>
+            <span className="glitch-text" data-text={releaseBadge}>{releaseBadge}</span>
           </div>
           
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 rgb-split" data-text={`${t.title} ${t.titleHighlight}`}>
@@ -1761,14 +1770,14 @@ function Download() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a 
-              href="https://github.com/optimizerplus/optimizer-plus-v3.7.2/raw/main/Boosteroid-Optimizer-Plus.user.js" 
+              href="https://github.com/optimizerplus/optimizer-plus-v3.7.2/raw/beta/Boosteroid-Optimizer-Plus.user.js" 
               className="group opt-btn-primary flex items-center gap-3 text-lg px-8 py-4 w-full sm:w-auto justify-center relative overflow-hidden perspective-1000"
             >
               <span className="absolute inset-0 bg-gradient-to-r from-boo-green via-cyan-400 to-boo-blue opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
               <span className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity" style={{ boxShadow: 'inset 0 0 20px rgba(0, 255, 136, 0.3)' }}></span>
               <span className="relative flex items-center gap-3">
                 <span className="group-hover:animate-bounce">{Icons.download}</span>
-                <span>{t.installButton} (v3.7.2)</span>
+                <span>{t.installButton} (v3.9.0)</span>
               </span>
             </a>
             <a 
@@ -1801,14 +1810,13 @@ function Download() {
             </a>
           </p>
           
-          {/* PC Only Notice */}
+          {/* Compatibility Notice */}
           <div className="mt-4 inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-lg px-4 py-2">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5 text-boo-blue flex-shrink-0">
-              <rect x="2" y="3" width="20" height="14" rx="2" />
-              <line x1="8" y1="21" x2="16" y2="21" />
-              <line x1="12" y1="17" x2="12" y2="21" />
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5 text-boo-green flex-shrink-0">
+              <rect x="7" y="2" width="10" height="20" rx="2" />
+              <line x1="11" y1="18" x2="13" y2="18" />
             </svg>
-            <span className="text-white/60 text-sm">{t.pcOnly}</span>
+            <span className="text-white/60 text-sm">{compatibilityText}</span>
           </div>
           
           {/* Retro arcade footer */}

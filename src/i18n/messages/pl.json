@@ -10,7 +10,7 @@
     "github": "GitHub"
   },
   "hero": {
-    "badge": "v3.9.0 — Mobile & Custom Presets Edition",
+    "badge": "v4.0.0 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Wymuś 4K • Upscaling • Filtry Wideo • Ultra Niskie Opóźnienia",
@@ -44,7 +44,7 @@
       "presets": {
         "title": "5 Presetów Pro",
         "description": "Domyślny, Kinowy, Konkurencyjny, Komfort, Idealna Jakość. Każdy preset dostosowuje filtry do różnych scenariuszy gry.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       },
       "videoFilters": {
         "title": "Zaawansowane Filtry Wideo",
@@ -82,7 +82,7 @@
       "dashboard": {
         "title": "Widget Dashboard",
         "description": "Pływający panel sterowania do wyboru pożądanej rozdzielczości i odświeżenia strony w celu zastosowania zmian. Prosty i skuteczny.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       }
     }
   },

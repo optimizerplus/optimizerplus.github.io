@@ -10,7 +10,7 @@
     "github": "GitHub"
   },
   "hero": {
-    "badge": "v3.9.0 — Mobile & Custom Presets Edition",
+    "badge": "v4.0.0 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Force 4K • Smart Upscaling • Video Filters • Zero VRAM Leak",
@@ -44,7 +44,7 @@
       "presets": {
         "title": "5 Pro Presets",
         "description": "Default, Cinematic, Competitive, Comfort, Perfect Quality. Each preset tunes filters for different gaming scenarios. All presets are OFF by default.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       },
       "videoFilters": {
         "title": "Advanced Video Filters",
@@ -79,7 +79,7 @@
       "dashboard": {
         "title": "Dashboard Widget",
         "description": "Floating control panel to select your preferred resolution and refresh the page to apply changes. Simple and effective.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       },
       "streamInterceptor": {
         "title": "Stream Interceptor",

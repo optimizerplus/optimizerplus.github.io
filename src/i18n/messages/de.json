@@ -10,7 +10,7 @@
     "github": "GitHub"
   },
   "hero": {
-    "badge": "v3.9.0 — Mobile & Custom Presets Edition",
+    "badge": "v4.0.0 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "4K erzwingen • Smart Upscaling • Videofilter • Kein VRAM-Leak",
@@ -44,7 +44,7 @@
       "presets": {
         "title": "5 Pro-Voreinstellungen",
         "description": "Standard, Kinomodus, Wettkampf, Komfort, Perfekte Qualität. Alle Voreinstellungen sind standardmäßig AUS.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       },
       "videoFilters": {
         "title": "Erweiterte Videofilter",
@@ -79,7 +79,7 @@
       "dashboard": {
         "title": "Dashboard-Widget",
         "description": "Schwebendes Kontrollpanel zur Auswahl der gewünschten Auflösung und Aktualisierung der Seite. Einfach und effektiv.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       },
       "streamInterceptor": {
         "title": "Stream-Interceptor",

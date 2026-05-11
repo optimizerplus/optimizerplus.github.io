@@ -10,7 +10,7 @@
     "github": "GitHub"
   },
   "hero": {
-    "badge": "v3.9.0 — Mobile & Custom Presets Edition",
+    "badge": "v4.0.0 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Примусова 4K • Апскейлінг • Відеофільтри • Надзвичайно низька затримка",
@@ -44,7 +44,7 @@
       "presets": {
         "title": "5 Pro пресетів",
         "description": "За замовчуванням, Кінематографічний, Змагальний, Комфорт, Ідеальна якість. Кожен пресет налаштовує фільтри для різних ігрових сценаріїв.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       },
       "videoFilters": {
         "title": "Просунуті відеофільтри",
@@ -84,7 +84,7 @@
       "dashboard": {
         "title": "Віджет панелі керування",
         "description": "Плаваюча панель керування для вибору бажаної роздільної здатності та оновлення сторінки для застосування змін. Просто та ефективно.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       }
     }
   },

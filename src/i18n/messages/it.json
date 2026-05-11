@@ -10,7 +10,7 @@
     "github": "GitHub"
   },
   "hero": {
-    "badge": "v3.9.0 — Edizione Smart Quality",
+    "badge": "v4.0.0 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Forza 4K • Upscaling Intelligente • Filtri Video • Zero Leak VRAM",
@@ -44,7 +44,7 @@
       "presets": {
         "title": "5 Preset Pro",
         "description": "Default, Cinematografico, Competitivo, Comfort, Qualità Perfetta. I preset sono DISATTIVATI di default — scegli tu.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       },
       "videoFilters": {
         "title": "Filtri Video Avanzati",
@@ -84,7 +84,7 @@
       "dashboard": {
         "title": "Widget Dashboard",
         "description": "Pannello di controllo fluttuante per selezionare la risoluzione desiderata e aggiornare la pagina per applicare le modifiche. Semplice ed efficace.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       }
     }
   },

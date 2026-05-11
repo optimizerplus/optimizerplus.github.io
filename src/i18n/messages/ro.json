@@ -10,7 +10,7 @@
     "github": "GitHub"
   },
   "hero": {
-    "badge": "v3.9.0 — Mobile & Custom Presets Edition",
+    "badge": "v4.0.0 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "4K forțat • Upscaling • Filtre video • Latență ultra-scăzută",
@@ -44,7 +44,7 @@
       "presets": {
         "title": "5 presetări Pro",
         "description": "Default, Cinematic, Competitiv, Comfort, Calitate perfectă. Fiecare presetare configurează filtrele pentru diferite scenarii de joc.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       },
       "videoFilters": {
         "title": "Filtre video avansate",
@@ -84,7 +84,7 @@
       "dashboard": {
         "title": "Widget panou de control",
         "description": "Panou de control plutitor pe dashboard pentru selectarea rezoluției și reîmprospătarea paginii.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       }
     }
   },

@@ -10,7 +10,7 @@
     "github": "GitHub"
   },
   "hero": {
-    "badge": "v3.9.0 — Mobile & Custom Presets Edition",
+    "badge": "v4.0.0 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus","mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode","subtitle": "Tvingad 4K • Uppskalning • Videofilter • Ultralåg latens",
     "description": "Förvandla din Boosteroid molnspelupplevelse med smart upplösningsskalning, avancerad videoförbättring och latensoptimering. Fungerar på vilken bildskärm som helst.",
     "cta": {
@@ -42,7 +42,7 @@
       "presets": {
         "title": "5 Pro-förinställningar",
         "description": "Standard, Cinematisk, Kompetitiv, Komfort, Perfekt kvalitet. Varje förinställning konfigurerar filter för olika spelscenarier.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       },
       "videoFilters": {
         "title": "Avancerade videofilter",
@@ -82,7 +82,7 @@
       "dashboard": {
         "title": "Kontrollpanelwidget",
         "description": "Flytande kontrollpanel på dashboard för att välja upplösning och uppdatera sidan.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       }
     }
   },

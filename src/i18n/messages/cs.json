@@ -10,7 +10,7 @@
     "github": "GitHub"
   },
   "hero": {
-    "badge": "v3.9.0 — Mobile & Custom Presets Edition",
+    "badge": "v4.0.0 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Vynucená 4K • Upscaling • Video filtry • Ultra-nízká latence",
@@ -44,7 +44,7 @@
       "presets": {
         "title": "5 Pro presetů",
         "description": "Výchozí, Filmový, Kompetitivní, Komfort, Dokonalá kvalita. Každý preset konfiguruje filtry pro různé herní scénáře.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       },
       "videoFilters": {
         "title": "Pokročilé video filtry",
@@ -84,7 +84,7 @@
       "dashboard": {
         "title": "Widget ovládacího panelu",
         "description": "Plovoucí ovládací panel na dashboardu pro výběr rozlišení a obnovení stránky.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       }
     }
   },

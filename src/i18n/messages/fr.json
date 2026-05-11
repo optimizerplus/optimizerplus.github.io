@@ -10,7 +10,7 @@
     "github": "GitHub"
   },
   "hero": {
-    "badge": "v3.9.0 — Édition Smart Quality",
+    "badge": "v4.0.0 — Édition Smart Quality",
     "title": "Boosteroid Optimizer Plus",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "4K Forcé • Upscaling Intelligent • Filtres Vidéo • Zéro Fuite VRAM",
@@ -44,7 +44,7 @@
       "presets": {
         "title": "5 Préréglages Pro",
         "description": "Défaut, Cinématique, Compétitif, Confort, Qualité Parfaite. Chaque préréglage ajuste les filtres pour différents scénarios. Tous les préréglages sont désactivés par défaut.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       },
       "videoFilters": {
         "title": "Filtres Vidéo Avancés",
@@ -79,7 +79,7 @@
       "dashboard": {
         "title": "Widget Dashboard",
         "description": "Panneau de contrôle flottant pour sélectionner la résolution souhaitée et rafraîchir la page pour appliquer les changements. Simple et efficace.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       },
       "streamInterceptor": {
         "title": "Intercepteur de Flux",

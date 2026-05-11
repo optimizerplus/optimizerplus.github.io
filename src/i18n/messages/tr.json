@@ -10,7 +10,7 @@
     "github": "GitHub"
   },
   "hero": {
-    "badge": "v3.9.0 — Mobile & Custom Presets Edition",
+    "badge": "v4.0.0 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Zorunlu 4K • Upscaling • Video Filtreleri • Ultra Düşük Gecikme",
@@ -44,7 +44,7 @@
       "presets": {
         "title": "5 Pro Preset",
         "description": "Varsayılan, Sinematik, Rekabetçi, Konfor, Mükemmel Kalite. Her preset farklı oyun senaryoları için filtreleri yapılandırır.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       },
       "videoFilters": {
         "title": "Gelişmiş Video Filtreleri",
@@ -84,7 +84,7 @@
       "dashboard": {
         "title": "Kontrol Paneli Widget'ı",
         "description": "İstenen çözünürlüğü seçmek ve değişiklikleri uygulamak için sayfayı yenilemek için yüzen kontrol paneli. Basit ve etkili.",
-        "tag": "v3.9.0"
+        "tag": "v4.0.0"
       }
     }
   },

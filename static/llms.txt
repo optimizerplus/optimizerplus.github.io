@@ -1,0 +1,31 @@
+# Boosteroid Optimizer Plus
+
+> Free, open-source (MIT) userscript for Tampermonkey or Violentmonkey that improves image quality, resolution and latency in the Boosteroid cloud gaming web player. Current stable version: 6.1.1. Author: Derfog. Not an official Boosteroid product.
+
+## Key facts
+
+- What it is: a browser userscript that runs only on boosteroid.com, client-side. No account, no data collection.
+- Price and license: free, MIT license, source on GitHub.
+- Requirements: Chrome, Edge, Brave, Opera or Firefox; Tampermonkey or Violentmonkey; a Boosteroid subscription. WebGPU features need Chrome or Edge 113+.
+- Install: install Tampermonkey, open https://raw.githubusercontent.com/optimizerplus/optimizer-plus/main/Boosteroid-Optimizer-Plus.user.js and confirm, then start a game on Boosteroid and open the in-game menu. Updates install automatically.
+- Interface languages (15): English, French, German, Spanish, Italian, Portuguese, Russian, Polish, Ukrainian, Turkish, Czech, Hungarian, Romanian, Slovak, Swedish.
+
+## Features
+
+- Resolution: native, 4K and ultrawide (21:9, 32:9), matched to the resolutions the Boosteroid server accepts.
+- Codec: AV1 when the GPU decodes it in hardware, HEVC or H.264 otherwise.
+- Upscaling: AMD FSR 1 (EASU + RCAS) when the stream is smaller than the screen.
+- Image filters: sharpening, denoise, deband, clarity, vibrance; presets Cinematic, Competitive, Comfort, Perfect Quality.
+- Rendering: WebGPU in a worker on Chrome and Edge so mouse input never stalls the video; WebGL2 fallback elsewhere.
+- Network: higher receive ceiling, packet retransmission and a tuned jitter buffer; the bitrate is never forced.
+- 120 FPS available on every screen.
+- Display: stretch mode without black borders, performance mode for weaker GPUs.
+
+## Links
+
+- [Website](https://optimizerplus.github.io/): overview, live preset demo, installation guide, FAQ (15 languages, e.g. /fr/, /de/)
+- [Source code and README](https://github.com/optimizerplus/optimizer-plus)
+- [Latest release](https://github.com/optimizerplus/optimizer-plus/releases/latest)
+- [Changelog](https://github.com/optimizerplus/optimizer-plus/blob/main/CHANGELOG.md)
+- [Issues and support](https://github.com/optimizerplus/optimizer-plus/issues)
+- [Boosteroid](https://boosteroid.com/go/b/fA5oF)

@@ -325,7 +325,9 @@
   initDemo()
   initFaq()
   pauseOffscreenAnimations()
-  const initial = detectLocale()
-  if (initial !== 'en') setLocale(initial, false)
-  else load('en').then((m) => { messages = m })
+  // /fr/, /de/... are pre-rendered in their language: keep it (search engines must see that language).
+  const pageLocale = document.documentElement.lang
+  const initial = pageLocale !== 'en' ? pageLocale : detectLocale()
+  if (initial !== pageLocale) setLocale(initial, false)
+  else load(initial).then((m) => { locale = initial; messages = m })
 })()

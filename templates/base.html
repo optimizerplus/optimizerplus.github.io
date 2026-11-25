@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang="{{ lang | default(value='en') }}" class="scroll-smooth">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,81 +12,127 @@
     <meta name="theme-color" content="#00a3ff" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <title>Boosteroid Optimizer Plus | Force 4K &amp; Upscaling for Cloud Gaming</title>
-    <meta
-      name="description"
-      content="Unlock the full potential of your Boosteroid cloud gaming experience. Force 4K resolution, smart upscaling, video enhancement filters, and ultra-low latency on any monitor. Free Tampermonkey extension for PC."
-    />
+    {%- set l = lang | default(value="en") %}
+    {%- set t = load_data(path="static/i18n/" ~ l ~ ".json") %}
+    {%- set locales = ["en", "fr", "de", "es", "it", "pt", "pl", "ru", "uk", "cs", "sk", "hu", "ro", "tr", "sv"] %}
+    {%- set og = {"en": "en_US", "fr": "fr_FR", "de": "de_DE", "es": "es_ES", "it": "it_IT", "pt": "pt_PT", "pl": "pl_PL", "ru": "ru_RU", "uk": "uk_UA", "cs": "cs_CZ", "sk": "sk_SK", "hu": "hu_HU", "ro": "ro_RO", "tr": "tr_TR", "sv": "sv_SE"} %}
+    {%- set page_url = config.base_url ~ "/" %}{% if l != "en" %}{% set page_url = page_url ~ l ~ "/" %}{% endif %}
+    <title>{{ t.meta.title }}</title>
+    <meta name="description" content="{{ t.meta.description }}" />
     <link rel="author" href="https://github.com/Derfogd" />
     <meta name="author" content="Derfog" />
     <link rel="manifest" href="/site.webmanifest" />
     <meta
       name="keywords"
-      content="Boosteroid optimizer, Boosteroid 4K, cloud gaming enhancer, force 4K Boosteroid, Tampermonkey Boosteroid, Boosteroid ultrawide"
+      content="Boosteroid optimizer, Boosteroid 4K, Boosteroid userscript, Boosteroid Tampermonkey, Boosteroid FSR upscaling, Boosteroid AV1, Boosteroid ultrawide, Boosteroid 120 FPS, cloud gaming enhancer"
     />
     <meta name="creator" content="Derfog" />
     <meta name="publisher" content="Boosteroid Optimizer Plus" />
-    {%- block robots %}{% endblock robots %}
-    <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1" />
+    {%- block robots %}
+    <meta name="robots" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1" />
+    {%- endblock robots %}
     <meta name="category" content="technology" />
-    <link rel="canonical" href="https://optimizerplus.github.io/" />
-    <link rel="alternate" hreflang="en" href="https://optimizerplus.github.io/" />
-    <link rel="alternate" hreflang="fr" href="https://optimizerplus.github.io/fr/" />
     <meta name="google-site-verification" content="5aa59018dfac5693" />
-    <meta property="og:title" content="Boosteroid Optimizer Plus | Force 4K &amp; Upscaling for Cloud Gaming" />
-    <meta
-      property="og:description"
-      content="Free Tampermonkey extension to unlock 4K resolution, upscaling, and video enhancement on Boosteroid cloud gaming. Works on any monitor!"
-    />
-    <meta property="og:url" content="https://optimizerplus.github.io/" />
-    <meta property="og:site_name" content="Boosteroid Optimizer Plus" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:image" content="https://optimizerplus.github.io/og-image.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Boosteroid Optimizer Plus - Cloud Gaming Enhancement" />
-    <meta property="og:locale:alternate" content="fr_FR" />
+    {%- block seo %}
+    <link rel="canonical" href="{{ page_url }}" />
+    {%- for x in locales %}
+    <link rel="alternate" hreflang="{{ x }}" href="{{ config.base_url }}/{% if x != "en" %}{{ x }}/{% endif %}" />
+    {%- endfor %}
+    <link rel="alternate" hreflang="x-default" href="{{ config.base_url }}/" />
+    <link rel="alternate" type="text/plain" title="LLM summary" href="/llms.txt" />
     <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:creator" content="@derfog" />
-    <meta name="twitter:title" content="Boosteroid Optimizer Plus | Force 4K Cloud Gaming" />
-    <meta
-      name="twitter:description"
-      content="Unlock 4K resolution, upscaling &amp; video filters on Boosteroid. Free Tampermonkey extension!"
-    />
-    <meta name="twitter:image" content="https://optimizerplus.github.io/og-image.png" />
+    <meta property="og:site_name" content="Boosteroid Optimizer Plus" />
+    <meta property="og:title" content="{{ t.meta.title }}" />
+    <meta property="og:description" content="{{ t.meta.description }}" />
+    <meta property="og:url" content="{{ page_url }}" />
+    <meta property="og:locale" content="{{ og[l] }}" />
+    {%- for x in locales %}{% if x != l %}
+    <meta property="og:locale:alternate" content="{{ og[x] }}" />
+    {%- endif %}{% endfor %}
+    <meta property="og:image" content="{{ config.base_url }}/og-image.png" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="1280" />
+    <meta property="og:image:alt" content="Boosteroid Optimizer Plus logo" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ t.meta.title }}" />
+    <meta name="twitter:description" content="{{ t.meta.description }}" />
+    <meta name="twitter:image" content="{{ config.base_url }}/og-image.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "{{ config.base_url }}/#website",
+            "url": "{{ config.base_url }}/",
+            "name": "Boosteroid Optimizer Plus",
+            "inLanguage": {{ locales | json_encode() | safe }},
+            "publisher": { "@id": "https://github.com/Derfogd#person" }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://github.com/Derfogd#person",
+            "name": "Derfog",
+            "url": "https://github.com/Derfogd"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "{{ config.base_url }}/#software",
+            "name": "Boosteroid Optimizer Plus",
+            "alternateName": "Optimizer Plus",
+            "url": "{{ page_url }}",
+            "description": {{ t.meta.description | json_encode() | safe }},
+            "applicationCategory": "BrowserApplication",
+            "applicationSubCategory": "Userscript (Tampermonkey / Violentmonkey)",
+            "operatingSystem": "Windows, macOS, Linux, ChromeOS",
+            "browserRequirements": "Chrome, Edge, Brave, Opera or Firefox with Tampermonkey or Violentmonkey. WebGPU features need Chrome or Edge 113+.",
+            "softwareRequirements": "Tampermonkey or Violentmonkey browser extension; a Boosteroid subscription",
+            "softwareVersion": "6.1.1",
+            "downloadUrl": "https://github.com/optimizerplus/optimizer-plus/releases/download/v6.1.1/Boosteroid-Optimizer-Plus.user.js",
+            "installUrl": "https://raw.githubusercontent.com/optimizerplus/optimizer-plus/main/Boosteroid-Optimizer-Plus.user.js",
+            "codeRepository": "https://github.com/optimizerplus/optimizer-plus",
+            "license": "https://opensource.org/licenses/MIT",
+            "isAccessibleForFree": true,
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+            "inLanguage": {{ locales | json_encode() | safe }},
+            "image": "{{ config.base_url }}/og-image.png",
+            "author": { "@id": "https://github.com/Derfogd#person" },
+            "featureList": [
+              "Native, 4K and ultrawide (21:9, 32:9) resolutions matched to what the Boosteroid server accepts",
+              "AV1 codec when the GPU decodes it in hardware, HEVC or H.264 otherwise",
+              "AMD FSR 1 upscaling (EASU + RCAS) when the stream is smaller than the screen",
+              "Image filters: sharpening, denoise, deband, clarity, vibrance",
+              "Presets: Cinematic, Competitive, Comfort, Perfect Quality",
+              "WebGPU rendering in a worker on Chrome and Edge, WebGL2 fallback",
+              "Tuned jitter buffer and packet retransmission for lower latency; bitrate never forced",
+              "120 FPS on every screen",
+              "Stretch mode without black borders and a performance mode for weaker GPUs",
+              "15 interface languages"
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "{{ page_url }}#faq",
+            "inLanguage": "{{ l }}",
+            "mainEntity": [
+              {%- for k in ["q1", "q2", "q3", "q4", "q5", "q6"] %}
+              {
+                "@type": "Question",
+                "name": {{ t.faq.items[k].question | json_encode() | safe }},
+                "acceptedAnswer": { "@type": "Answer", "text": {{ t.faq.items[k].answer | json_encode() | safe }} }
+              }{% if not loop.last %},{% endif %}
+              {%- endfor %}
+            ]
+          }
+        ]
+      }
+    </script>
+    {%- endblock seo %}
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon-96x96.png" sizes="96x96" type="image/png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "Boosteroid Optimizer Plus",
-        "applicationCategory": "BrowserApplication",
-        "operatingSystem": "Windows, macOS, Linux (with Tampermonkey)",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-        "description": "A powerful Tampermonkey script that enhances Boosteroid cloud gaming with 4K resolution forcing, smart upscaling, video filters, and ultra-low latency optimization.",
-        "author": { "@type": "Person", "name": "Derfog", "url": "https://github.com/Derfogd" },
-        "softwareVersion": "6.1.1",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "150" },
-        "featureList": [
-          "Force 4K resolution on any monitor",
-          "Smart upscaling (1080p to 4K)",
-          "Auto-detect native screen resolution",
-          "Multi-monitor support",
-          "Video enhancement filters (sharpness, contrast)",
-          "Ultra-low latency mode",
-          "AV1/HEVC codec optimization",
-          "Ultrawide 21:9/32:9 support",
-          "Performance mode for 60fps stability",
-          "15+ languages supported"
-        ]
-      }
-    </script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }

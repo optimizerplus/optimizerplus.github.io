@@ -1,5 +1,22 @@
 base_url = "https://optimizerplus.github.io"
+default_language = "en"
 compile_sass = false
 build_search_index = false
 generate_sitemap = true
 generate_robots_txt = true
+
+# One pre-rendered page per language (/fr/, /de/, ...) so search engines index every translation.
+[languages.fr]
+[languages.de]
+[languages.es]
+[languages.it]
+[languages.pt]
+[languages.pl]
+[languages.ru]
+[languages.uk]
+[languages.cs]
+[languages.sk]
+[languages.hu]
+[languages.ro]
+[languages.tr]
+[languages.sv]

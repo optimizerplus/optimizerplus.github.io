@@ -3,7 +3,7 @@
     <script src="/app.js" defer></script>
 {%- endblock head_extra %}
 {% block body %}
-{%- set t = load_data(path="static/i18n/en.json") %}
+{%- set t = load_data(path="static/i18n/" ~ lang ~ ".json") %}
 <a
   href="#main-content"
   class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-boo-blue focus:text-white focus:rounded-lg"
@@ -142,7 +142,7 @@
                     <path
                       d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
                     ></path></svg
-                  ><span class="uppercase font-mono text-xs">EN</span
+                  ><span class="uppercase font-mono text-xs">{{ lang | upper }}</span
                   ><svg
                     class="w-3 h-3 transition-transform duration-300"
                     fill="none"

@@ -6,13 +6,11 @@
   "nav": {
     "features": "Funcții",
     "install": "Instalare",
-    "faq": "FAQ",
-    "github": "GitHub"
+    "faq": "FAQ"
   },
   "hero": {
     "badge": "v6.1.1 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
-    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "4K forțat • Upscaling • Filtre video • 120 FPS",
     "description": "Transformați experiența de cloud gaming Boosteroid cu scalare inteligentă a rezoluției, îmbunătățire video avansată și optimizare a latenței. Funcționează pe orice monitor.",
     "cta": {
@@ -20,15 +18,8 @@
       "features": "Vezi funcțiile"
     }
   },
-  "stats": {
-    "upscaling": "Upscaling inteligent",
-    "latency": "Latență ultra-scăzută",
-    "codec": "Codec AV1/HEVC",
-    "languages": "15+ limbi"
-  },
   "features": {
     "title": "Funcții",
-    "subtitle": "Funcții premium",
     "description": "Tot ce aveți nevoie pentru a debloca întregul potențial al cloud gaming-ului Boosteroid.",
     "items": {
       "deviceProfiling": {
@@ -66,21 +57,6 @@
         "description": "Jitter buffer reglat, retransmisia pachetelor și o limită de recepție mai mare; bitrate-ul nu este niciodată forțat. Randarea WebGPU într-un worker păstrează mouse-ul fluid.",
         "tag": "Ultra Rapid"
       },
-      "streamInterceptor": {
-        "title": "Stream Interceptor",
-        "description": "Modul opțional care interceptează cererile de configurare pentru a forța decodarea hardware și a crește setările de calitate.",
-        "tag": "Opțional"
-      },
-      "svgFilterPipeline": {
-        "title": "Pipeline filtre SVG",
-        "description": "Filtre SVG accelerate GPU pentru sharpening USM, matrice contrast, corecție culoare. Încărcare minimă CPU.",
-        "tag": "GPU accel."
-      },
-      "zeroFlicker": {
-        "title": "Pornire fără flickering",
-        "description": "Aplică filtrele video la pornire fără flash vizibil. Folosește requestIdleCallback pentru zero micro-stutters.",
-        "tag": "Rapid"
-      },
       "dashboard": {
         "title": "Widget panou de control",
         "description": "Panou de control plutitor pe dashboard pentru selectarea rezoluției și reîmprospătarea paginii.",
@@ -109,11 +85,7 @@
         "description": "Deschideți Boosteroid.com și lansați orice joc. Scriptul se activează automat!"
       }
     },
-    "compatibleWith": "Compatibil cu",
-    "cta": {
-      "install": "Instalează de pe GreasyFork",
-      "github": "Cod sursă pe GitHub"
-    }
+    "compatibleWith": "Compatibil cu"
   },
   "faq": {
     "title": "FAQ",
@@ -161,19 +133,6 @@
     "requiresTampermonkey": "Necesită extensia Tampermonkey",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "getItHere": "descarcă de aici"
-  },
-  "footer": {
-    "madeBy": "Realizat cu",
-    "by": "de",
-    "notAffiliated": "Neafiliat cu Boosteroid.",
-    "legal": {
-      "privacy": "Confidențialitate",
-      "terms": "Termeni"
-    },
-    "copyright": "© 2025 Boosteroid Optimizer Plus. Toate drepturile rezervate."
-  },
-  "languageSelector": {
-    "selectLanguage": "Selectați limba"
   },
   "demo": {
     "title": "Testează Preseturile",

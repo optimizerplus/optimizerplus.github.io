@@ -6,13 +6,11 @@
   "nav": {
     "features": "Funzionalità",
     "install": "Installa",
-    "faq": "FAQ",
-    "github": "GitHub"
+    "faq": "FAQ"
   },
   "hero": {
     "badge": "v6.1.1 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
-    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Forza 4K • Upscaling Intelligente • Filtri Video • 120 FPS",
     "description": "Trasforma la tua esperienza di cloud gaming Boosteroid con scaling intelligente della risoluzione, miglioramenti video avanzati e ottimizzazione della latenza. Funziona su qualsiasi monitor.",
     "cta": {
@@ -20,15 +18,8 @@
       "features": "Vedi Funzionalità"
     }
   },
-  "stats": {
-    "upscaling": "Upscaling Intelligente",
-    "latency": "Latenza Ultra Bassa",
-    "codec": "Codec AV1/HEVC",
-    "languages": "15+ Lingue"
-  },
   "features": {
     "title": "Funzionalità",
-    "subtitle": "Funzionalità Premium",
     "description": "Tutto ciò che ti serve per sbloccare il pieno potenziale del cloud gaming Boosteroid.",
     "items": {
       "deviceProfiling": {
@@ -66,21 +57,6 @@
         "description": "Jitter buffer regolato, ritrasmissione dei pacchetti e limite di ricezione più alto; il bitrate non viene mai forzato. Il rendering WebGPU in un worker mantiene fluido il mouse.",
         "tag": "Ultra Veloce"
       },
-      "streamInterceptor": {
-        "title": "Interceptor Stream",
-        "description": "Modulo opzionale che intercetta le richieste di configurazione per forzare la decodifica hardware e spingere impostazioni di qualità superiore.",
-        "tag": "Opzionale"
-      },
-      "svgFilterPipeline": {
-        "title": "Pipeline Filtri SVG",
-        "description": "Filtri SVG accelerati GPU per nitidezza USM, matrice contrasto, correzione colore. Impatto CPU minimo.",
-        "tag": "Accel. GPU"
-      },
-      "zeroFlicker": {
-        "title": "Avvio Senza Sfarfallio",
-        "description": "Applica filtri video all'avvio senza flash visibile. Usa requestIdleCallback per zero micro-freeze.",
-        "tag": "Veloce"
-      },
       "dashboard": {
         "title": "Widget Dashboard",
         "description": "Pannello di controllo fluttuante per selezionare la risoluzione desiderata e aggiornare la pagina per applicare le modifiche. Semplice ed efficace.",
@@ -109,11 +85,7 @@
         "description": "Apri Boosteroid.com e avvia qualsiasi gioco. Lo script si attiva automaticamente!"
       }
     },
-    "compatibleWith": "Compatibile con",
-    "cta": {
-      "install": "Installa da GreasyFork",
-      "github": "Vedi Codice su GitHub"
-    }
+    "compatibleWith": "Compatibile con"
   },
   "faq": {
     "title": "FAQ",
@@ -161,19 +133,6 @@
     "requiresTampermonkey": "Richiede l'estensione Tampermonkey",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "getItHere": "scaricala qui"
-  },
-  "footer": {
-    "madeBy": "Fatto con",
-    "by": "da",
-    "notAffiliated": "Non affiliato con Boosteroid.",
-    "legal": {
-      "privacy": "Privacy",
-      "terms": "Termini"
-    },
-    "copyright": "© 2025 Boosteroid Optimizer Plus. Tutti i diritti riservati."
-  },
-  "languageSelector": {
-    "selectLanguage": "Seleziona lingua"
   },
   "demo": {
     "title": "Prova i Preset",

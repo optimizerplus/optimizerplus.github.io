@@ -6,13 +6,11 @@
   "nav": {
     "features": "Funkcie",
     "install": "Inštalácia",
-    "faq": "FAQ",
-    "github": "GitHub"
+    "faq": "FAQ"
   },
   "hero": {
     "badge": "v6.1.1 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
-    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Vynútená 4K • Upscaling • Video filtre • 120 FPS",
     "description": "Transformujte váš cloud gaming zážitok s Boosteroidom pomocou inteligentného škálovania rozlíšenia, pokročilého vylepšenia videa a optimalizácie latencie. Funguje na akomkoľvek monitore.",
     "cta": {
@@ -20,15 +18,8 @@
       "features": "Prezrieť funkcie"
     }
   },
-  "stats": {
-    "upscaling": "Inteligentný upscaling",
-    "latency": "Ultra-nízka latencia",
-    "codec": "Kodek AV1/HEVC",
-    "languages": "15+ jazykov"
-  },
   "features": {
     "title": "Funkcie",
-    "subtitle": "Prémiové funkcie",
     "description": "Všetko čo potrebujete na odomknutie plného potenciálu cloud gamingu Boosteroid.",
     "items": {
       "deviceProfiling": {
@@ -66,21 +57,6 @@
         "description": "Vyladený jitter buffer, opätovné odosielanie paketov a vyšší strop príjmu; dátový tok sa nikdy nevynucuje. Vykresľovanie WebGPU vo workeri udrží myš plynulú.",
         "tag": "Ultra rýchly"
       },
-      "streamInterceptor": {
-        "title": "Stream Interceptor",
-        "description": "Voliteľný modul zachytávajúci konfiguračné požiadavky pre vynútenie hardvérového dekódovania a zvýšenie nastavení kvality.",
-        "tag": "Voliteľné"
-      },
-      "svgFilterPipeline": {
-        "title": "SVG filtrový pipeline",
-        "description": "GPU-akcelerované SVG filtre pre ostrenie USM, kontrastnú maticu, korekciu farieb. Minimálne zaťaženie CPU.",
-        "tag": "GPU akcel."
-      },
-      "zeroFlicker": {
-        "title": "Spustenie bez blikania",
-        "description": "Aplikuje video filtre pri štarte bez viditeľného záblesku. Používa requestIdleCallback pre nulové mikro-zaseknutia.",
-        "tag": "Rýchle"
-      },
       "dashboard": {
         "title": "Widget ovládacieho panela",
         "description": "Plávajúci ovládací panel na dashboarde pre výber rozlíšenia a obnovenie stránky.",
@@ -109,11 +85,7 @@
         "description": "Otvorte Boosteroid.com a spustite akúkoľvek hru. Skript sa aktivuje automaticky!"
       }
     },
-    "compatibleWith": "Kompatibilný s",
-    "cta": {
-      "install": "Inštalovať z GreasyFork",
-      "github": "Zdrojový kód na GitHub"
-    }
+    "compatibleWith": "Kompatibilný s"
   },
   "faq": {
     "title": "FAQ",
@@ -161,19 +133,6 @@
     "requiresTampermonkey": "Vyžaduje rozšírenie Tampermonkey",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "getItHere": "stiahnite tu"
-  },
-  "footer": {
-    "madeBy": "Vytvorené s",
-    "by": "od",
-    "notAffiliated": "Nie je spojené s Boosteroid.",
-    "legal": {
-      "privacy": "Súkromie",
-      "terms": "Podmienky"
-    },
-    "copyright": "© 2025 Boosteroid Optimizer Plus. Všetky práva vyhradené."
-  },
-  "languageSelector": {
-    "selectLanguage": "Vybrať jazyk"
   },
   "demo": {
     "title": "Vyskúšajte Presety",

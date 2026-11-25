@@ -6,13 +6,11 @@
   "nav": {
     "features": "Funkciók",
     "install": "Telepítés",
-    "faq": "GYIK",
-    "github": "GitHub"
+    "faq": "GYIK"
   },
   "hero": {
     "badge": "v6.1.1 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
-    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Kényszerített 4K • Upscaling • Videószűrők • 120 FPS",
     "description": "Alakítsa át Boosteroid felhő gaming élményét intelligens felbontás-skálázással, fejlett videójavítással és késleltetés-optimalizálással. Bármilyen monitoron működik.",
     "cta": {
@@ -20,15 +18,8 @@
       "features": "Funkciók megtekintése"
     }
   },
-  "stats": {
-    "upscaling": "Intelligens upscaling",
-    "latency": "Ultraalacsony késleltetés",
-    "codec": "AV1/HEVC kodek",
-    "languages": "15+ nyelv"
-  },
   "features": {
     "title": "Funkciók",
-    "subtitle": "Prémium funkciók",
     "description": "Minden ami szükséges a Boosteroid felhő gaming teljes potenciáljának feloldásához.",
     "items": {
       "deviceProfiling": {
@@ -66,21 +57,6 @@
         "description": "Hangolt jitter puffer, csomag-újraküldés és magasabb vételi plafon; a bitrátát sosem kényszeríti. A workerben futó WebGPU renderelés simán tartja az egeret.",
         "tag": "Ultra gyors"
       },
-      "streamInterceptor": {
-        "title": "Stream Interceptor",
-        "description": "Opcionális modul amely elfogja a konfigurációs kéréseket a hardveres dekódolás kényszerítéséhez és minőségi beállítások növeléséhez.",
-        "tag": "Opcionális"
-      },
-      "svgFilterPipeline": {
-        "title": "SVG szűrő pipeline",
-        "description": "GPU-gyorsított SVG szűrők USM élesítéshez, kontraszt mátrixhoz, színkorrekcióhoz. Minimális CPU terhelés.",
-        "tag": "GPU gyors."
-      },
-      "zeroFlicker": {
-        "title": "Villogásmentes indítás",
-        "description": "Videószűrőket alkalmaz indításkor látható villanás nélkül. RequestIdleCallback-et használ nulla mikro-akadáshoz.",
-        "tag": "Gyors"
-      },
       "dashboard": {
         "title": "Vezérlőpult widget",
         "description": "Lebegő vezérlőpult a dashboardon a felbontás kiválasztásához és az oldal frissítéséhez.",
@@ -109,11 +85,7 @@
         "description": "Nyissa meg a Boosteroid.com-ot és indítson el bármilyen játékot. A szkript automatikusan aktiválódik!"
       }
     },
-    "compatibleWith": "Kompatibilis",
-    "cta": {
-      "install": "Telepítés GreasyFork-ról",
-      "github": "Forráskód GitHubon"
-    }
+    "compatibleWith": "Kompatibilis"
   },
   "faq": {
     "title": "GYIK",
@@ -161,19 +133,6 @@
     "requiresTampermonkey": "Tampermonkey bővítmény szükséges",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "getItHere": "töltse le itt"
-  },
-  "footer": {
-    "madeBy": "Készítve",
-    "by": "által",
-    "notAffiliated": "Nem kapcsolódik a Boosteroidhoz.",
-    "legal": {
-      "privacy": "Adatvédelem",
-      "terms": "Feltételek"
-    },
-    "copyright": "© 2025 Boosteroid Optimizer Plus. Minden jog fenntartva."
-  },
-  "languageSelector": {
-    "selectLanguage": "Nyelv kiválasztása"
   },
   "demo": {
     "title": "Tesztelje a Preseteket",

@@ -6,13 +6,11 @@
   "nav": {
     "features": "Özellikler",
     "install": "Kurulum",
-    "faq": "SSS",
-    "github": "GitHub"
+    "faq": "SSS"
   },
   "hero": {
     "badge": "v6.1.1 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
-    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Zorunlu 4K • Upscaling • Video Filtreleri • 120 FPS",
     "description": "Akıllı çözünürlük ölçekleme, gelişmiş video iyileştirme ve gecikme optimizasyonu ile Boosteroid bulut oyun deneyiminizi dönüştürün. Her monitörde çalışır.",
     "cta": {
@@ -20,15 +18,8 @@
       "features": "Özellikleri Gör"
     }
   },
-  "stats": {
-    "upscaling": "Akıllı Upscaling",
-    "latency": "Ultra Düşük Gecikme",
-    "codec": "AV1/HEVC Codec",
-    "languages": "15+ Dil"
-  },
   "features": {
     "title": "Özellikler",
-    "subtitle": "Premium Özellikler",
     "description": "Boosteroid bulut oyunlarının tam potansiyelini açmak için ihtiyacınız olan her şey.",
     "items": {
       "deviceProfiling": {
@@ -66,21 +57,6 @@
         "description": "Ayarlanmış jitter tamponu, paket yeniden iletimi ve daha yüksek alım sınırı; bit hızı asla zorlanmaz. Worker içinde WebGPU işleme fareyi akıcı tutar.",
         "tag": "Ultra Hızlı"
       },
-      "streamInterceptor": {
-        "title": "Stream Interceptor",
-        "description": "Donanım kod çözmeyi zorlamak ve kalite ayarlarını artırmak için yapılandırma isteklerini yakalayan isteğe bağlı modül.",
-        "tag": "İsteğe Bağlı"
-      },
-      "svgFilterPipeline": {
-        "title": "SVG Filtre Pipeline",
-        "description": "USM keskinleştirme, kontrast matrisi, renk düzeltme için GPU hızlandırmalı SVG filtreleri. Minimum CPU yükü.",
-        "tag": "GPU Hızl."
-      },
-      "zeroFlicker": {
-        "title": "Titreşimsiz Başlatma",
-        "description": "Görünür flaş olmadan başlatmada video filtreleri uygular. Sıfır mikro-takılma için requestIdleCallback kullanır.",
-        "tag": "Hızlı"
-      },
       "dashboard": {
         "title": "Kontrol Paneli Widget'ı",
         "description": "İstenen çözünürlüğü seçmek ve değişiklikleri uygulamak için sayfayı yenilemek için yüzen kontrol paneli. Basit ve etkili.",
@@ -109,11 +85,7 @@
         "description": "Boosteroid.com'u açın ve herhangi bir oyunu başlatın. Script otomatik olarak aktif olur!"
       }
     },
-    "compatibleWith": "Uyumlu",
-    "cta": {
-      "install": "GreasyFork'tan Yükle",
-      "github": "GitHub'da Kaynak Kodu"
-    }
+    "compatibleWith": "Uyumlu"
   },
   "faq": {
     "title": "SSS",
@@ -161,19 +133,6 @@
     "requiresTampermonkey": "Tampermonkey eklentisi gerektirir",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "getItHere": "buradan indirin"
-  },
-  "footer": {
-    "madeBy": "Yapımcı",
-    "by": "tarafından",
-    "notAffiliated": "Boosteroid ile bağlantılı değildir.",
-    "legal": {
-      "privacy": "Gizlilik",
-      "terms": "Şartlar"
-    },
-    "copyright": "© 2025 Boosteroid Optimizer Plus. Tüm hakları saklıdır."
-  },
-  "languageSelector": {
-    "selectLanguage": "Dil Seçin"
   },
   "demo": {
     "title": "Presetleri Test Edin",

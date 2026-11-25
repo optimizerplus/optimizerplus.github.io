@@ -6,13 +6,11 @@
   "nav": {
     "features": "Funktioner",
     "install": "Installation",
-    "faq": "FAQ",
-    "github": "GitHub"
+    "faq": "FAQ"
   },
   "hero": {
     "badge": "v6.1.1 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
-    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Tvingad 4K • Uppskalning • Videofilter • 120 FPS",
     "description": "Förvandla din Boosteroid molnspelupplevelse med smart upplösningsskalning, avancerad videoförbättring och latensoptimering. Fungerar på vilken bildskärm som helst.",
     "cta": {
@@ -20,15 +18,8 @@
       "features": "Se funktioner"
     }
   },
-  "stats": {
-    "upscaling": "Smart uppskalning",
-    "latency": "Ultralåg latens",
-    "codec": "AV1/HEVC Codec",
-    "languages": "15+ språk"
-  },
   "features": {
     "title": "Funktioner",
-    "subtitle": "Premiumfunktioner",
     "description": "Allt du behöver för att låsa upp den fulla potentialen i Boosteroid molnspel.",
     "items": {
       "deviceProfiling": {
@@ -66,21 +57,6 @@
         "description": "Justerad jitterbuffert, återsändning av paket och högre mottagningstak; bithastigheten tvingas aldrig. WebGPU-rendering i en worker håller musen smidig.",
         "tag": "Ultrasnabb"
       },
-      "streamInterceptor": {
-        "title": "Stream Interceptor",
-        "description": "Valfri modul som fångar konfigurationsförfrågningar för att tvinga hårdvaruavkodning och öka kvalitetsinställningar.",
-        "tag": "Valfri"
-      },
-      "svgFilterPipeline": {
-        "title": "SVG-filterpipeline",
-        "description": "GPU-accelererade SVG-filter för USM-skärpning, kontrastmatris, färgkorrigering. Minimal CPU-belastning.",
-        "tag": "GPU-accel."
-      },
-      "zeroFlicker": {
-        "title": "Flimmerfri uppstart",
-        "description": "Applicerar videofilter vid uppstart utan synlig blixt. Använder requestIdleCallback för noll mikro-hackningar.",
-        "tag": "Snabb"
-      },
       "dashboard": {
         "title": "Kontrollpanelwidget",
         "description": "Flytande kontrollpanel på dashboard för att välja upplösning och uppdatera sidan.",
@@ -109,11 +85,7 @@
         "description": "Öppna Boosteroid.com och starta vilket spel som helst. Skriptet aktiveras automatiskt!"
       }
     },
-    "compatibleWith": "Kompatibel med",
-    "cta": {
-      "install": "Installera från GreasyFork",
-      "github": "Källkod på GitHub"
-    }
+    "compatibleWith": "Kompatibel med"
   },
   "faq": {
     "title": "FAQ",
@@ -161,19 +133,6 @@
     "requiresTampermonkey": "Kräver Tampermonkey-tillägg",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "getItHere": "ladda ner här"
-  },
-  "footer": {
-    "madeBy": "Skapad med",
-    "by": "av",
-    "notAffiliated": "Ej ansluten till Boosteroid.",
-    "legal": {
-      "privacy": "Integritet",
-      "terms": "Villkor"
-    },
-    "copyright": "© 2025 Boosteroid Optimizer Plus. Alla rättigheter förbehållna."
-  },
-  "languageSelector": {
-    "selectLanguage": "Välj språk"
   },
   "demo": {
     "title": "Testa Förinställningarna",

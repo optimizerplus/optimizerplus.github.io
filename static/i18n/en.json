@@ -6,13 +6,11 @@
   "nav": {
     "features": "Features",
     "install": "Install",
-    "faq": "FAQ",
-    "github": "GitHub"
+    "faq": "FAQ"
   },
   "hero": {
     "badge": "v6.1.1 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
-    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Force 4K • Smart Upscaling • Video Filters • 120 FPS",
     "description": "Transform your Boosteroid cloud gaming experience with smart resolution scaling, advanced video enhancement, and ultra-low latency optimization. Works on any monitor.",
     "cta": {
@@ -20,15 +18,8 @@
       "features": "View Features"
     }
   },
-  "stats": {
-    "upscaling": "Smart Upscaling",
-    "latency": "Ultra Low Latency",
-    "codec": "AV1/HEVC Codec",
-    "languages": "15+ Languages"
-  },
   "features": {
     "title": "Features",
-    "subtitle": "Premium Features",
     "description": "Everything you need to unleash the full potential of Boosteroid cloud gaming.",
     "items": {
       "deviceProfiling": {
@@ -66,25 +57,10 @@
         "description": "Tuned jitter buffer, packet retransmission and a higher receive ceiling; the bitrate is never forced. WebGPU rendering in a worker keeps mouse input smooth.",
         "tag": "Ultra Fast"
       },
-      "svgFilterPipeline": {
-        "title": "SVG Filter Pipeline",
-        "description": "GPU-accelerated SVG filters for USM sharpening, contrast matrix, color correction. Runs on GPU with minimal CPU impact.",
-        "tag": "GPU Accel"
-      },
-      "zeroFlicker": {
-        "title": "Zero-Flicker Bootstrap",
-        "description": "Applies video filters at startup without visible flash. Uses requestIdleCallback for zero micro-freezes and smooth initialization.",
-        "tag": "Slim & Fast"
-      },
       "dashboard": {
         "title": "Dashboard Widget",
         "description": "Floating control panel to select your preferred resolution and refresh the page to apply changes. Simple and effective.",
         "tag": "Widget"
-      },
-      "streamInterceptor": {
-        "title": "Stream Interceptor",
-        "description": "Optional module that intercepts config requests to force hardware decoding and push higher quality settings.",
-        "tag": "Optional"
       }
     }
   },
@@ -109,11 +85,7 @@
         "description": "Open Boosteroid.com and start any game. The script auto-activates!"
       }
     },
-    "compatibleWith": "Compatible with",
-    "cta": {
-      "install": "Install from GreasyFork",
-      "github": "View Source on GitHub"
-    }
+    "compatibleWith": "Compatible with"
   },
   "faq": {
     "title": "FAQ",
@@ -145,16 +117,6 @@
       }
     }
   },
-  "footer": {
-    "madeBy": "Made with",
-    "by": "by",
-    "notAffiliated": "Not affiliated with Boosteroid.",
-    "legal": {
-      "privacy": "Privacy",
-      "terms": "Terms"
-    },
-    "copyright": "© 2025 Boosteroid Optimizer Plus. All rights reserved."
-  },
   "download": {
     "badge": "READY TO DOWNLOAD",
     "title": "Ready to Upgrade Your",
@@ -171,9 +133,6 @@
     "requiresTampermonkey": "Requires Tampermonkey browser extension.",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "getItHere": "Get it here"
-  },
-  "languageSelector": {
-    "selectLanguage": "Select language"
   },
   "demo": {
     "title": "Test the Presets",

@@ -6,13 +6,11 @@
   "nav": {
     "features": "Функции",
     "install": "Установка",
-    "faq": "FAQ",
-    "github": "GitHub"
+    "faq": "FAQ"
   },
   "hero": {
     "badge": "v6.1.1 — Smart Quality издание",
     "title": "Boosteroid Optimizer Plus",
-    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "subtitle": "Принудительное 4K • Умный апскейлинг • Видеофильтры • 120 FPS",
     "description": "Преобразите ваш опыт облачного гейминга Boosteroid с умным масштабированием разрешения, продвинутым улучшением видео и оптимизацией задержки. Работает на любом мониторе.",
     "cta": {
@@ -20,15 +18,8 @@
       "features": "Посмотреть функции"
     }
   },
-  "stats": {
-    "upscaling": "Умный апскейлинг",
-    "latency": "Сверхнизкая задержка",
-    "codec": "Кодек AV1/HEVC",
-    "languages": "15+ языков"
-  },
   "features": {
     "title": "Функции",
-    "subtitle": "Премиум функции",
     "description": "Всё что вам нужно для раскрытия полного потенциала облачного гейминга Boosteroid.",
     "items": {
       "deviceProfiling": {
@@ -66,21 +57,6 @@
         "description": "Настроенный джиттер-буфер, повторная передача пакетов и более высокий потолок приёма; битрейт никогда не навязывается. Рендеринг WebGPU в воркере сохраняет плавность мыши.",
         "tag": "Ультра быстрый"
       },
-      "streamInterceptor": {
-        "title": "Перехватчик потока",
-        "description": "Опциональный модуль, перехватывающий запросы конфигурации для принудительного аппаратного декодирования и повышения настроек качества.",
-        "tag": "Опционально"
-      },
-      "svgFilterPipeline": {
-        "title": "Конвейер SVG фильтров",
-        "description": "GPU-ускоренные SVG фильтры для резкости USM, матрицы контраста, цветокоррекции. Минимальная нагрузка на CPU.",
-        "tag": "GPU ускор."
-      },
-      "zeroFlicker": {
-        "title": "Запуск без мерцания",
-        "description": "Применяет видеофильтры при запуске без видимой вспышки. Использует requestIdleCallback для нулевых микро-зависаний.",
-        "tag": "Быстрый"
-      },
       "dashboard": {
         "title": "Виджет панели управления",
         "description": "Плавающая панель управления для выбора желаемого разрешения и обновления страницы для применения изменений. Просто и эффективно.",
@@ -109,11 +85,7 @@
         "description": "Откройте Boosteroid.com и запустите любую игру. Скрипт активируется автоматически!"
       }
     },
-    "compatibleWith": "Совместим с",
-    "cta": {
-      "install": "Установить с GreasyFork",
-      "github": "Исходный код на GitHub"
-    }
+    "compatibleWith": "Совместим с"
   },
   "faq": {
     "title": "FAQ",
@@ -161,19 +133,6 @@
     "requiresTampermonkey": "Требуется расширение Tampermonkey",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
     "getItHere": "скачать здесь"
-  },
-  "footer": {
-    "madeBy": "Сделано с",
-    "by": "от",
-    "notAffiliated": "Не связано с Boosteroid.",
-    "legal": {
-      "privacy": "Конфиденциальность",
-      "terms": "Условия"
-    },
-    "copyright": "© 2025 Boosteroid Optimizer Plus. Все права защищены."
-  },
-  "languageSelector": {
-    "selectLanguage": "Выберите язык"
   },
   "demo": {
     "title": "Протестируйте Пресеты",

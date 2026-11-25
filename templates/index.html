@@ -591,7 +591,7 @@
               ><span class="animate-pulse">▸</span><span>Optimizer Plus v6.1.1 active</span
               ><span class="terminal-cursor"></span><span class="ml-auto text-white/20 text-xs">pid: 4832</span>
             </div>
-            <div class="relative z-10 grid grid-cols-2 sm:grid-cols-4 gap-4 perspective-1000">
+            <div class="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-4 perspective-1000">
               <div
                 class="terminal-stats-card glow-blue space-y-1 p-3 bg-white/[0.02] border border-white/10 hover:border-boo-blue/50 cursor-pointer group"
               >
@@ -603,7 +603,7 @@
                   ></span
                   >resolution
                 </div>
-                <div class="stat-value text-2xl sm:text-3xl font-bold text-white tabular-nums">
+                <div class="stat-value text-xl sm:text-2xl font-bold text-white tabular-nums whitespace-nowrap">
                   3840<span class="text-white/40">×</span>2160
                 </div>
                 <div class="text-xs text-boo-blue flex items-center gap-1 font-medium">
@@ -651,8 +651,8 @@
                   ></span
                   >filters
                 </div>
-                <div class="stat-value text-2xl sm:text-3xl font-bold text-white">CAS</div>
-                <div class="text-xs text-pink-400 font-medium">+ USM sharpening</div>
+                <div class="stat-value text-2xl sm:text-3xl font-bold text-white">FSR</div>
+                <div class="text-xs text-pink-400 font-medium">+ RCAS sharpening</div>
               </div>
             </div>
             <div
@@ -1928,7 +1928,7 @@
       </div>
       <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-white/40">
         <p class="flex items-center gap-2">
-          <span>© 2025 Boosteroid Optimizer Plus</span><span class="hidden sm:inline">•</span
+          <span>© 2025–{{ now() | date(format="%Y") }} Boosteroid Optimizer Plus</span><span class="hidden sm:inline">•</span
           ><span class="hidden sm:inline"
             ><a
               href="https://github.com/Derfogd"

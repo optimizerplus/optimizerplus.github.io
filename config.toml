@@ -1,0 +1,5 @@
+base_url = "https://optimizerplus.github.io"
+compile_sass = false
+build_search_index = false
+generate_sitemap = true
+generate_robots_txt = true

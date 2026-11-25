@@ -21,27 +21,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: "pnpm"
-
-      - name: Install dependencies
-        run: pnpm install
+      - name: Install Zola and Tailwind CLI (pinned, checksum-verified)
+        run: |
+          curl -fsSL -o zola.tgz https://github.com/getzola/zola/releases/download/v0.23.6/zola-v0.23.6-x86_64-unknown-linux-gnu.tar.gz
+          curl -fsSL -o tailwindcss https://github.com/tailwindlabs/tailwindcss/releases/download/v4.2.4/tailwindcss-linux-x64
+          echo "8f5132b3522412d04e395e0b25f6d68613ad272a873e54a2b3ebf664873024a4  zola.tgz" | sha256sum -c -
+          echo "cabeef049cdeab61a5fa6b65ea28a3e8e53b8a85e58883947868c730fc48bdec  tailwindcss" | sha256sum -c -
+          tar xzf zola.tgz && chmod +x tailwindcss && rm zola.tgz
 
       - name: Build
-        run: pnpm build
+        run: |
+          ./tailwindcss -i styles/main.css -o static/style.css --minify
+          ./zola build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./public
 
   deploy:
     environment:

@@ -1,5 +1,3 @@
-/* Google Fonts: Sofia Sans */
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400;500;600;700;800&display=swap');
 
 @import "tailwindcss";
 @config "../tailwind.config.js";
@@ -7,7 +5,7 @@
 /* Custom Font: Walkway Black */
 @font-face {
   font-family: 'Walkway Black';
-  src: url('/fonts/Walkway Black.ttf') format('truetype');
+  src: url('/fonts/walkway-black.woff2') format('woff2');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -16,7 +14,7 @@
 /* Custom Font: VCR OSD Mono */
 @font-face {
   font-family: 'VCR OSD Mono';
-  src: url('/fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+  src: url('/fonts/vcr-osd-mono.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -1292,3 +1290,11 @@ h1, h2, h3 {
 }
 
 
+
+/* Set by static/app.js on sections that are off-screen */
+.anim-paused,
+.anim-paused *,
+.anim-paused *::before,
+.anim-paused *::after {
+  animation-play-state: paused !important;
+}

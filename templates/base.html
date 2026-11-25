@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preload" as="image" href="/logo.png" />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="preload" as="image" href="/logo.webp" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400;500;600;700;800&display=swap" />
+    <link rel="stylesheet" href="/style.css" />
     <meta name="generator" content="Derfog&#x27;s custom stack - Not an AI template" />
     <meta name="theme-color" content="#00a3ff" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -86,12 +87,20 @@
         ]
       }
     </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LG1PTSZLP5"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
       gtag("js", new Date());
       gtag("config", "G-LG1PTSZLP5");
+      // Analytics loads after the page is idle so it never competes with first paint.
+      addEventListener("load", function () {
+        (window.requestIdleCallback || setTimeout)(function () {
+          var s = document.createElement("script");
+          s.async = true;
+          s.src = "https://www.googletagmanager.com/gtag/js?id=G-LG1PTSZLP5";
+          document.head.appendChild(s);
+        });
+      });
     </script>
     {%- block head_extra %}{% endblock head_extra %}
   </head>

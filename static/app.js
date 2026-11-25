@@ -260,6 +260,13 @@
       })
     }
     dots.forEach((d, j) => d.addEventListener('click', () => showImage(j)))
+    // The 360 KB demo image is fetched only when the section comes near the viewport.
+    const lazy = new IntersectionObserver((entries) => {
+      if (!entries.some((e) => e.isIntersecting)) return
+      lazy.disconnect()
+      if (!before.style.backgroundImage) showImage(image)
+    }, { rootMargin: '800px 0px' })
+    lazy.observe(box)
     tablist.previousElementSibling.addEventListener('click', () => showImage(image - 1))
     tablist.nextElementSibling.addEventListener('click', () => showImage(image + 1))
 
@@ -302,11 +309,22 @@
     }))
   }
 
+  // ---------------------------------------------- off-screen animations
+  // ~80 infinite CSS animations recalc styles every frame even out of view:
+  // pause each section while it is off-screen (resumes as soon as it is visible).
+  function pauseOffscreenAnimations() {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => e.target.classList.toggle('anim-paused', !e.isIntersecting))
+    })
+    $$('main > section, footer').forEach((el) => io.observe(el))
+  }
+
   // ----------------------------------------------------------------- boot
   initHeader()
   initLanguageSelectors()
   initDemo()
   initFaq()
+  pauseOffscreenAnimations()
   const initial = detectLocale()
   if (initial !== 'en') setLocale(initial, false)
   else load('en').then((m) => { messages = m })

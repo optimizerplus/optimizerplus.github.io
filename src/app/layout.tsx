@@ -116,7 +116,7 @@ const jsonLd = {
     name: 'Derfog',
     url: 'https://github.com/Derfogd',
   },
-  softwareVersion: '4.0.0',
+  softwareVersion: '6.1.1',
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.8',

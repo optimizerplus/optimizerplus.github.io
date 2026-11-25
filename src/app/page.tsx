@@ -1027,7 +1027,7 @@ function Hero() {
               <div className="relative z-10 flex items-center gap-2 text-boo-green mb-4 neon-text">
                 <span className="stat-indicator inline-block w-2 h-2 bg-boo-green rounded-full animate-ping shadow-[0_0_10px_#22c55e]"></span>
                 <span className="animate-pulse">▸</span>
-                <span>Optimizer Plus v4.0.0 active</span>
+                <span>Optimizer Plus v6.1.1 active</span>
                 <span className="terminal-cursor"></span>
                 <span className="ml-auto text-white/20 text-xs">pid: 4832</span>
               </div>
@@ -1761,14 +1761,14 @@ function Download() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a 
-              href="https://github.com/optimizerplus/optimizer-plus/releases/download/v4.0.0/Boosteroid.Optimizer.Plus.by.Derfog-4.0.0.user.js" 
+              href="https://github.com/optimizerplus/optimizer-plus/releases/download/v6.1.1/Boosteroid-Optimizer-Plus.user.js" 
               className="group opt-btn-primary flex items-center gap-3 text-lg px-8 py-4 w-full sm:w-auto justify-center relative overflow-hidden perspective-1000"
             >
               <span className="absolute inset-0 bg-gradient-to-r from-boo-green via-cyan-400 to-boo-blue opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
               <span className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity" style={{ boxShadow: 'inset 0 0 20px rgba(0, 255, 136, 0.3)' }}></span>
               <span className="relative flex items-center gap-3">
                 <span className="group-hover:animate-bounce">{Icons.download}</span>
-                <span>{t.installButton} (v4.0.0)</span>
+                <span>{t.installButton} (v6.1.1)</span>
               </span>
             </a>
             <a 

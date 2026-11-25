@@ -13,7 +13,7 @@
     "badge": "v6.1.1 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
-    "subtitle": "Vynútená 4K • Upscaling • Video filtre • Ultra-nízka latencia",
+    "subtitle": "Vynútená 4K • Upscaling • Video filtre • 120 FPS",
     "description": "Transformujte váš cloud gaming zážitok s Boosteroidom pomocou inteligentného škálovania rozlíšenia, pokročilého vylepšenia videa a optimalizácie latencie. Funguje na akomkoľvek monitore.",
     "cta": {
       "install": "Inštalovať rozšírenie",
@@ -34,36 +34,36 @@
       "deviceProfiling": {
         "title": "Inteligentné profilovanie zariadenia",
         "description": "Automaticky deteguje CPU jadrá, RAM, typ siete, pomer obrazovky pre klasifikáciu vášho systému ako Low-End, Mid-Range alebo High-End.",
-        "tag": "AI"
+        "tag": "Auto"
       },
       "resolutionDetector": {
         "title": "Inteligentný detektor rozlíšenia",
-        "description": "Generuje vlastné rozlíšenia (1080p/2K/4K) dokonale zodpovedajúce presnému pomeru vášho displeja: 16:9, 21:9, 32:9 a vlastné displeje.",
+        "description": "Natívne rozlíšenie, 4K a ultrawide (21:9, 32:9), zladené s tým, čo prijíma server Boosteroid. 120 FPS na každej obrazovke.",
         "tag": "Ultrawide"
       },
       "presets": {
         "title": "5 Pro presetov",
-        "description": "Predvolený, Filmový, Kompetitívny, Komfort, Dokonalá kvalita. Každý preset konfiguruje filtre pre rôzne herné scenáre.",
-        "tag": "v4.0.0"
+        "description": "Predvolený, Filmový, Súťažný, Komfort, Dokonalá Kvalita: každý je vyladený pre iný štýl hrania. Vyberiete v hernom menu.",
+        "tag": "5 presetov"
       },
       "videoFilters": {
         "title": "Pokročilé video filtre",
-        "description": "Ostrenie USM, CAS, clarity, redukcia šumu, anti-banding, saturácia, gamma. Organizované do úrovní: Bezpečná, Ľahká, Vyvážená, Ultra.",
-        "tag": "Pro filtre"
+        "description": "Doostrenie, odšumenie, debanding, čistota a živosť, počítané na GPU (WebGPU, záložne WebGL2). Režim výkonu ich odľahčí pre maximum FPS.",
+        "tag": "GPU"
       },
       "adaptiveQuality": {
-        "title": "Adaptívna kvalita",
-        "description": "Automaticky upravuje rozlíšenie a filtre na základe vášho hardvéru a výkonu v reálnom čase. Plynulá adaptácia.",
-        "tag": "Auto-Tune"
+        "title": "Upscaling FSR",
+        "description": "Keď je stream menší ako obrazovka, AMD FSR 1 (EASU + RCAS) ho zväčší na rozlíšenie displeja namiesto rozmazaného roztiahnutia prehliadačom.",
+        "tag": "FSR 1"
       },
       "codecSelector": {
         "title": "Inteligentný výber kodeku",
-        "description": "Testuje MediaCapabilities pre výber najlepšieho kodeku: AV1 > HEVC > H.264. Hardvérovo akcelerované dekódovanie.",
+        "description": "AV1, keď ho GPU dekóduje hardvérovo, inak HEVC alebo H.264. Automatický výber. AV1 dáva ostrejší obraz pri rovnakom dátovom toku.",
         "tag": "AV1 Ready"
       },
       "lowLatency": {
         "title": "Režim nízkej latencie",
-        "description": "Optimalizuje WebRTC prijímač s playoutDelayHint pre minimálny input lag. Cieli na 12ms latenciu s automatickým ladením jitter bufferu.",
+        "description": "Vyladený jitter buffer, opätovné odosielanie paketov a vyšší strop príjmu; dátový tok sa nikdy nevynucuje. Vykresľovanie WebGPU vo workeri udrží myš plynulú.",
         "tag": "Ultra rýchly"
       },
       "streamInterceptor": {
@@ -84,7 +84,7 @@
       "dashboard": {
         "title": "Widget ovládacieho panela",
         "description": "Plávajúci ovládací panel na dashboarde pre výber rozlíšenia a obnovenie stránky.",
-        "tag": "v4.0.0"
+        "tag": "Widget"
       }
     }
   },
@@ -101,7 +101,7 @@
       "step2": {
         "number": "2",
         "title": "Nainštalujte skript",
-        "description": "Kliknite na tlačidlo nižšie pre inštaláciu Boosteroid Optimizer Plus z GreasyFork."
+        "description": "Kliknutím na tlačidlo nižšie nainštalujete Boosteroid Optimizer Plus z GitHubu. Aktualizácie sa inštalujú automaticky."
       },
       "step3": {
         "number": "3",
@@ -124,8 +124,8 @@
         "answer": "Nie! Inteligentný detektor rozlíšenia generuje vlastné rozlíšenia (1080p, 2K, 4K) zodpovedajúce presnému pomeru vášho displeja. Boosteroid renderuje vo vyššom rozlíšení, potom zmenšuje pre ostrejší výstup aj na 1080p displeji."
       },
       "q2": {
-        "question": "Akých 6 presetov je k dispozícii?",
-        "answer": "① OFF (v predvolenom stave vypnuté) ② Predvolený (vyvážený) ③ Filmový (max filtre) ④ Kompetitívny (min spracovanie) ⑤ Komfort (ochrana očí) ⑥ Dokonalá kvalita (4K + max vylepšenie). Filtre sú v predvolenom stave OFF - vy si vyberiete ktorý preset aktivovať!"
+        "question": "Akých 5 presetov je k dispozícii?",
+        "answer": "① Predvolený (Vyvážené pre väčšinu) ② Filmový (Bohaté farby a hlboký kontrast) ③ Súťažný (Minimálne spracovanie pre rýchlosť) ④ Komfort (Teplé tóny pre oči) ⑤ Dokonalá Kvalita (Maximálne vylepšenie). Vyberte ho v hernom menu. Keď nastavenie zmeníte sami, prepne sa na Vlastný."
       },
       "q3": {
         "question": "Je to bezpečné / dostanem ban?",
@@ -137,11 +137,11 @@
       },
       "q5": {
         "question": "Aký kodek skript používa?",
-        "answer": "Automaticky vyberá najlepší kodek podporovaný vaším hardvérom: AV1 (najlepší) > HEVC (výborný) > H.264 (záložný). Funguje ticho pri prvom načítaní. AV1 poskytuje ~30% lepšiu kvalitu pri rovnakom bitrate."
+        "answer": "AV1, keď ho GPU dekóduje hardvérovo, inak HEVC alebo H.264. Automatický výber. AV1 dáva ostrejší obraz pri rovnakom dátovom toku."
       },
       "q6": {
         "question": "Ako ovládať optimalizátor?",
-        "answer": "Na dashboarde Boosteroid sa zobrazí ovládací panel s predvolene vypnutými presetmi. Je na vás, aby ste aktivovali prepínače: Adaptívna kvalita, rýchle presety a Režim výkonu. Vyberte rozlíšenie a obnovte stránku pre aplikovanie."
+        "answer": "Spustite hru na Boosteroid a otvorte herné menu: Optimizer Plus tam pridá svoj panel (rozlíšenie, presety, filtre, upscaling, režim výkonu). Na nástenke Boosteroid umožňuje plávajúci widget zvoliť rozlíšenie pred spustením hry."
       }
     }
   },

@@ -13,7 +13,7 @@
     "badge": "v6.1.1 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
-    "subtitle": "Zorunlu 4K • Upscaling • Video Filtreleri • Ultra Düşük Gecikme",
+    "subtitle": "Zorunlu 4K • Upscaling • Video Filtreleri • 120 FPS",
     "description": "Akıllı çözünürlük ölçekleme, gelişmiş video iyileştirme ve gecikme optimizasyonu ile Boosteroid bulut oyun deneyiminizi dönüştürün. Her monitörde çalışır.",
     "cta": {
       "install": "Uzantıyı Yükle",
@@ -34,36 +34,36 @@
       "deviceProfiling": {
         "title": "Akıllı Cihaz Profilleme",
         "description": "Sisteminizi Low-End, Mid-Range veya High-End olarak sınıflandırmak için CPU çekirdeklerini, RAM'i, ağ türünü, ekran oranını otomatik algılar.",
-        "tag": "AI"
+        "tag": "Auto"
       },
       "resolutionDetector": {
         "title": "Akıllı Çözünürlük Algılayıcı",
-        "description": "Ekranınızın tam oranına mükemmel uyan özel çözünürlükler (1080p/2K/4K) oluşturur: 16:9, 21:9, 32:9 ve özel ekranlar.",
+        "description": "Yerel, 4K ve ultra geniş (21:9, 32:9) çözünürlükler, Boosteroid sunucusunun kabul ettiklerine göre ayarlanır. Her ekranda 120 FPS.",
         "tag": "Ultrawide"
       },
       "presets": {
         "title": "5 Pro Preset",
-        "description": "Varsayılan, Sinematik, Rekabetçi, Konfor, Mükemmel Kalite. Her preset farklı oyun senaryoları için filtreleri yapılandırır.",
-        "tag": "v4.0.0"
+        "description": "Varsayılan, Sinematik, Rekabetçi, Konfor, Mükemmel Kalite: her biri farklı bir oyun tarzı için ayarlanmıştır. Oyun içi menüden seçilir.",
+        "tag": "5 Preset"
       },
       "videoFilters": {
         "title": "Gelişmiş Video Filtreleri",
-        "description": "USM keskinleştirme, CAS, netlik, gürültü azaltma, anti-banding, doygunluk, gamma. Seviyelere ayrılmış: Güvenli, Hafif, Dengeli, Ultra.",
-        "tag": "Pro Filtreler"
+        "description": "Keskinleştirme, gürültü azaltma, bant giderme, netlik ve canlılık, GPU üzerinde işlenir (WebGPU, yedek WebGL2). Performans Modu maksimum FPS için bunları hafifletir.",
+        "tag": "GPU"
       },
       "adaptiveQuality": {
-        "title": "Adaptif Kalite",
-        "description": "Donanımınıza ve gerçek zamanlı performansa göre çözünürlüğü ve filtreleri otomatik ayarlar. Pürüzsüz adaptasyon.",
-        "tag": "Otomatik Ayar"
+        "title": "FSR Ölçekleme",
+        "description": "Yayın ekranınızdan küçük olduğunda AMD FSR 1 (EASU + RCAS), tarayıcının bulanık germesi yerine onu ekran çözünürlüğünüze ölçekler.",
+        "tag": "FSR 1"
       },
       "codecSelector": {
         "title": "Akıllı Codec Seçici",
-        "description": "En iyi codec'i seçmek için MediaCapabilities'i test eder: AV1 > HEVC > H.264. Donanım hızlandırmalı kod çözme.",
+        "description": "GPU'nuz donanımsal çözebiliyorsa AV1, aksi halde HEVC veya H.264. Otomatik seçim. AV1 aynı bit hızında daha net görüntü verir.",
         "tag": "AV1 Hazır"
       },
       "lowLatency": {
         "title": "Düşük Gecikme Modu",
-        "description": "Minimum input lag için playoutDelayHint ile WebRTC alıcısını optimize eder. Otomatik jitter buffer ayarı ile 12ms gecikme hedefler.",
+        "description": "Ayarlanmış jitter tamponu, paket yeniden iletimi ve daha yüksek alım sınırı; bit hızı asla zorlanmaz. Worker içinde WebGPU işleme fareyi akıcı tutar.",
         "tag": "Ultra Hızlı"
       },
       "streamInterceptor": {
@@ -84,7 +84,7 @@
       "dashboard": {
         "title": "Kontrol Paneli Widget'ı",
         "description": "İstenen çözünürlüğü seçmek ve değişiklikleri uygulamak için sayfayı yenilemek için yüzen kontrol paneli. Basit ve etkili.",
-        "tag": "v4.0.0"
+        "tag": "Widget"
       }
     }
   },
@@ -101,7 +101,7 @@
       "step2": {
         "number": "2",
         "title": "Script'i Yükleyin",
-        "description": "GreasyFork'tan Boosteroid Optimizer Plus'ı yüklemek için aşağıdaki düğmeye tıklayın."
+        "description": "Boosteroid Optimizer Plus'ı GitHub'dan yüklemek için aşağıdaki düğmeye tıklayın. Güncellemeler otomatik yüklenir."
       },
       "step3": {
         "number": "3",
@@ -124,8 +124,8 @@
         "answer": "Hayır! Akıllı çözünürlük algılayıcı ekranınızın tam oranına uyan özel çözünürlükler (1080p, 2K, 4K) oluşturur. Boosteroid daha yüksek çözünürlükte render eder, sonra 1080p ekranda bile daha keskin çıktı için küçültür."
       },
       "q2": {
-        "question": "Hangi 6 preset mevcut?",
-        "answer": "① OFF (varsayılan olarak devre dışı) ② Varsayılan (dengeli) ③ Sinematik (max filtreler) ④ Rekabetçi (min işleme) ⑤ Konfor (göz koruması) ⑥ Mükemmel Kalite (4K + max iyileştirme). Filtreler varsayılan olarak OFF - hangi preset'i etkinleştireceğinizi siz seçersiniz!"
+        "question": "Hangi 5 preset mevcut?",
+        "answer": "① Varsayılan (Çoğu kullanıcı için dengeli) ② Sinematik (Zengin renkler ve derin kontrast) ③ Rekabetçi (Hız için minimum işleme) ④ Konfor (Göz rahatlığı için sıcak tonlar) ⑤ Mükemmel Kalite (Maksimum iyileştirme). Oyun içi menüden birini seçin. Bir ayarı kendiniz değiştirirseniz Özel'e geçer."
       },
       "q3": {
         "question": "Güvenli mi / yasaklanır mıyım?",
@@ -137,11 +137,11 @@
       },
       "q5": {
         "question": "Script hangi codec'i kullanıyor?",
-        "answer": "Donanımınız tarafından desteklenen en iyi codec'i otomatik seçer: AV1 (en iyi) > HEVC (mükemmel) > H.264 (yedek). İlk yüklemede sessizce çalışır. AV1 aynı bitrate'de ~%30 daha iyi kalite sağlar."
+        "answer": "GPU'nuz donanımsal çözebiliyorsa AV1, aksi halde HEVC veya H.264. Otomatik seçim. AV1 aynı bit hızında daha net görüntü verir."
       },
       "q6": {
         "question": "Optimize edici nasıl kontrol edilir?",
-        "answer": "Boosteroid dashboard'unda varsayılan olarak kapalı presetlerle bir kontrol paneli görünür. Geçişleri etkinleştirmek size bağlı: Adaptif Kalite, hızlı presetler ve Performans Modu. Çözünürlüğünüzü seçin ve uygulamak için sayfayı yenileyin."
+        "answer": "Boosteroid'de bir oyun başlatın ve oyun içi menüyü açın: Optimizer Plus panelini oraya ekler (çözünürlük, presetler, filtreler, ölçekleme, Performans Modu). Boosteroid panosunda, kayan bir widget oyunu başlatmadan önce çözünürlüğü seçmenizi sağlar."
       }
     }
   },
@@ -173,7 +173,8 @@
     "copyright": "© 2025 Boosteroid Optimizer Plus. Tüm hakları saklıdır."
   },
   "languageSelector": {
-    "selectLanguage": "Dil Seçin"  },
+    "selectLanguage": "Dil Seçin"
+  },
   "demo": {
     "title": "Presetleri Test Edin",
     "titleHighlight": "Canlı",
@@ -189,5 +190,6 @@
       "comfortDesc": "Göz rahatlığı için sıcak tonlar",
       "perfectQuality": "Mükemmel Kalite",
       "perfectQualityDesc": "Maksimum iyileştirme"
-    }  }
+    }
+  }
 }

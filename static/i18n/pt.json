@@ -13,7 +13,7 @@
     "badge": "v6.1.1 — Edição Smart Quality",
     "title": "Boosteroid Optimizer Plus",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
-    "subtitle": "Forçar 4K • Upscaling Inteligente • Filtros de Vídeo • Zero Vazamento VRAM",
+    "subtitle": "Forçar 4K • Upscaling Inteligente • Filtros de Vídeo • 120 FPS",
     "description": "Transforme sua experiência de cloud gaming Boosteroid com escalonamento inteligente de resolução, melhorias de vídeo avançadas e otimização de latência. Funciona em qualquer monitor.",
     "cta": {
       "install": "Instalar Extensão",
@@ -34,36 +34,36 @@
       "deviceProfiling": {
         "title": "Perfil de Dispositivo Inteligente",
         "description": "Detecta automaticamente núcleos de CPU, RAM, tipo de rede, proporção de tela para classificar seu sistema como Baixo, Médio ou Alto desempenho.",
-        "tag": "IA"
+        "tag": "Auto"
       },
       "resolutionDetector": {
         "title": "Detector de Resolução Inteligente",
-        "description": "Gera resoluções personalizadas (1080p/2K/4K) perfeitamente alinhadas à proporção exata da sua tela: 16:9, 21:9, 32:9 e displays não padrão.",
+        "description": "Resoluções nativa, 4K e ultrawide (21:9, 32:9), ajustadas às que o servidor Boosteroid aceita. 120 FPS em qualquer ecrã.",
         "tag": "Ultrawide"
       },
       "presets": {
         "title": "5 Presets Pro",
-        "description": "Padrão, Cinematográfico, Competitivo, Conforto, Qualidade Perfeita. Presets estão DESATIVADOS por padrão — você escolhe.",
-        "tag": "v4.0.0"
+        "description": "Padrão, Cinemático, Competitivo, Conforto, Qualidade Perfeita: cada um está afinado para uma forma de jogar diferente. Escolhe-se no menu do jogo.",
+        "tag": "5 Presets"
       },
       "videoFilters": {
         "title": "Filtros de Vídeo Avançados",
-        "description": "Nitidez USM, CAS, clareza, redução de ruído, anti-banding, vibração, gamma. Organizados em níveis Seguro, Leve, Balanceado, Ultra.",
-        "tag": "Filtros Pro"
+        "description": "Nitidez, redução de ruído, anti-banding, claridade e vibração, processados na GPU (WebGPU, alternativa WebGL2). O Modo Desempenho torna-os mais leves para o máximo de FPS.",
+        "tag": "GPU"
       },
       "adaptiveQuality": {
-        "title": "Qualidade Adaptativa",
-        "description": "Ajusta automaticamente resolução e filtros com base no seu hardware e desempenho em tempo real. Adaptação perfeita.",
-        "tag": "Auto-Tune"
+        "title": "Upscaling FSR",
+        "description": "Quando o stream é mais pequeno do que o ecrã, o AMD FSR 1 (EASU + RCAS) amplia-o para a resolução do ecrã em vez de um esticar desfocado do navegador.",
+        "tag": "FSR 1"
       },
       "codecSelector": {
         "title": "Seletor de Codec Inteligente",
-        "description": "Testa MediaCapabilities para selecionar o melhor codec: AV1 > HEVC > H.264. Decodificação acelerada por hardware.",
+        "description": "AV1 quando a GPU o descodifica por hardware; caso contrário, HEVC ou H.264. Escolha automática. O AV1 dá uma imagem mais nítida com o mesmo bitrate.",
         "tag": "AV1 Ready"
       },
       "lowLatency": {
         "title": "Modo Baixa Latência",
-        "description": "Otimiza o receptor WebRTC com playoutDelayHint para input lag mínimo. Visa 12ms de latência com ajuste automático do buffer de jitter.",
+        "description": "Jitter buffer afinado, retransmissão de pacotes e limite de receção mais alto; o bitrate nunca é forçado. A renderização WebGPU num worker mantém o rato fluido.",
         "tag": "Ultra Rápido"
       },
       "streamInterceptor": {
@@ -84,7 +84,7 @@
       "dashboard": {
         "title": "Widget Dashboard",
         "description": "Painel de controle flutuante para selecionar a resolução desejada e atualizar a página para aplicar as mudanças. Simples e eficaz.",
-        "tag": "v4.0.0"
+        "tag": "Widget"
       }
     }
   },
@@ -101,7 +101,7 @@
       "step2": {
         "number": "2",
         "title": "Instalar o Script",
-        "description": "Clique no botão abaixo para instalar Boosteroid Optimizer Plus do GreasyFork."
+        "description": "Clique no botão abaixo para instalar o Boosteroid Optimizer Plus a partir do GitHub. As atualizações são instaladas automaticamente."
       },
       "step3": {
         "number": "3",
@@ -124,8 +124,8 @@
         "answer": "Não! O Detector de Resolução Inteligente gera resoluções personalizadas (1080p, 2K, 4K) alinhadas à proporção exata da sua tela. Boosteroid renderiza em resolução maior, depois reduz a escala para saída mais nítida mesmo em display 1080p."
       },
       "q2": {
-        "question": "Quais são os 6 presets disponíveis?",
-        "answer": "① OFF (desativado por padrão) ② Padrão (balanceado) ③ Cinematográfico (filtros máx) ④ Competitivo (processamento mínimo) ⑤ Conforto (cuidado ocular) ⑥ Qualidade Perfeita (4K + melhoria máx). Os filtros estão OFF por padrão - você escolhe qual preset ativar!"
+        "question": "Quais são os 5 presets disponíveis?",
+        "answer": "① Padrão (Equilibrado para a maioria) ② Cinemático (Cores ricas e contraste profundo) ③ Competitivo (Processamento mínimo para velocidade) ④ Conforto (Tons quentes para conforto visual) ⑤ Qualidade Perfeita (Melhoria máxima). Escolha um no menu do jogo. Se alterar uma definição, passa a Personalizado."
       },
       "q3": {
         "question": "É seguro / serei banido?",
@@ -137,11 +137,11 @@
       },
       "q5": {
         "question": "Qual codec o script usa?",
-        "answer": "Seleciona automaticamente o melhor codec que seu hardware suporta: AV1 (melhor) > HEVC (ótimo) > H.264 (fallback). Isso roda silenciosamente no primeiro carregamento. AV1 fornece ~30% melhor qualidade no mesmo bitrate."
+        "answer": "AV1 quando a GPU o descodifica por hardware; caso contrário, HEVC ou H.264. Escolha automática. O AV1 dá uma imagem mais nítida com o mesmo bitrate."
       },
       "q6": {
         "question": "Como controlo o otimizador?",
-        "answer": "Um painel de controle aparece no dashboard do Boosteroid com os presets desativados por padrão. Cabe a você ativar os toggles: Qualidade Adaptativa, presets rápidos e Modo Desempenho. Selecione sua resolução e atualize a página para aplicar."
+        "answer": "Inicie um jogo na Boosteroid e abra o menu do jogo: o Optimizer Plus adiciona lá o seu painel (resolução, presets, filtros, upscaling, Modo Desempenho). No painel da Boosteroid, um widget flutuante permite escolher a resolução antes de iniciar um jogo."
       }
     }
   },

@@ -13,7 +13,7 @@
     "badge": "v6.1.1 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
-    "subtitle": "Force 4K • Smart Upscaling • Video Filters • Zero VRAM Leak",
+    "subtitle": "Force 4K • Smart Upscaling • Video Filters • 120 FPS",
     "description": "Transform your Boosteroid cloud gaming experience with smart resolution scaling, advanced video enhancement, and ultra-low latency optimization. Works on any monitor.",
     "cta": {
       "install": "Install Extension",
@@ -34,36 +34,36 @@
       "deviceProfiling": {
         "title": "Smart Device Profiling",
         "description": "Auto-detects CPU cores, RAM, network speed and screen ratio. Classifies your device as Low-End, Mid-Range or High-End for optimal settings.",
-        "tag": "AI-Powered"
+        "tag": "Auto"
       },
       "resolutionDetector": {
         "title": "Smart Resolution Detector",
-        "description": "Generates custom resolutions (1080p/2K/4K) aligned to your exact screen ratio: 16:9, 21:9, 32:9 and non-standard displays. Uses native resolution by default.",
+        "description": "Native, 4K and ultrawide (21:9, 32:9) resolutions, matched to what the Boosteroid server accepts. 120 FPS on every screen.",
         "tag": "Ultrawide"
       },
       "presets": {
         "title": "5 Pro Presets",
-        "description": "Default, Cinematic, Competitive, Comfort, Perfect Quality. Each preset tunes filters for different gaming scenarios. All presets are OFF by default.",
-        "tag": "v4.0.0"
+        "description": "Default, Cinematic, Competitive, Comfort, Perfect Quality: each one is tuned for a different way to play. Pick it from the in-game menu.",
+        "tag": "5 Presets"
       },
       "videoFilters": {
         "title": "Advanced Video Filters",
-        "description": "USM & CAS sharpening, clarity, denoising, anti-banding, vibrance, gamma, exposure. Organized in Safe, Light, Balanced, Ultra tiers.",
-        "tag": "8 Filters"
+        "description": "Sharpening, denoise, deband, clarity and vibrance, rendered on the GPU (WebGPU, WebGL2 fallback). Performance Mode lightens them for maximum FPS.",
+        "tag": "GPU"
       },
       "adaptiveQuality": {
-        "title": "Adaptive Quality",
-        "description": "5 filter tiers (OFF/Safe/Light/Balanced/Ultra) that auto-adjust based on your hardware. Dynamic maxFiltersActive limit per device tier.",
-        "tag": "Auto-Tune"
+        "title": "FSR Upscaling",
+        "description": "When the stream is smaller than your screen, AMD FSR 1 (EASU + RCAS) upscales it to your display resolution instead of a blurry browser stretch.",
+        "tag": "FSR 1"
       },
       "codecSelector": {
         "title": "Smart Codec Selector",
-        "description": "Probes MediaCapabilities API to auto-select best codec: AV1 > HEVC > VP9 > H.264. Hardware-accelerated decoding preferred.",
+        "description": "AV1 when your GPU decodes it in hardware, HEVC or H.264 otherwise. Chosen automatically. AV1 gives a sharper image at the same bitrate.",
         "tag": "AV1 Ready"
       },
       "lowLatency": {
         "title": "Low Latency Mode",
-        "description": "Optimizes WebRTC receiver with playoutDelayHint for minimal input lag. Targets 12ms latency with automatic jitter buffer tuning.",
+        "description": "Tuned jitter buffer, packet retransmission and a higher receive ceiling; the bitrate is never forced. WebGPU rendering in a worker keeps mouse input smooth.",
         "tag": "Ultra Fast"
       },
       "svgFilterPipeline": {
@@ -79,7 +79,7 @@
       "dashboard": {
         "title": "Dashboard Widget",
         "description": "Floating control panel to select your preferred resolution and refresh the page to apply changes. Simple and effective.",
-        "tag": "v4.0.0"
+        "tag": "Widget"
       },
       "streamInterceptor": {
         "title": "Stream Interceptor",
@@ -101,7 +101,7 @@
       "step2": {
         "number": "2",
         "title": "Install the Script",
-        "description": "Click the button below to install Boosteroid Optimizer Plus from GreasyFork."
+        "description": "Click the button below to install Boosteroid Optimizer Plus from GitHub. Updates install automatically."
       },
       "step3": {
         "number": "3",
@@ -124,8 +124,8 @@
         "answer": "No! The Smart Resolution Detector generates custom resolutions (1080p, 2K, 4K) aligned to your screen's exact aspect ratio. Boosteroid renders at higher resolution, then downscales for sharper output even on a 1080p display."
       },
       "q2": {
-        "question": "What are the 6 Presets available?",
-        "answer": "① OFF (disabled by default) ② Default (balanced) ③ Cinematic (max filters) ④ Competitive (minimal processing) ⑤ Comfort (eye-care) ⑥ Perfect Quality (4K + max enhancement). Filters are OFF by default - you choose which preset to activate!"
+        "question": "What are the 5 Presets available?",
+        "answer": "① Default (Balanced for most users) ② Cinematic (Rich colors & deep contrast) ③ Competitive (Minimal processing for speed) ④ Comfort (Eye-care warm tones) ⑤ Perfect Quality (Maximum enhancement). Pick one in the in-game menu. Changing a setting yourself switches to Custom."
       },
       "q3": {
         "question": "Is this safe / will I get banned?",
@@ -137,11 +137,11 @@
       },
       "q5": {
         "question": "Which codec does the script use?",
-        "answer": "Auto-selects the best codec your hardware supports: AV1 (best) > HEVC (great) > H.264 (fallback). This runs silently on first load. AV1 provides ~30% better quality at same bitrate."
+        "answer": "AV1 when your GPU decodes it in hardware, HEVC or H.264 otherwise. Chosen automatically. AV1 gives a sharper image at the same bitrate."
       },
       "q6": {
         "question": "How do I control the optimizer?",
-        "answer": "A control panel appears on the Boosteroid dashboard with presets OFF by default. It's up to you to enable the toggles: Adaptive Quality, quick presets, and Performance Mode. Select your resolution and refresh the page to apply."
+        "answer": "Start a game on Boosteroid and open the in-game menu: Optimizer Plus adds its panel there (resolution, presets, filters, upscaling, Performance Mode). On the Boosteroid dashboard, a floating widget lets you pick the resolution before launching a game."
       }
     }
   },

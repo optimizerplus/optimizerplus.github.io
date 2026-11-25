@@ -11,7 +11,9 @@
   },
   "hero": {
     "badge": "v6.1.1 — Zero-Latency Edition",
-    "title": "Boosteroid Optimizer Plus","mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode","subtitle": "Tvingad 4K • Uppskalning • Videofilter • Ultralåg latens",
+    "title": "Boosteroid Optimizer Plus",
+    "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
+    "subtitle": "Tvingad 4K • Uppskalning • Videofilter • 120 FPS",
     "description": "Förvandla din Boosteroid molnspelupplevelse med smart upplösningsskalning, avancerad videoförbättring och latensoptimering. Fungerar på vilken bildskärm som helst.",
     "cta": {
       "install": "Installera tillägget",
@@ -32,36 +34,36 @@
       "deviceProfiling": {
         "title": "Smart enhetsprofilering",
         "description": "Detekterar automatiskt CPU-kärnor, RAM, nätverkstyp, skärmförhållande för att klassificera ditt system som Low-End, Mid-Range eller High-End.",
-        "tag": "AI"
+        "tag": "Auto"
       },
       "resolutionDetector": {
         "title": "Smart upplösningsdetektor",
-        "description": "Genererar anpassade upplösningar (1080p/2K/4K) som passar perfekt till din skärms exakta förhållande: 16:9, 21:9, 32:9 och anpassade skärmar.",
+        "description": "Inbyggd upplösning, 4K och ultrawide (21:9, 32:9), anpassad till vad Boosteroid-servern accepterar. 120 FPS på alla skärmar.",
         "tag": "Ultrawide"
       },
       "presets": {
         "title": "5 Pro-förinställningar",
-        "description": "Standard, Cinematisk, Kompetitiv, Komfort, Perfekt kvalitet. Varje förinställning konfigurerar filter för olika spelscenarier.",
-        "tag": "v4.0.0"
+        "description": "Standard, Filmisk, Tävlings, Komfort, Perfekt Kvalitet: var och en är inställd för ett annat sätt att spela. Väljs i spelmenyn.",
+        "tag": "5 förinställningar"
       },
       "videoFilters": {
         "title": "Avancerade videofilter",
-        "description": "USM-skärpning, CAS, klarhet, brusreducering, anti-banding, mättnad, gamma. Organiserade i nivåer: Säker, Lätt, Balanserad, Ultra.",
-        "tag": "Pro-filter"
+        "description": "Skärpa, brusreducering, debanding, klarhet och lyster, beräknade på GPU:n (WebGPU, reserv WebGL2). Prestandaläget gör dem lättare för maximal FPS.",
+        "tag": "GPU"
       },
       "adaptiveQuality": {
-        "title": "Adaptiv kvalitet",
-        "description": "Justerar automatiskt upplösning och filter baserat på din hårdvara och realtidsprestanda. Smidig anpassning.",
-        "tag": "Auto-Tune"
+        "title": "FSR-uppskalning",
+        "description": "När strömmen är mindre än skärmen skalar AMD FSR 1 (EASU + RCAS) upp den till skärmens upplösning i stället för webbläsarens suddiga utsträckning.",
+        "tag": "FSR 1"
       },
       "codecSelector": {
         "title": "Smart codecväljare",
-        "description": "Testar MediaCapabilities för att välja bästa codec: AV1 > HEVC > H.264. Hårdvaruaccelererad avkodning.",
+        "description": "AV1 när din GPU avkodar det i hårdvara, annars HEVC eller H.264. Väljs automatiskt. AV1 ger skarpare bild vid samma bithastighet.",
         "tag": "AV1 Ready"
       },
       "lowLatency": {
         "title": "Låg latens-läge",
-        "description": "Optimerar WebRTC-mottagaren med playoutDelayHint för minimal input lag. Siktar på 12ms latens med automatisk justering av jitter-buffern.",
+        "description": "Justerad jitterbuffert, återsändning av paket och högre mottagningstak; bithastigheten tvingas aldrig. WebGPU-rendering i en worker håller musen smidig.",
         "tag": "Ultrasnabb"
       },
       "streamInterceptor": {
@@ -82,7 +84,7 @@
       "dashboard": {
         "title": "Kontrollpanelwidget",
         "description": "Flytande kontrollpanel på dashboard för att välja upplösning och uppdatera sidan.",
-        "tag": "v4.0.0"
+        "tag": "Widget"
       }
     }
   },
@@ -99,7 +101,7 @@
       "step2": {
         "number": "2",
         "title": "Installera skriptet",
-        "description": "Klicka på knappen nedan för att installera Boosteroid Optimizer Plus från GreasyFork."
+        "description": "Klicka på knappen nedan för att installera Boosteroid Optimizer Plus från GitHub. Uppdateringar installeras automatiskt."
       },
       "step3": {
         "number": "3",
@@ -122,8 +124,8 @@
         "answer": "Nej! Smart upplösningsdetektor genererar anpassade upplösningar (1080p, 2K, 4K) som matchar din skärms exakta förhållande. Boosteroid renderar i högre upplösning, sedan nedskalas för skarpare utdata även på 1080p-skärm."
       },
       "q2": {
-        "question": "Vilka 6 förinställningar finns?",
-        "answer": "① OFF (avaktiverat som standard) ② Standard (balanserad) ③ Cinematisk (max filter) ④ Kompetitiv (min bearbetning) ⑤ Komfort (ögonskydd) ⑥ Perfekt kvalitet (4K + max förbättring). Filter är OFF som standard - du väljer vilken förinställning att aktivera!"
+        "question": "Vilka 5 förinställningar finns?",
+        "answer": "① Standard (Balanserad för de flesta) ② Filmisk (Rika färger och djup kontrast) ③ Tävlings (Minimal bearbetning för hastighet) ④ Komfort (Varma toner för ögonen) ⑤ Perfekt Kvalitet (Maximal förbättring). Välj en i spelmenyn. Ändrar du en inställning själv växlar den till Anpassad."
       },
       "q3": {
         "question": "Är det säkert / blir jag bannad?",
@@ -135,11 +137,11 @@
       },
       "q5": {
         "question": "Vilken codec använder skriptet?",
-        "answer": "Väljer automatiskt bästa codec som stöds av din hårdvara: AV1 (bäst) > HEVC (utmärkt) > H.264 (reserv). Fungerar tyst vid första laddning. AV1 ger ~30% bättre kvalitet vid samma bitrate."
+        "answer": "AV1 när din GPU avkodar det i hårdvara, annars HEVC eller H.264. Väljs automatiskt. AV1 ger skarpare bild vid samma bithastighet."
       },
       "q6": {
         "question": "Hur styr jag optimeraren?",
-        "answer": "En kontrollpanel visas på Boosteroid-dashboarden med förinställningar avstängda som standard. Det är upp till dig att aktivera växlarna: Adaptiv kvalitet, snabba förinställningar och Prestandaläge. Välj din upplösning och uppdatera sidan för att tillämpa."
+        "answer": "Starta ett spel på Boosteroid och öppna spelmenyn: Optimizer Plus lägger till sin panel där (upplösning, förinställningar, filter, uppskalning, prestandaläge). På Boosteroids instrumentpanel låter en flytande widget dig välja upplösning innan du startar ett spel."
       }
     }
   },

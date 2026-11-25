@@ -13,7 +13,7 @@
     "badge": "v6.1.1 — Zero-Latency Edition",
     "title": "Boosteroid Optimizer Plus",
     "mobileCompatible": "Mobile compatible - Phones, tablets and PWA mode",
-    "subtitle": "4K forțat • Upscaling • Filtre video • Latență ultra-scăzută",
+    "subtitle": "4K forțat • Upscaling • Filtre video • 120 FPS",
     "description": "Transformați experiența de cloud gaming Boosteroid cu scalare inteligentă a rezoluției, îmbunătățire video avansată și optimizare a latenței. Funcționează pe orice monitor.",
     "cta": {
       "install": "Instalează extensia",
@@ -34,36 +34,36 @@
       "deviceProfiling": {
         "title": "Profilare inteligentă a dispozitivului",
         "description": "Detectează automat nucleele CPU, RAM, tipul rețelei, raportul ecranului pentru a clasifica sistemul dvs. ca Low-End, Mid-Range sau High-End.",
-        "tag": "AI"
+        "tag": "Auto"
       },
       "resolutionDetector": {
         "title": "Detector inteligent de rezoluție",
-        "description": "Generează rezoluții personalizate (1080p/2K/4K) care se potrivesc perfect cu raportul exact al ecranului: 16:9, 21:9, 32:9 și display-uri personalizate.",
+        "description": "Rezoluții nativă, 4K și ultrawide (21:9, 32:9), aliniate la cele acceptate de serverul Boosteroid. 120 FPS pe orice ecran.",
         "tag": "Ultrawide"
       },
       "presets": {
         "title": "5 presetări Pro",
-        "description": "Default, Cinematic, Competitiv, Comfort, Calitate perfectă. Fiecare presetare configurează filtrele pentru diferite scenarii de joc.",
-        "tag": "v4.0.0"
+        "description": "Implicit, Cinematic, Competitiv, Confort, Calitate Perfectă: fiecare este reglat pentru un alt stil de joc. Se alege din meniul din joc.",
+        "tag": "5 presetări"
       },
       "videoFilters": {
         "title": "Filtre video avansate",
-        "description": "Sharpening USM, CAS, claritate, reducere zgomot, anti-banding, saturație, gamma. Organizate în niveluri: Safe, Light, Balanced, Ultra.",
-        "tag": "Filtre Pro"
+        "description": "Accentuare, reducerea zgomotului, anti-banding, claritate și vibranță, calculate pe GPU (WebGPU, rezervă WebGL2). Modul Performanță le face mai ușoare pentru FPS maxim.",
+        "tag": "GPU"
       },
       "adaptiveQuality": {
-        "title": "Calitate adaptivă",
-        "description": "Ajustează automat rezoluția și filtrele pe baza hardware-ului și performanței în timp real. Adaptare fluidă.",
-        "tag": "Auto-Tune"
+        "title": "Upscaling FSR",
+        "description": "Când streamul este mai mic decât ecranul, AMD FSR 1 (EASU + RCAS) îl mărește la rezoluția afișajului în locul întinderii neclare din browser.",
+        "tag": "FSR 1"
       },
       "codecSelector": {
         "title": "Selector inteligent de codec",
-        "description": "Testează MediaCapabilities pentru a alege cel mai bun codec: AV1 > HEVC > H.264. Decodare accelerată hardware.",
+        "description": "AV1 când GPU-ul îl decodează hardware, altfel HEVC sau H.264. Alegere automată. AV1 oferă o imagine mai clară la același bitrate.",
         "tag": "AV1 Ready"
       },
       "lowLatency": {
         "title": "Mod Latență Scăzută",
-        "description": "Optimizează receptorul WebRTC cu playoutDelayHint pentru input lag minim. Țintește 12ms latență cu ajustare automată a buffer-ului de jitter.",
+        "description": "Jitter buffer reglat, retransmisia pachetelor și o limită de recepție mai mare; bitrate-ul nu este niciodată forțat. Randarea WebGPU într-un worker păstrează mouse-ul fluid.",
         "tag": "Ultra Rapid"
       },
       "streamInterceptor": {
@@ -84,7 +84,7 @@
       "dashboard": {
         "title": "Widget panou de control",
         "description": "Panou de control plutitor pe dashboard pentru selectarea rezoluției și reîmprospătarea paginii.",
-        "tag": "v4.0.0"
+        "tag": "Widget"
       }
     }
   },
@@ -101,7 +101,7 @@
       "step2": {
         "number": "2",
         "title": "Instalați scriptul",
-        "description": "Faceți clic pe butonul de mai jos pentru a instala Boosteroid Optimizer Plus de pe GreasyFork."
+        "description": "Faceți clic pe butonul de mai jos pentru a instala Boosteroid Optimizer Plus de pe GitHub. Actualizările se instalează automat."
       },
       "step3": {
         "number": "3",
@@ -124,8 +124,8 @@
         "answer": "Nu! Detectorul inteligent de rezoluție generează rezoluții personalizate (1080p, 2K, 4K) care se potrivesc cu raportul exact al ecranului. Boosteroid randează la rezoluție mai mare, apoi micșorează pentru ieșire mai clară chiar și pe display 1080p."
       },
       "q2": {
-        "question": "Care sunt cele 6 presetări disponibile?",
-        "answer": "① OFF (dezactivat implicit) ② Default (echilibrat) ③ Cinematic (filtre max) ④ Competitiv (procesare min) ⑤ Comfort (protecție ochi) ⑥ Calitate perfectă (4K + îmbunătățire max). Filtrele sunt OFF implicit - tu alegi ce presetări să activezi!"
+        "question": "Care sunt cele 5 presetări disponibile?",
+        "answer": "① Implicit (Echilibrat pentru majoritatea) ② Cinematic (Culori bogate și contrast profund) ③ Competitiv (Procesare minimală pentru viteză) ④ Confort (Tonuri calde pentru ochi) ⑤ Calitate Perfectă (Îmbunătățire maximă). Alegeți una din meniul din joc. Dacă modificați singur o setare, se trece la Personalizat."
       },
       "q3": {
         "question": "Este sigur / voi fi banat?",
@@ -137,11 +137,11 @@
       },
       "q5": {
         "question": "Ce codec folosește scriptul?",
-        "answer": "Selectează automat cel mai bun codec suportat de hardware: AV1 (cel mai bun) > HEVC (excelent) > H.264 (backup). Funcționează silențios la prima încărcare. AV1 oferă calitate ~30% mai bună la același bitrate."
+        "answer": "AV1 când GPU-ul îl decodează hardware, altfel HEVC sau H.264. Alegere automată. AV1 oferă o imagine mai clară la același bitrate."
       },
       "q6": {
         "question": "Cum controlez optimizatorul?",
-        "answer": "Un panou de control apare pe dashboard-ul Boosteroid cu presetările dezactivate implicit. Depinde de tine să activezi comutatoarele: Calitate Adaptivă, presetări rapide și Mod Performanță. Selectează rezoluția și reîmprospătează pagina pentru a aplica."
+        "answer": "Porniți un joc pe Boosteroid și deschideți meniul din joc: Optimizer Plus își adaugă acolo panoul (rezoluție, presetări, filtre, upscaling, Modul Performanță). Pe panoul de control Boosteroid, un widget flotant vă permite să alegeți rezoluția înainte de a porni un joc."
       }
     }
   },

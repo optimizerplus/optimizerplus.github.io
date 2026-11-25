@@ -300,7 +300,8 @@
         $('button > span', card).className = Q_BASE + (open ? 'text-boo-blue' : 'text-white group-hover:text-boo-blue/80')
         $('.faq-chevron-punch', card).className = CHEVRON_BASE + (open ? 'bg-boo-blue/20 border-boo-blue rotate-180' : 'group-hover:border-white/40')
         answer.classList.toggle('faq-answer-hourglass', open)
-        answer.style.maxHeight = open ? '300px' : '0'
+        // Real height, not a fixed 300px: long answers were cut off on phones.
+        answer.style.maxHeight = open ? Math.max(300, answer.scrollHeight) + 'px' : '0'
       })
     }
     cards.forEach((card, i) => $('button', card).addEventListener('click', () => {
